@@ -19,7 +19,7 @@ content: string(file content),
 resolve$$: any(parser, internal using)}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4910053593840811651" datatype="html">
@@ -33,7 +33,7 @@ resolve$$: any(parser, internal using),
 node: object(queryed node)}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6459570433389471539" datatype="html">
@@ -45,7 +45,7 @@ selectRange: [string, string]][];
 path: string;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">82,84</context>
+          <context context-type="linenumber">91,93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4883272350610192328" datatype="html">
@@ -53,7 +53,7 @@ path: string;</target>
         <target>Object/Object Array</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7144890919688876155" datatype="html">
@@ -61,11 +61,11 @@ path: string;</target>
         <target>The value of the last line in the statement.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">99</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2754500418012559832" datatype="html">
@@ -73,7 +73,7 @@ path: string;</target>
         <target>Call a function (statement)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">100</context>
         </context-group>
       </trans-unit>
       <trans-unit id="890797159254599223" datatype="html">
@@ -81,7 +81,7 @@ path: string;</target>
         <target>Call a function (block)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">94</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1159790971180443195" datatype="html">
@@ -89,7 +89,7 @@ path: string;</target>
         <target>Block Call</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">96</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7404787848420049201" datatype="html">
@@ -97,7 +97,7 @@ path: string;</target>
         <target>Call Block</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8608493791269941245" datatype="html">
@@ -105,7 +105,7 @@ path: string;</target>
         <target>Determined by the output pipeline.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8907676437176067062" datatype="html">
@@ -113,7 +113,7 @@ path: string;</target>
         <target>Input conversion</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9166966010060819811" datatype="html">
@@ -124,11 +124,11 @@ path: string;</target>
 Outer query refers to when there are no matching files in a folder, it queries the parent folder and eventually finds the Workspace.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">116</context>
+          <context context-type="linenumber">125</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7277000298627830671" datatype="html">
@@ -136,11 +136,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Based on the passed file path (array), read the file, and create a content parser.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">147</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">154</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1364405588120891513" datatype="html">
@@ -148,11 +148,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Create a content parser based on the incoming string.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">151</context>
+          <context context-type="linenumber">160</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">163</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6629351045333152187" datatype="html">
@@ -160,7 +160,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Reading the input data in the text editor (statements)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1292875499606235179" datatype="html">
@@ -168,7 +168,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Reading the input data in the text editor. (blocks)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">165</context>
+          <context context-type="linenumber">174</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1780069510677226573" datatype="html">
@@ -176,7 +176,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>string||object</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">167</context>
+          <context context-type="linenumber">176</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5913484984199173417" datatype="html">
@@ -184,7 +184,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Read the specified file and try parsing (only supports JSON).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">168</context>
+          <context context-type="linenumber">177</context>
         </context-group>
       </trans-unit>
       <trans-unit id="617638122806444565" datatype="html">
@@ -192,11 +192,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>saved data</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">170</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">173</context>
+          <context context-type="linenumber">182</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7385796194074337911" datatype="html">
@@ -204,7 +204,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Reading content function parameters</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">171</context>
+          <context context-type="linenumber">180</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6093421460386433029" datatype="html">
@@ -212,7 +212,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Reading the content resolve variable or data variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">174</context>
+          <context context-type="linenumber">183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5832705427449999794" datatype="html">
@@ -220,7 +220,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Choose a value</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">176</context>
+          <context context-type="linenumber">185</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5606962863952954937" datatype="html">
@@ -228,7 +228,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Read Dropdown Options:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">177</context>
+          <context context-type="linenumber">186</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2296681895307893686" datatype="html">
@@ -236,11 +236,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>any</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">182</context>
+          <context context-type="linenumber">191</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">185</context>
+          <context context-type="linenumber">194</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4556956173575672229" datatype="html">
@@ -248,7 +248,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Set data variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">183</context>
+          <context context-type="linenumber">192</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5746296815020103993" datatype="html">
@@ -256,7 +256,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Modify data variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">186</context>
+          <context context-type="linenumber">195</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8358202196252260256" datatype="html">
@@ -264,11 +264,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>According to save</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">188</context>
+          <context context-type="linenumber">197</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">191</context>
+          <context context-type="linenumber">200</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5645348346642893971" datatype="html">
@@ -276,7 +276,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Read the parameters, after some processing, write them into the data variable (statement)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">189</context>
+          <context context-type="linenumber">198</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4958240039945422678" datatype="html">
@@ -284,7 +284,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Read the parameters, after some processing, write them into the data variable (block).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">192</context>
+          <context context-type="linenumber">201</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5628934081563517346" datatype="html">
@@ -292,7 +292,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>use &quot;content resolve variable&quot;,use css style statement query node</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">198</context>
+          <context context-type="linenumber">207</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2979485293081963325" datatype="html">
@@ -300,11 +300,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>any[][], by default, the result of each statement in the block will form a two-dimensional array.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">204</context>
+          <context context-type="linenumber">213</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">208</context>
+          <context context-type="linenumber">217</context>
         </context-group>
       </trans-unit>
       <trans-unit id="34406973586651267" datatype="html">
@@ -312,7 +312,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>List ForEach</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">205</context>
+          <context context-type="linenumber">214</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2839484094420960186" datatype="html">
@@ -320,7 +320,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>While loop</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">209</context>
+          <context context-type="linenumber">218</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2115468257860359255" datatype="html">
@@ -328,7 +328,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>True/False branch</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">211</context>
+          <context context-type="linenumber">220</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4592582278938944260" datatype="html">
@@ -336,7 +336,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>condition</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">212</context>
+          <context context-type="linenumber">221</context>
         </context-group>
       </trans-unit>
       <trans-unit id="534483614741941376" datatype="html">
@@ -344,7 +344,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Last Statement Value</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">214</context>
+          <context context-type="linenumber">223</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3782271543116019118" datatype="html">
@@ -352,7 +352,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Condition (statements)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">215</context>
+          <context context-type="linenumber">224</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1181084027336603939" datatype="html">
@@ -360,7 +360,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Object||Input</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">222</context>
+          <context context-type="linenumber">231</context>
         </context-group>
       </trans-unit>
       <trans-unit id="876283796521019326" datatype="html">
@@ -368,20 +368,12 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Data mapping, creating (inheriting) objects or creating a tuple; usually used for modifying existing nodes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">223</context>
+          <context context-type="linenumber">232</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8077266724513981019" datatype="html">
         <source>无</source>
         <target>None</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">237</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">241</context>
-        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
           <context context-type="linenumber">245</context>
@@ -396,7 +388,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">256</context>
+          <context context-type="linenumber">257</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">261</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">264</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7709486839231702510" datatype="html">
@@ -404,7 +404,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Modify the file;use for add/change/delete content</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">238</context>
+          <context context-type="linenumber">246</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1611814211254897259" datatype="html">
@@ -412,7 +412,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Delete file</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">242</context>
+          <context context-type="linenumber">250</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4600228570297376089" datatype="html">
@@ -420,7 +420,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Create a new file</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">246</context>
+          <context context-type="linenumber">254</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4049849618967758271" datatype="html">
@@ -428,7 +428,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Renaming</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">250</context>
+          <context context-type="linenumber">258</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3671858897687487308" datatype="html">
@@ -436,7 +436,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Run external scripts</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">254</context>
+          <context context-type="linenumber">262</context>
         </context-group>
       </trans-unit>
       <trans-unit id="400814116904406503" datatype="html">
@@ -444,7 +444,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Call the action, similar to nested actions, needs to specify the file folder where the action is to be called.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">257</context>
+          <context context-type="linenumber">265</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7934246489485181574" datatype="html">
@@ -452,15 +452,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>string</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">261</context>
+          <context context-type="linenumber">269</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">274</context>
+          <context context-type="linenumber">282</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">316</context>
+          <context context-type="linenumber">324</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5637943804065655519" datatype="html">
@@ -468,7 +468,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>By interacting to set global variables, obtain strings.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">262</context>
+          <context context-type="linenumber">270</context>
         </context-group>
       </trans-unit>
       <trans-unit id="237771280609785417" datatype="html">
@@ -476,31 +476,31 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>boolean</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">264</context>
+          <context context-type="linenumber">272</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">365</context>
+          <context context-type="linenumber">373</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">369</context>
+          <context context-type="linenumber">377</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">376</context>
+          <context context-type="linenumber">384</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">380</context>
+          <context context-type="linenumber">388</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">383</context>
+          <context context-type="linenumber">391</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">386</context>
+          <context context-type="linenumber">394</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2631085627647810018" datatype="html">
@@ -508,7 +508,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>By interacting to set global variables, obtain the true/false value.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">265</context>
+          <context context-type="linenumber">273</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3051169564182215166" datatype="html">
@@ -516,7 +516,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Set global action variables</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">266</context>
+          <context context-type="linenumber">274</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2223064461787852273" datatype="html">
@@ -524,7 +524,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Obtain the global action variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">267</context>
+          <context context-type="linenumber">275</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8654729114696566470" datatype="html">
@@ -532,7 +532,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>string template, user for text;insert value by&quot;input/input.xx&quot;;get input data like a{{input}}b, if the input is &quot;1&quot;, the output will be &quot;a1b&quot;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">275</context>
+          <context context-type="linenumber">283</context>
         </context-group>
       </trans-unit>
       <trans-unit id="427843987492660980" datatype="html">
@@ -540,27 +540,27 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">283</context>
+          <context context-type="linenumber">291</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">290</context>
+          <context context-type="linenumber">298</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">293</context>
+          <context context-type="linenumber">301</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">296</context>
+          <context context-type="linenumber">304</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">310</context>
+          <context context-type="linenumber">318</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">313</context>
+          <context context-type="linenumber">321</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8449686854837137473" datatype="html">
@@ -568,7 +568,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array/string truncation, same Array.prototype.slice.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">284</context>
+          <context context-type="linenumber">292</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6129247067359841901" datatype="html">
@@ -576,7 +576,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array sorting, support default sorting and multi-field sorting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">291</context>
+          <context context-type="linenumber">299</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7661869412893433348" datatype="html">
@@ -584,7 +584,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array Reverse;same Array.prototype.reverse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">294</context>
+          <context context-type="linenumber">302</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4607390982936523483" datatype="html">
@@ -592,7 +592,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array pans flat; same Array.prototype.flat</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">297</context>
+          <context context-type="linenumber">305</context>
         </context-group>
       </trans-unit>
       <trans-unit id="806869092513575846" datatype="html">
@@ -600,7 +600,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>boolean | array item</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">304</context>
+          <context context-type="linenumber">312</context>
         </context-group>
       </trans-unit>
       <trans-unit id="881011175145725942" datatype="html">
@@ -608,7 +608,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array query; various query methods</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">305</context>
+          <context context-type="linenumber">313</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2626900277920899078" datatype="html">
@@ -616,7 +616,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array Connection</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">311</context>
+          <context context-type="linenumber">319</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8585907012145293377" datatype="html">
@@ -624,7 +624,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array mapping; same Array.prototype.map</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">314</context>
+          <context context-type="linenumber">322</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7695275320947520905" datatype="html">
@@ -632,7 +632,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array connection; array=&gt; string, same Array.prototype.join</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">317</context>
+          <context context-type="linenumber">325</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3210079392002044062" datatype="html">
@@ -640,7 +640,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>[Category name (string), original array type]</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">319</context>
+          <context context-type="linenumber">327</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4129384390098613271" datatype="html">
@@ -648,7 +648,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array classification;Divide the array into different groups based on the returned classification name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">320</context>
+          <context context-type="linenumber">328</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5500414333854455892" datatype="html">
@@ -656,7 +656,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>array</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">323</context>
+          <context context-type="linenumber">331</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5702281818627505743" datatype="html">
@@ -664,7 +664,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array filtering</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">324</context>
+          <context context-type="linenumber">332</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6301831699558202396" datatype="html">
@@ -672,7 +672,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>[number,number]</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">328</context>
+          <context context-type="linenumber">336</context>
         </context-group>
       </trans-unit>
       <trans-unit id="604179448742726830" datatype="html">
@@ -680,7 +680,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Insert range;change node to range,like &quot;node.range:[0,2]&quot; can be converted to &quot;[0,0]&quot; or &quot;[2,2]&quot;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">329</context>
+          <context context-type="linenumber">337</context>
         </context-group>
       </trans-unit>
       <trans-unit id="495931727585873354" datatype="html">
@@ -688,7 +688,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Based on the query path</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">335</context>
+          <context context-type="linenumber">343</context>
         </context-group>
       </trans-unit>
       <trans-unit id="50392773801617691" datatype="html">
@@ -696,7 +696,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Use the path to get the specified data from objects/arrays/nodes, such as &quot;[0].a&quot; to get the a attribute of the 0th element.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">336</context>
+          <context context-type="linenumber">344</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7524651614374240764" datatype="html">
@@ -704,7 +704,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Most strings | Regexp</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">341</context>
+          <context context-type="linenumber">349</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7035849712292186347" datatype="html">
@@ -712,7 +712,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Some general functions. If you need to pass multiple parameters, you need to set them manually.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">342</context>
+          <context context-type="linenumber">350</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7805483974846502931" datatype="html">
@@ -720,7 +720,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>True/False value</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">345</context>
+          <context context-type="linenumber">353</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4040532125449348767" datatype="html">
@@ -728,7 +728,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Create true/false values</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">346</context>
+          <context context-type="linenumber">354</context>
         </context-group>
       </trans-unit>
       <trans-unit id="372599757224337950" datatype="html">
@@ -736,7 +736,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Regexp</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">348</context>
+          <context context-type="linenumber">356</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4820895095468546735" datatype="html">
@@ -744,7 +744,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Create regular expression</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">349</context>
+          <context context-type="linenumber">357</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7398719621436728016" datatype="html">
@@ -752,7 +752,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>number|number[]</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">357</context>
+          <context context-type="linenumber">365</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9041854449288245298" datatype="html">
@@ -760,7 +760,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Perform basic arithmetic operations, support for numbers and arrays.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">358</context>
+          <context context-type="linenumber">366</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6778360414562695864" datatype="html">
@@ -768,7 +768,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>number|[number,number]</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">360</context>
+          <context context-type="linenumber">368</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7513750023126737839" datatype="html">
@@ -776,7 +776,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Create a number or an array.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">361</context>
+          <context context-type="linenumber">369</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2941615109768580119" datatype="html">
@@ -784,7 +784,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Comparing the true value; comparing the input value to a true/false.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">366</context>
+          <context context-type="linenumber">374</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5686070728531427217" datatype="html">
@@ -792,7 +792,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>base Compare;The comparison order is &quot;First value&quot; &quot;Compare type&quot; &quot;Second value&quot;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">378</context>
         </context-group>
       </trans-unit>
       <trans-unit id="567206430963939516" datatype="html">
@@ -800,7 +800,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array compare;The comparison order is &quot;First value&quot; &quot;Compare type&quot; &quot;Second value&quot;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">377</context>
+          <context context-type="linenumber">385</context>
         </context-group>
       </trans-unit>
       <trans-unit id="394169375016520533" datatype="html">
@@ -808,7 +808,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>string comparison;The comparison order is &quot;First value&quot; &quot;Compare type&quot; &quot;Second value&quot;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">381</context>
+          <context context-type="linenumber">389</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7647977571727711832" datatype="html">
@@ -816,7 +816,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Multiple comparison results (numbers) or/and</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">384</context>
+          <context context-type="linenumber">392</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3616703599027884087" datatype="html">
@@ -824,7 +824,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Reverse the result</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">387</context>
+          <context context-type="linenumber">395</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7046507481322126576" datatype="html">
+        <source>抛出异常</source>
+        <target>Throw an exception</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">401</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7483692357142320038" datatype="html">
@@ -832,11 +840,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Input value</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">392</context>
+          <context context-type="linenumber">405</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">395</context>
+          <context context-type="linenumber">408</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8102712190873939883" datatype="html">
@@ -844,7 +852,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Debugging will display the input data in the modal pop-up.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">393</context>
+          <context context-type="linenumber">406</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3622230069434584352" datatype="html">
@@ -852,7 +860,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Debugging will display the input data in the output channel below.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">396</context>
+          <context context-type="linenumber">409</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.上下文" datatype="html">
@@ -860,7 +868,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Context</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">167</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.内容解析" datatype="html">
@@ -868,7 +876,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Content Resolve</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">179</context>
+          <context context-type="linenumber">183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.流程" datatype="html">
@@ -876,7 +884,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Process</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">200</context>
+          <context context-type="linenumber">204</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.全局变量" datatype="html">
@@ -884,7 +892,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Global variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">212</context>
+          <context context-type="linenumber">216</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.字符串" datatype="html">
@@ -892,7 +900,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>String</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">223</context>
+          <context context-type="linenumber">227</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.数组" datatype="html">
@@ -900,7 +908,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Array</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">229</context>
+          <context context-type="linenumber">233</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.创建值" datatype="html">
@@ -908,7 +916,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Create a Literal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">245</context>
+          <context context-type="linenumber">249</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.通用" datatype="html">
@@ -916,7 +924,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Universal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">259</context>
+          <context context-type="linenumber">263</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.比较" datatype="html">
@@ -924,7 +932,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Comparison</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">272</context>
+          <context context-type="linenumber">276</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/compare/compare.ts</context>
@@ -936,7 +944,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Dropdown Options</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">286</context>
+          <context context-type="linenumber">290</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.操作" datatype="html">
@@ -944,7 +952,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Operation</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">292</context>
+          <context context-type="linenumber">296</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.数据变量" datatype="html">
@@ -952,7 +960,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Data variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">305</context>
+          <context context-type="linenumber">309</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.自定义函数" datatype="html">
@@ -960,7 +968,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Custom Function</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">311</context>
+          <context context-type="linenumber">315</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.调试" datatype="html">
@@ -968,7 +976,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Debug</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">327</context>
+          <context context-type="linenumber">331</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.函数参数" datatype="html">
@@ -976,7 +984,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Function parameters</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">336</context>
+          <context context-type="linenumber">344</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.列表合并" datatype="html">
@@ -1367,6 +1375,14 @@ Outer query refers to when there are no matching files in a folder, it queries t
           <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="blockly.抛出异常" datatype="html">
+        <source>抛出异常</source>
+        <target>Throw an exception</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/domain/blockly/custom-block/debug/debug.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="blockly.查询当前" datatype="html">
         <source>查询当前</source>
         <target>Query the current</target>
@@ -1400,7 +1416,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/function/function.ts</context>
-          <context context-type="linenumber">191</context>
+          <context context-type="linenumber">197</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/call-action.ts</context>
@@ -1412,11 +1428,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Function description</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/function/function.ts</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">131</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/function/function.ts</context>
-          <context context-type="linenumber">264</context>
+          <context context-type="linenumber">268</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4695571024614529168" datatype="html">
@@ -1453,10 +1469,6 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/map/data.ts</context>
           <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/replace_node_operator.ts</context>
-          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.参数" datatype="html">
@@ -1508,7 +1520,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/replace_node_operator.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.调用动作" datatype="html">
@@ -1552,7 +1564,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/replace_node_operator.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.重命名文件" datatype="html">
@@ -1824,7 +1836,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.选中范围" datatype="html">
@@ -1836,7 +1848,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.插入值" datatype="html">
@@ -1848,7 +1860,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">110</context>
+          <context context-type="linenumber">114</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.文件路径" datatype="html">
@@ -1860,7 +1872,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">114</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.工作空间路径" datatype="html">
@@ -1869,6 +1881,18 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
           <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blockly.读取.代码片段.参数" datatype="html">
+        <source>代码片段参数</source>
+        <target>Code snippet parameters</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
+          <context context-type="linenumber">122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.字符串查询" datatype="html">
@@ -1928,7 +1952,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target><x id="PH" equiv-text="item.entity.name"/>-Copy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/code/code-base.component.ts</context>
-          <context context-type="linenumber">186</context>
+          <context context-type="linenumber">193</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/public-area/code-item/code-item.component.ts</context>
@@ -2080,7 +2104,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
@@ -2104,7 +2128,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Public</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">51</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
@@ -2112,7 +2136,39 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="968701223811806626" datatype="html">
+        <source>关键字</source>
+        <target>Keyword</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/action-config/create/create.component.ts</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/public-area/code-show/code-show.component.ts</context>
           <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/rule-function-config/create/create.component.ts</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1398596215999913783" datatype="html">
@@ -2120,15 +2176,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Update Time</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">72</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">44</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2261171107170127222" datatype="html">
@@ -2136,7 +2192,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Operation</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">79</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/current-project-config/current-project-config.component.html</context>
@@ -2148,11 +2204,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">50</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3882417241462810439" datatype="html">
@@ -2160,15 +2216,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Press Ctrl to delete.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">114</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">86</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">137</context>
+          <context context-type="linenumber">149</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5923391732509967991" datatype="html">
@@ -2211,26 +2267,6 @@ Outer query refers to when there are no matching files in a folder, it queries t
           <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="968701223811806626" datatype="html">
-        <source>关键字</source>
-        <target>Keyword</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/action-config/create/create.component.ts</context>
-          <context context-type="linenumber">124</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/public-area/code-show/code-show.component.ts</context>
-          <context context-type="linenumber">85</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/rule-function-config/create/create.component.ts</context>
-          <context context-type="linenumber">98</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">92</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="4883685090861303329" datatype="html">
         <source>描述</source>
         <target>Description</target>
@@ -2244,7 +2280,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
@@ -2268,11 +2304,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">121</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">159</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7091973167257313501" datatype="html">
@@ -2304,7 +2340,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Merging strategy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3848290461901205126" datatype="html">
@@ -2312,7 +2348,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Multiple Choice</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">163</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3332617801319453047" datatype="html">
@@ -2320,7 +2356,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>File name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">173</context>
+          <context context-type="linenumber">174</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/current-project-config/current-project-config.component.html</context>
@@ -2332,7 +2368,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">189</context>
+          <context context-type="linenumber">186</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8246938235254575817" datatype="html">
@@ -2340,7 +2376,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>File name list</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">241</context>
+          <context context-type="linenumber">242</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6496361873878672352" datatype="html">
@@ -2348,7 +2384,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Reference Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">321</context>
+          <context context-type="linenumber">322</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8628005441198202117" datatype="html">
@@ -2356,11 +2392,11 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Content</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">341</context>
+          <context context-type="linenumber">342</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">281</context>
+          <context context-type="linenumber">278</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6353549941872907297" datatype="html">
@@ -2368,7 +2404,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Convert to Plain Text</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">353</context>
+          <context context-type="linenumber">354</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4968286416999747217" datatype="html">
@@ -2404,7 +2440,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">367</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3835056388349811177" datatype="html">
@@ -2580,7 +2616,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Snippet-<x id="PH" equiv-text="v4().slice(0, 8)"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6048591310873187409" datatype="html">
@@ -2588,19 +2624,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Dynamic</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">118</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5677608046148362600" datatype="html">
-        <source>支持语言</source>
-        <target>Support languages</target>
+      <trans-unit id="7626774585897306996" datatype="html">
+        <source>支持语言,默认全选</source>
+        <target>Supported languages, default All.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
           <context context-type="linenumber">127</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2878514214355351685" datatype="html">
@@ -2608,19 +2640,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Specify the active language section</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">132</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2616020380591992495" datatype="html">
-        <source>默认全选</source>
-        <target>Default selected</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">133</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3807104121276028002" datatype="html">
@@ -2628,7 +2648,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>File matching</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">142</context>
+          <context context-type="linenumber">139</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
@@ -2640,7 +2660,15 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Designated snippet effective file</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">143</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2616020380591992495" datatype="html">
+        <source>默认全选</source>
+        <target>Default All</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
+          <context context-type="linenumber">141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="642205931906438311" datatype="html">
@@ -2648,7 +2676,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Select List</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">225</context>
+          <context context-type="linenumber">222</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2430238991122832881" datatype="html">
@@ -2656,7 +2684,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>switch lines</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">272</context>
+          <context context-type="linenumber">269</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6699192474200070322" datatype="html">
@@ -2664,7 +2692,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Trigger word</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">308</context>
+          <context context-type="linenumber">305</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4137936736684379727" datatype="html">
@@ -2672,7 +2700,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Regexp:patten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">350</context>
+          <context context-type="linenumber">347</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2706358176891862136" datatype="html">
@@ -2680,7 +2708,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Regexp:flag</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">359</context>
+          <context context-type="linenumber">356</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8763045740775396371" datatype="html">
@@ -2688,7 +2716,7 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <target>Related action</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">367</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4899173084120013582" datatype="html">
@@ -2697,6 +2725,14 @@ Outer query refers to when there are no matching files in a folder, it queries t
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
           <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5677608046148362600" datatype="html">
+        <source>支持语言</source>
+        <target>Support languages</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5359661928089271827" datatype="html">

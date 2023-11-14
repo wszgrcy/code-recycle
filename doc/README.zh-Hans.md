@@ -1,96 +1,96 @@
-## A designer for quickly creating `code snippet`, `Scaffold Cascade`, and `Schematic diagram`.
+## 一个快速创建`代码片段`,`脚手架`,`原理图`的设计器
 
-## `Quickly initialize the project`,`Stackable layer structure`,`Programmable input logic`,`Dynamic code snippets`,`Code-level dependency injection`
+## `快速初始化项目`,`脚手架层叠`,`可编程输入逻辑`,`动态代码片段`,`代码级依赖注入`
 
 ---
 
-## Quick Start
+## 快速开始
 
-- You need to log in first to use the following features
-  > If you don't have an account, you need to register. Command `register`  
-  > Log in. Command `login`
-- First, `design` the functions needed for the call, and then make the `call`.
+- 需要先登录才能使用以下功能
+  > 如果没有帐号需要先注册. 命令 `register`  
+  > 登录. 命令 `login`
+- 先进行`设计`需要的功能,再进行`调用`
 
-### Design
+## 设计
 
-### Template
+### 模板
 
-- `In the editor`, right-click and `cut` the code; in the `file manager`, right-click the file/folder and add it to the template
+- 在`编辑器`中,通过右键`裁剪`代码;在`文件管理器`中,右键文件/文件夹添加到模板
 
-#### Common - Replace Value
+#### 通用-替换值
 
-- Select the content will be replaced when generating
-  > For example,select `world`=>`hello {{input}}`,When the call `action` is triggered, Enter world for the input and it will be replaced by hello world.
-- Support for `upcase`, `downcase`, `capitalize`, `camelcase`, `pascalcase`, `kebabcase` to format the input, such as `{{upcase xxx}}`, after the variable is input, it will be capitalized.
-  > Support abbreviations, such as: `up`=>`upcase`.
+- 选中内容会在生成时被替换
+  > 如选中`world`=>`hello {{input}}`,调用动作时出现交互,输入`world`,并替换为`hello world`
+- 支持`upcase`,`downcase`,`capitalize`,`camelcase`,`pascalcase`,`kebabcase`对输入进行格式化,如`{{upcase xxx}}`,输入变量后,会对变量进行大写化
+  > 支持简写,如:`up`=>`upcase`
 
-#### Common - Conditional
+#### 通用-条件
 
-- Select the content will become optional when generated
-  > You can add the default value in the `configuration page`
-- Call `action` will have interactive prompts
+- 选中内容会在生成时变为可选
+  > 可以在配置页面增加不可选时默认值
+- 调用动作时会有交互提示
 
-#### Common - Select/Exclude
+#### 通用-选中/排除
 
-- Select the content will be added/excluded in the template
-  > Default is all
+- 选中内容会在生成时添加/排除到模板中
+  > 默认为全部
 
-#### Language - Select/Exclude
+#### 语言-选中/排除
 
-- Similar to the `common`中的`select/exclude`, but allow interactive determination of the range
+- 与`通用`中的`选中/排除`类似,但是允许交互性的确定范围
 
-#### Content - Invert/Select
+#### 内容反选/正选
 
-- The content of the selected will be excluded or included in the template
-  > Default is Select
+- 选中的内容在生成时为排除还是选中
+  > 默认为正选
 
-#### Highlight
+#### 高亮
 
-- View the templates that have been processed
+- 查看该模板进行了哪些处理
 
-#### Update Content
+#### 更新内容
 
-- When the file is updated, update the scope of the `cut` operation for the file.
-- After updating, check if the update scope is correct.
+- 当文件更新时,更新该文件`裁剪`操作的范围
+- 更新后需要检查更新范围是否正确.
 
-#### Preview
+#### 预览
 
-- Query the processed `cut` content.
-  > The generated content will be used as a template.
+- 查询处理好的裁剪内容
+  > 即将会被作为模板使用时,生成的内容
 
-### Code Snippet
+### 代码片段
 
-- Create `Code snippet`
-  > Command `create-snippet`
-- Select treated template parts or create content directly
+- 创建代码片段
+  > 命令 `create-snippet`
+- 选择处理好的模板部分内容或直接自定义内容
 
-#### Dynamic Code Snippet
+#### 动态代码片段
 
-- Insert `code snippet` and call actions
-- Support `the input of chosen file content` and `insert code snippet content` into the action.
-- When using the `${1:}` syntax of the code snippet itself and `{{1}}` regular expression match insert, the writing method is like this: `${1:{{1~}}}`
-  > Currently a design problem, will be modified in the future.
+- 支持插入`代码片段`后调用动作
+- 支持传入`选中文件内容`,`插入代码片段内容`到动作
+- 当使用代码片段自身的 `${1:}`语法与`{{1}}`正则匹配插入时.写法如下`${1:{{1~}}}`
+  > 目前的一个设计问题,未来会修改
 
-### Action
+### 动作
 
-- Create `Action`
-  > Command `create-action`
-- Add `file template`, `pure file template`, `action nested`, `custom` rules
+- 创建动作
+  > 命令 `create-action`
+- 添加`文件模板`,`纯文件模板`,`动作嵌套`,`自定义`规则
 
-#### Custom Rule - Context
+#### 自定义规则-上下文
 
-- `Chosen file/folder path`, `Current workspace folder path`
-- If called by the `Code Snippet`, there are `chosen content`, `inserted content`, and `parameters`.
+- `选中文件/文件夹路径`,`当前工作空间文件夹路径`
+- 如果被`代码片段`调用,还有`选中内容`,`插入内容`,`参数`
 
-### AST View Debugger
+### ast 视图调试器
 
-- Located in the right upper corner of the editor's title bar.
-- Used for visual debugging when selecting `custom rule`
+- 位于`编辑器`标题栏右上角
+- 用于`自定义规则`选择节点时进行可视化调试
 
-#### CSS Selector Universal Language Query
+#### css 选择器泛语言查询
 
-- Use `css selector` for different language node queries
-- Implement the majority of the [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors) functions
+- 使用`css选择器`进行不同语言的节点查询
+- 实现了[css 选择器](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)的大部分功能
 
 | name             | Support                                                                                                                                                                                           |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,26 +99,26 @@
 | `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw` |
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                               |
 
-#### Description
+#### 说明
 
-- Custom pseudo-classes `:raw`: used to query the `original` value/tag attribute of the current node
+- 自定义伪类`:raw`,用于查询当前节点`原始`的 value/tag 属性
 
-  > xxx:raw([value=yyy]); this selector is used in very extreme scenarios and is used only in a few cases.
+  > xxx:raw([value=yyy]);此选择器使用场景比较极端.极少数情况下可能会被使用
 
-- `::parent`: query the parent element
-- `::children(x)`: query the xth child element of the current element
-- `::xx`: query the custom child element defined in the current language.
+- `::parent` 查询父级元素
+- `::children(x)` 查询当前元素的第几个子级元素
+- `::xx` 查询该语言自定义的子级元素
 
-#### Query general attributes of a node
+#### 查询节点通用属性
 
-- `index`: Index representing the position of the current node in its parent.
-- `tag`: Label of the node.
-- `value`: Text of the current node.
-- `range`: Position of the current node.
-- `children`: List of child elements of the current node.
-- `type`: Type of the node (node/token).
+- `index` 索引,代表当前节点处于父级的哪个位置
+- `tag` 节点的标签
+- `value` 该节点的文本
+- `range` 该节点的位置
+- `children` 该节点的子元素列表
+- `type` 节点类型(node/token)
 
-#### Supported Language/Grammar
+#### 支持语言/语法
 
 - typescript(typescript)
 - typescript(javascript)
@@ -183,18 +183,20 @@
 
 ---
 
-## Call
+## 调用
 
-### Action
+### 动作
 
-- Select file/folder right-click in the `File Manager` to call
-- Execute command `callActionByFile` in the `Editor`
+- 在`文件管理器`中选择文件/文件夹右键调用
+- 在`编辑器`中执行命令`callActionByFile`调用
 
-### Code snippet
+### 代码片段
 
-- Define and use directly
+- 定义后直接使用
 
-# Support
+
+
+# 支持
 
 | System  | Support | test |
 | ------- | ------- | ---- |
@@ -206,7 +208,7 @@
 | -------- | ------- |
 | Vscode   | [x]     |
 
-# The project code contains
+# 项目代码包含
 
 | Function              | Include |
 | --------------------- | ------- |
@@ -214,11 +216,11 @@
 | Configuration WebView |         |
 | Extension             |         |
 
-# Other
+# 其他
 
-## About open source
+## 关于开源
 
-- Before developers can maintain their livelihood and ensure sufficient energy to develop the plugin, the plugin will not be open-source temporarily.
-- When developers can make a living from the plugin and maintain their lives, we will consider open-sourceing.
-- Currently, the plugin has no commercial earnings.
-- If you have better ideas for commercialization, please contact me at any time:`wszgrcy@gmail.com`
+- 在开发者能够维持自身的生存体征并保证有足够的精力进行插件开发前,暂时不开源
+- 当开发者能从此插件中产生盈利并能维持自身生活需要时,会进行开源
+- 目前本插件没有任何盈利行为
+- 如果你有什么比较好的商业化想法,也可以联系我`wszgrcy@gmail.com`

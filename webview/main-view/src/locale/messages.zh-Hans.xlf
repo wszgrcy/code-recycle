@@ -15,7 +15,7 @@ content:string(文件内容),
 resolve$$:any(解析器,内部使用)}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4910053593840811651" datatype="html">
@@ -25,7 +25,7 @@ resolve$$:any(解析器,内部使用),
 node:object(查询到的节点)}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6459570433389471539" datatype="html">
@@ -34,67 +34,67 @@ selectRange: { value: string; range: [number,number] }[];
 path: string;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">82,84</context>
+          <context context-type="linenumber">91,93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4883272350610192328" datatype="html">
         <source>(对象/对象数组)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7144890919688876155" datatype="html">
         <source>最后一条语句的值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">99</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2754500418012559832" datatype="html">
         <source>调用函数(语句)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">100</context>
         </context-group>
       </trans-unit>
       <trans-unit id="890797159254599223" datatype="html">
         <source>调用函数(块)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">94</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1159790971180443195" datatype="html">
         <source>块调用</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">96</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7404787848420049201" datatype="html">
         <source>调用块</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8608493791269941245" datatype="html">
         <source>根据输出管道决定</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8907676437176067062" datatype="html">
         <source>输入转换</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9166966010060819811" datatype="html">
@@ -102,236 +102,228 @@ path: string;</source>
 向外查询指当文件夹下没有查找匹配文件时,会向上级文件夹查询,最终查询到工作空间</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">116</context>
+          <context context-type="linenumber">125</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7277000298627830671" datatype="html">
         <source>根据传入文件路径(数组),读取文件,创建内容解析器</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">138</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">145</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1364405588120891513" datatype="html">
-        <source>根据传入字符串,创建内容解析器</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">151</context>
+          <context context-type="linenumber">147</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
           <context context-type="linenumber">154</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1364405588120891513" datatype="html">
+        <source>根据传入字符串,创建内容解析器</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6629351045333152187" datatype="html">
         <source>读取文本编辑器输入数据(语句)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1292875499606235179" datatype="html">
         <source>读取文本编辑器输入数据(块)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">165</context>
+          <context context-type="linenumber">174</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1780069510677226573" datatype="html">
         <source>string||object</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">167</context>
+          <context context-type="linenumber">176</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5913484984199173417" datatype="html">
         <source>读取指定文件,尝试解析(仅支持JSON)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">168</context>
+          <context context-type="linenumber">177</context>
         </context-group>
       </trans-unit>
       <trans-unit id="617638122806444565" datatype="html">
         <source>保存时的数据</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">170</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">173</context>
+          <context context-type="linenumber">182</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7385796194074337911" datatype="html">
         <source>读取内容函数参数</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">171</context>
+          <context context-type="linenumber">180</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6093421460386433029" datatype="html">
         <source>读取内容解析变量或数据变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">174</context>
+          <context context-type="linenumber">183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5832705427449999794" datatype="html">
         <source>选择值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">176</context>
+          <context context-type="linenumber">185</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5606962863952954937" datatype="html">
         <source>读取下拉选项</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">177</context>
+          <context context-type="linenumber">186</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2296681895307893686" datatype="html">
         <source>any</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">182</context>
+          <context context-type="linenumber">191</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">185</context>
+          <context context-type="linenumber">194</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4556956173575672229" datatype="html">
         <source>设置数据变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">183</context>
+          <context context-type="linenumber">192</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5746296815020103993" datatype="html">
         <source>修改数据变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">186</context>
+          <context context-type="linenumber">195</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8358202196252260256" datatype="html">
         <source>根据保存</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">188</context>
+          <context context-type="linenumber">197</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">191</context>
+          <context context-type="linenumber">200</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5645348346642893971" datatype="html">
         <source>读取参数,经过一定处理后,写入到数据变量中(语句)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">189</context>
+          <context context-type="linenumber">198</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4958240039945422678" datatype="html">
         <source>读取参数,经过一定处理后,写入到数据变量中(块)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">192</context>
+          <context context-type="linenumber">201</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5628934081563517346" datatype="html">
         <source>通过&quot;内容解析变量&quot;,使用css风格查询语句查询节点</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">198</context>
+          <context context-type="linenumber">207</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2979485293081963325" datatype="html">
         <source>any[][],默认情况下,块中的每一条语句的结果会形成一个数组,所以是二维数组</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">204</context>
+          <context context-type="linenumber">213</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">208</context>
+          <context context-type="linenumber">217</context>
         </context-group>
       </trans-unit>
       <trans-unit id="34406973586651267" datatype="html">
         <source>列表循环</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">205</context>
+          <context context-type="linenumber">214</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2839484094420960186" datatype="html">
         <source>While循环</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">209</context>
+          <context context-type="linenumber">218</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2115468257860359255" datatype="html">
         <source>真/假分支值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">211</context>
+          <context context-type="linenumber">220</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4592582278938944260" datatype="html">
         <source>条件判断</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">212</context>
+          <context context-type="linenumber">221</context>
         </context-group>
       </trans-unit>
       <trans-unit id="534483614741941376" datatype="html">
         <source>真/假分支最后一条语句值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">214</context>
+          <context context-type="linenumber">223</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3782271543116019118" datatype="html">
         <source>条件判断(语句)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">215</context>
+          <context context-type="linenumber">224</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1181084027336603939" datatype="html">
         <source>对象||输入</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">222</context>
+          <context context-type="linenumber">231</context>
         </context-group>
       </trans-unit>
       <trans-unit id="876283796521019326" datatype="html">
         <source>数据映射,创建(继承)对象或创建一个元组;通常用于对已有节点的修改</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">223</context>
+          <context context-type="linenumber">232</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8077266724513981019" datatype="html">
         <source>无</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">237</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">241</context>
-        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
           <context context-type="linenumber">245</context>
@@ -346,476 +338,491 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">256</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7709486839231702510" datatype="html">
-        <source>修改文件;可以用于新增/修改,删除内容</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">238</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1611814211254897259" datatype="html">
-        <source>删除文件</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">242</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4600228570297376089" datatype="html">
-        <source>新建文件</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">246</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4049849618967758271" datatype="html">
-        <source>重命名</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">250</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3671858897687487308" datatype="html">
-        <source>运行外部脚本</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">254</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="400814116904406503" datatype="html">
-        <source>调用动作,与嵌套动作类似,需要指定动作调用时所在文件夹</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">../../src/generator/define.ts</context>
           <context context-type="linenumber">257</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7934246489485181574" datatype="html">
-        <source>string</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
           <context context-type="linenumber">261</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">274</context>
+          <context context-type="linenumber">264</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7709486839231702510" datatype="html">
+        <source>修改文件;可以用于新增/修改,删除内容</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1611814211254897259" datatype="html">
+        <source>删除文件</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">250</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4600228570297376089" datatype="html">
+        <source>新建文件</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">254</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4049849618967758271" datatype="html">
+        <source>重命名</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3671858897687487308" datatype="html">
+        <source>运行外部脚本</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">262</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="400814116904406503" datatype="html">
+        <source>调用动作,与嵌套动作类似,需要指定动作调用时所在文件夹</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">265</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7934246489485181574" datatype="html">
+        <source>string</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">269</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">316</context>
+          <context context-type="linenumber">282</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">324</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5637943804065655519" datatype="html">
         <source>通过交互设置全局变量获取字符串</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">262</context>
+          <context context-type="linenumber">270</context>
         </context-group>
       </trans-unit>
       <trans-unit id="237771280609785417" datatype="html">
         <source>boolean</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">264</context>
+          <context context-type="linenumber">272</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">365</context>
+          <context context-type="linenumber">373</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">369</context>
+          <context context-type="linenumber">377</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">376</context>
+          <context context-type="linenumber">384</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">380</context>
+          <context context-type="linenumber">388</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">383</context>
+          <context context-type="linenumber">391</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">386</context>
+          <context context-type="linenumber">394</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2631085627647810018" datatype="html">
         <source>通过交互设置全局变量交互获取真/假值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">265</context>
+          <context context-type="linenumber">273</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3051169564182215166" datatype="html">
         <source>设置动作全局变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">266</context>
+          <context context-type="linenumber">274</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2223064461787852273" datatype="html">
         <source>获得动作全局变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">267</context>
+          <context context-type="linenumber">275</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8654729114696566470" datatype="html">
         <source>字符串模板,用于文本拼接;插入时需要通过&quot;input/input.xx&quot;获取输入数据;如a{{input}}b,如果输入为&quot;1&quot;,则输出为&quot;a1b&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">275</context>
+          <context context-type="linenumber">283</context>
         </context-group>
       </trans-unit>
       <trans-unit id="427843987492660980" datatype="html">
         <source>Array</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">283</context>
+          <context context-type="linenumber">291</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">290</context>
+          <context context-type="linenumber">298</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">293</context>
+          <context context-type="linenumber">301</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">296</context>
+          <context context-type="linenumber">304</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">310</context>
+          <context context-type="linenumber">318</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">313</context>
+          <context context-type="linenumber">321</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8449686854837137473" datatype="html">
         <source>数组/字符串裁剪,同Array.prototype.slice</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">284</context>
+          <context context-type="linenumber">292</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6129247067359841901" datatype="html">
         <source>数组排序,支持默认排序和多字段排序</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">291</context>
+          <context context-type="linenumber">299</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7661869412893433348" datatype="html">
         <source>数组反转;同Array.prototype.reverse</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">294</context>
+          <context context-type="linenumber">302</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4607390982936523483" datatype="html">
         <source>数组拍平;同Array.prototype.flat</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">297</context>
+          <context context-type="linenumber">305</context>
         </context-group>
       </trans-unit>
       <trans-unit id="806869092513575846" datatype="html">
         <source>boolean|数组项</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">304</context>
+          <context context-type="linenumber">312</context>
         </context-group>
       </trans-unit>
       <trans-unit id="881011175145725942" datatype="html">
         <source>数组查询;多种查询方式</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">305</context>
+          <context context-type="linenumber">313</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2626900277920899078" datatype="html">
         <source>数组连接</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">311</context>
+          <context context-type="linenumber">319</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8585907012145293377" datatype="html">
         <source>数组映射;同Array.prototype.map</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">314</context>
+          <context context-type="linenumber">322</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7695275320947520905" datatype="html">
         <source>数组连接;数组=&gt;字符串,同Array.prototype.join</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">317</context>
+          <context context-type="linenumber">325</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3210079392002044062" datatype="html">
         <source>[分类名(string),原数组类型][]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">319</context>
+          <context context-type="linenumber">327</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4129384390098613271" datatype="html">
         <source>数组分类;根据返回的分类名,将数组分成不同组</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">320</context>
+          <context context-type="linenumber">328</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5500414333854455892" datatype="html">
         <source>array</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">323</context>
+          <context context-type="linenumber">331</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5702281818627505743" datatype="html">
         <source>数组过滤</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">324</context>
+          <context context-type="linenumber">332</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6301831699558202396" datatype="html">
         <source>[number,number]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">328</context>
+          <context context-type="linenumber">336</context>
         </context-group>
       </trans-unit>
       <trans-unit id="604179448742726830" datatype="html">
         <source>插入范围;将一个节点上的范围转换为插入的范围,如: &quot;node.range:[0,2]&quot;,可以转换为&quot;[0,0]&quot;或&quot;[2,2]&quot; </source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">329</context>
+          <context context-type="linenumber">337</context>
         </context-group>
       </trans-unit>
       <trans-unit id="495931727585873354" datatype="html">
         <source>根据查询路径确定</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">335</context>
+          <context context-type="linenumber">343</context>
         </context-group>
       </trans-unit>
       <trans-unit id="50392773801617691" datatype="html">
         <source>使用路径获取对象/数组/节点上的指定数据;如: &quot;[0].a&quot; 为获取第0个元素上的a属性</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">336</context>
+          <context context-type="linenumber">344</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7524651614374240764" datatype="html">
         <source>大部分string|Regexp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">341</context>
+          <context context-type="linenumber">349</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7035849712292186347" datatype="html">
         <source>一些通用函数.如果需要传入多个参数需要手动设置</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">342</context>
+          <context context-type="linenumber">350</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7805483974846502931" datatype="html">
         <source>真/假值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">345</context>
+          <context context-type="linenumber">353</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4040532125449348767" datatype="html">
         <source>创建真/假值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">346</context>
+          <context context-type="linenumber">354</context>
         </context-group>
       </trans-unit>
       <trans-unit id="372599757224337950" datatype="html">
         <source>Regexp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">348</context>
+          <context context-type="linenumber">356</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4820895095468546735" datatype="html">
         <source>创建正则表达式</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">349</context>
+          <context context-type="linenumber">357</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7398719621436728016" datatype="html">
         <source>number|number[]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">357</context>
+          <context context-type="linenumber">365</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9041854449288245298" datatype="html">
         <source>进行普通的数字运算,支持数字和数组</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">358</context>
+          <context context-type="linenumber">366</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6778360414562695864" datatype="html">
         <source>number|[number,number]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">360</context>
+          <context context-type="linenumber">368</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7513750023126737839" datatype="html">
         <source>创建一个数字或数组</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">361</context>
+          <context context-type="linenumber">369</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2941615109768580119" datatype="html">
         <source>真值比较;比较输入值为真值/假值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">366</context>
+          <context context-type="linenumber">374</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5686070728531427217" datatype="html">
         <source>基础比较;比较顺序为&quot;第一个值&quot; &quot;比较类型&quot; &quot;第二个值&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">378</context>
         </context-group>
       </trans-unit>
       <trans-unit id="567206430963939516" datatype="html">
         <source>数组比较;比较顺序为&quot;第一个值&quot; &quot;比较类型&quot; &quot;第二个值&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">377</context>
+          <context context-type="linenumber">385</context>
         </context-group>
       </trans-unit>
       <trans-unit id="394169375016520533" datatype="html">
         <source>字符串比较;比较顺序为&quot;第一个值&quot; &quot;比较类型&quot; &quot;第二个值&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">381</context>
+          <context context-type="linenumber">389</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7647977571727711832" datatype="html">
         <source>多个比较结果(数值) 与/或</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">384</context>
+          <context context-type="linenumber">392</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3616703599027884087" datatype="html">
         <source>结果取反</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">387</context>
+          <context context-type="linenumber">395</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7046507481322126576" datatype="html">
+        <source>抛出异常</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../src/generator/define.ts</context>
+          <context context-type="linenumber">401</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7483692357142320038" datatype="html">
         <source>输入值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">392</context>
+          <context context-type="linenumber">405</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">395</context>
+          <context context-type="linenumber">408</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8102712190873939883" datatype="html">
         <source>调试将输入的数据显示在模态弹窗上</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">393</context>
+          <context context-type="linenumber">406</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3622230069434584352" datatype="html">
         <source>调试将输入的数据显示在下方的输出上</source>
         <context-group purpose="location">
           <context context-type="sourcefile">../../src/generator/define.ts</context>
-          <context context-type="linenumber">396</context>
+          <context context-type="linenumber">409</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.上下文" datatype="html">
         <source>上下文</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">167</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.内容解析" datatype="html">
         <source>内容解析</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">179</context>
+          <context context-type="linenumber">183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.流程" datatype="html">
         <source>流程</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">200</context>
+          <context context-type="linenumber">204</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.全局变量" datatype="html">
         <source>全局变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">212</context>
+          <context context-type="linenumber">216</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.字符串" datatype="html">
         <source>字符串</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">223</context>
+          <context context-type="linenumber">227</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.数组" datatype="html">
         <source>数组</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">229</context>
+          <context context-type="linenumber">233</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.创建值" datatype="html">
         <source>创建值</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">245</context>
+          <context context-type="linenumber">249</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.通用" datatype="html">
         <source>通用</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">259</context>
+          <context context-type="linenumber">263</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.比较" datatype="html">
         <source>比较</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">272</context>
+          <context context-type="linenumber">276</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/compare/compare.ts</context>
@@ -826,42 +833,42 @@ path: string;</source>
         <source>下拉选项</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">286</context>
+          <context context-type="linenumber">290</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.操作" datatype="html">
         <source>操作</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">292</context>
+          <context context-type="linenumber">296</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.数据变量" datatype="html">
         <source>数据变量</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">305</context>
+          <context context-type="linenumber">309</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.自定义函数" datatype="html">
         <source>自定义函数</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">311</context>
+          <context context-type="linenumber">315</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.目录.调试" datatype="html">
         <source>调试</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">327</context>
+          <context context-type="linenumber">331</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.函数参数" datatype="html">
         <source>函数参数</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/blockly.service.ts</context>
-          <context context-type="linenumber">336</context>
+          <context context-type="linenumber">344</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.列表合并" datatype="html">
@@ -1207,6 +1214,13 @@ path: string;</source>
           <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="blockly.抛出异常" datatype="html">
+        <source>抛出异常</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/domain/blockly/custom-block/debug/debug.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="blockly.查询当前" datatype="html">
         <source>查询当前</source>
         <context-group purpose="location">
@@ -1237,7 +1251,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/function/function.ts</context>
-          <context context-type="linenumber">191</context>
+          <context context-type="linenumber">197</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/call-action.ts</context>
@@ -1248,11 +1262,11 @@ path: string;</source>
         <source>函数描述:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/function/function.ts</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">131</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/function/function.ts</context>
-          <context context-type="linenumber">264</context>
+          <context context-type="linenumber">268</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4695571024614529168" datatype="html">
@@ -1285,10 +1299,6 @@ path: string;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/map/data.ts</context>
           <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/replace_node_operator.ts</context>
-          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.参数" datatype="html">
@@ -1335,7 +1345,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/replace_node_operator.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.调用动作" datatype="html">
@@ -1375,7 +1385,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/operator/replace_node_operator.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.重命名文件" datatype="html">
@@ -1622,7 +1632,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.选中范围" datatype="html">
@@ -1633,7 +1643,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.插入值" datatype="html">
@@ -1644,7 +1654,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">110</context>
+          <context context-type="linenumber">114</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.文件路径" datatype="html">
@@ -1655,7 +1665,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
-          <context context-type="linenumber">114</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.读取.编辑器.工作空间路径" datatype="html">
@@ -1663,6 +1673,17 @@ path: string;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
           <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blockly.读取.代码片段.参数" datatype="html">
+        <source>代码片段参数</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/domain/blockly/custom-block/query/read-input.ts</context>
+          <context context-type="linenumber">122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="blockly.字符串查询" datatype="html">
@@ -1716,7 +1737,7 @@ path: string;</source>
         <source><x id="PH" equiv-text="item.entity.name"/>-复制</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/domain/code/code-base.component.ts</context>
-          <context context-type="linenumber">186</context>
+          <context context-type="linenumber">193</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/public-area/code-item/code-item.component.ts</context>
@@ -1856,7 +1877,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
@@ -1878,7 +1899,7 @@ path: string;</source>
         <source>公开</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">51</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
@@ -1886,29 +1907,60 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1398596215999913783" datatype="html">
-        <source>更新时间</source>
+      <trans-unit id="968701223811806626" datatype="html">
+        <source>关键字</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/action-config/create/create.component.ts</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/public-area/code-show/code-show.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/rule-function-config/create/create.component.ts</context>
+          <context context-type="linenumber">98</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1398596215999913783" datatype="html">
+        <source>更新时间</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
+          <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2261171107170127222" datatype="html">
         <source>操作</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">79</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/current-project-config/current-project-config.component.html</context>
@@ -1920,26 +1972,26 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">50</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3882417241462810439" datatype="html">
         <source>按住Ctrl进行删除</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/action-config.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">114</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/rule-function-config/rule-function-config.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">86</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">137</context>
+          <context context-type="linenumber">149</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5923391732509967991" datatype="html">
@@ -1979,25 +2031,6 @@ path: string;</source>
           <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="968701223811806626" datatype="html">
-        <source>关键字</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/action-config/create/create.component.ts</context>
-          <context context-type="linenumber">124</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/public-area/code-show/code-show.component.ts</context>
-          <context context-type="linenumber">85</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/rule-function-config/create/create.component.ts</context>
-          <context context-type="linenumber">98</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">92</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="4883685090861303329" datatype="html">
         <source>描述</source>
         <context-group purpose="location">
@@ -2010,7 +2043,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
@@ -2032,11 +2065,11 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">121</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">159</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7091973167257313501" datatype="html">
@@ -2064,21 +2097,21 @@ path: string;</source>
         <source>合并策略</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3848290461901205126" datatype="html">
         <source>多选</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">163</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3332617801319453047" datatype="html">
         <source>文件名</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">173</context>
+          <context context-type="linenumber">174</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/current-project-config/current-project-config.component.html</context>
@@ -2090,39 +2123,39 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">189</context>
+          <context context-type="linenumber">186</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8246938235254575817" datatype="html">
         <source>文件名列表</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">241</context>
+          <context context-type="linenumber">242</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6496361873878672352" datatype="html">
         <source>引用名</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">321</context>
+          <context context-type="linenumber">322</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8628005441198202117" datatype="html">
         <source>内容</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">341</context>
+          <context context-type="linenumber">342</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">281</context>
+          <context context-type="linenumber">278</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6353549941872907297" datatype="html">
         <source>转换为纯文本</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/action-config/template-action-rule/template-action-rule.component.ts</context>
-          <context context-type="linenumber">353</context>
+          <context context-type="linenumber">354</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4968286416999747217" datatype="html">
@@ -2151,7 +2184,7 @@ path: string;</source>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">367</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3835056388349811177" datatype="html">
@@ -2307,50 +2340,35 @@ path: string;</source>
         <source>片段-<x id="PH" equiv-text="v4().slice(0, 8)"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6048591310873187409" datatype="html">
         <source>动态</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">118</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5677608046148362600" datatype="html">
-        <source>支持语言</source>
+      <trans-unit id="7626774585897306996" datatype="html">
+        <source>支持语言,默认全选</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
           <context context-type="linenumber">127</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
-          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2878514214355351685" datatype="html">
         <source>指定片段生效语言</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">132</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2616020380591992495" datatype="html">
-        <source>默认全选</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">133</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3807104121276028002" datatype="html">
         <source>文件匹配</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">142</context>
+          <context context-type="linenumber">139</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
@@ -2361,49 +2379,56 @@ path: string;</source>
         <source>指定片段生效文件</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">143</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2616020380591992495" datatype="html">
+        <source>默认全选</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
+          <context context-type="linenumber">141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="642205931906438311" datatype="html">
         <source>选择列表</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">225</context>
+          <context context-type="linenumber">222</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2430238991122832881" datatype="html">
         <source>换行</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">272</context>
+          <context context-type="linenumber">269</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6699192474200070322" datatype="html">
         <source>触发词</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">308</context>
+          <context context-type="linenumber">305</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4137936736684379727" datatype="html">
         <source>正则:pattern</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">350</context>
+          <context context-type="linenumber">347</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2706358176891862136" datatype="html">
         <source>正则:flag</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">359</context>
+          <context context-type="linenumber">356</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8763045740775396371" datatype="html">
         <source>关联动作</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/create/create.component.ts</context>
-          <context context-type="linenumber">370</context>
+          <context context-type="linenumber">367</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4899173084120013582" datatype="html">
@@ -2411,6 +2436,13 @@ path: string;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
           <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5677608046148362600" datatype="html">
+        <source>支持语言</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/snippet-config/snippet-config.component.html</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5359661928089271827" datatype="html">
