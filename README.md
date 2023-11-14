@@ -16,6 +16,7 @@
 ### Template
 
 - `In the editor`, right-click and `cut` the code; in the `file manager`, right-click the file/folder and add it to the template
+  ![template](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/template.webp)
 
 #### Common - Replace Value
 
@@ -77,6 +78,10 @@
   > Command `create-action`
 - Add `file template`, `pure file template`, `action nested`, `custom` rules
 
+![conflict-resolve](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/conflict-resolve.webp)
+
+![custom-rule](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/custom-rule.webp)
+
 #### Custom Rule - Context
 
 - `Chosen file/folder path`, `Current workspace folder path`
@@ -86,6 +91,8 @@
 
 - Located in the right upper corner of the editor's title bar.
 - Used for visual debugging when selecting `custom rule`
+
+![ast-tree](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/ast-tree.webp)
 
 #### CSS Selector Universal Language Query
 

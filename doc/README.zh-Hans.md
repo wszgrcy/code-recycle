@@ -16,6 +16,7 @@
 ### 模板
 
 - 在`编辑器`中,通过右键`裁剪`代码;在`文件管理器`中,右键文件/文件夹添加到模板
+  ![template](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/template.webp)
 
 #### 通用-替换值
 
@@ -77,6 +78,10 @@
   > 命令 `create-action`
 - 添加`文件模板`,`纯文件模板`,`动作嵌套`,`自定义`规则
 
+![conflict-resolve](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/conflict-resolve.webp)
+
+![custom-rule](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/custom-rule.webp)
+
 #### 自定义规则-上下文
 
 - `选中文件/文件夹路径`,`当前工作空间文件夹路径`
@@ -86,6 +91,7 @@
 
 - 位于`编辑器`标题栏右上角
 - 用于`自定义规则`选择节点时进行可视化调试
+  ![ast-tree](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/ast-tree.webp)
 
 #### css 选择器泛语言查询
 
