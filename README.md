@@ -4,6 +4,9 @@
 
 ---
 
+| [中文](https://github.com/wszgrcy/code-recycle/blob/main/doc/README.zh-Hans.md) |
+| ------------------------------------------------------------------------------- |
+
 ## Quick Start
 
 - You need to log in first to use the following features

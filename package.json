@@ -1,23 +1,40 @@
 {
   "name": "code-recycle",
-  "displayName": "",
-  "description": "",
+  "displayName": "Code Recycle",
+  "description": "Quickly initialize the project,Stackable layer structure,Programmable input logic,Dynamic code snippets,Code-level dependency injection",
+  "icon": "doc/icon/512.png",
   "version": "1.1.0",
   "engines": {
     "vscode": "^1.82.2"
   },
-  "publisher": "ChenYang",
+  "publisher": "LDXCODE",
   "categories": [
     "Snippets",
     "Programming Languages",
     "Visualization"
   ],
+  "keywords": [
+    "generate",
+    "ast",
+    "ast view",
+    "template",
+    "snippet",
+    "scaffold"
+  ],
   "activationEvents": [
     "onStartupFinished"
   ],
   "main": "./dist/extension.js",
-  "l10n": "./l10n",
-  "repository": "http://192.168.31.88:8888/root/code-factory-plugin",
+  "bugs": {
+    "url": "https://github.com/wszgrcy/code-recycle/issues",
+    "email": "wszgrcy@gmail.com"
+  },
+  "qna": "https://github.com/wszgrcy/code-recycle/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wszgrcy/code-recycle.git"
+  },
+  "homepage": "https://github.com/wszgrcy/code-recycle/blob/main/README.md",
   "contributes": {
     "commands": [
       {
@@ -516,8 +533,9 @@
     "lint": "eslint --fix src --ext ts ",
     "test": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack -c ./webpack.config.ts --env TEST && node ./test-dist/runTest.js",
     "test:only": "node ./test-dist/runTest.js",
-    "local-publish": "vsce package",
-    "copy-assets": "rimraf ./build && node ./script/build.js && cpx \"dist/**/*\" ./build/dist && cpx \"webview/main-view/dist/**/*\" ./build/webview/main-view/dist && cpx ./LICENSE ./build && cpx \"package.nls.*\" ./build && cpx ./README.md ./build && cpx \"./l10n/**/*\" ./build/l10n",
+    "local-publish": "vsce package --skip-license",
+    "vs-publish": "vsce publish --skip-license",
+    "copy-assets": "rimraf ./build && node ./script/build.js && cpx \"dist/**/*\" ./build/dist && cpx \"webview/main-view/dist/**/*\" ./build/webview/main-view/dist && cpx ./LICENSE ./build && cpx \"package.nls.*\" ./build && cpx ./README.md ./build && cpx \"./l10n/**/*\" ./build/l10n && cpx \"doc/icon/**/*\" ./build/doc/icon",
     "build-ext": "ts-node ./script/ext-to-language/generate-ext.ts",
     "l10n:g": "vscode-l10n-dev export -o ./l10n ./src",
     "l10n:update": "ts-node --esm ./script/i18n/l10n-update.ts"
@@ -541,7 +559,6 @@
     "copy-webpack-plugin": "^11.0.0",
     "cpx": "^1.5.0",
     "cross-env": "^7.0.3",
-    "cyia-code-util": "^2.2.1",
     "esbuild-loader": "^4.0.2",
     "eslint": "^8.46.0",
     "glob": "^10.3.4",
@@ -562,10 +579,11 @@
     "@lezer/python": "^1.1.9",
     "@lezer/xml": "^1.0.3",
     "@trpc/client": "10.38.5",
-    "@vscode/vsce": "^2.21.0",
+    "@vscode/vsce": "^2.22.0",
     "@vue/compiler-dom": "^3.3.7",
     "bcryptjs": "^2.4.3",
     "diff": "^5.1.0",
+    "cyia-code-util": "^2.2.1",
     "fast-equals": "^5.0.1",
     "fast-glob": "^3.3.1",
     "fastest-levenshtein": "^1.0.16",

@@ -34,7 +34,7 @@
   "注册成功": "Register successfully",
   "动态代码片段": "Dynamic code snippet",
   "静态代码片段": "Static code snippet",
-  "# 名称: {value}": "# Name: {value}",
+  "### 名称: {value}": "### Name: {value}",
   "- 描述: {value}": "- Description: {value}",
   "动作缺失: 代码片段 {name} 上动作缺失": "Action missing: Code snippet {name} missing action.",
   "- 调用动作: {value}": "- call action: {value}",
