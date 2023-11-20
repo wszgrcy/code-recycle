@@ -50,6 +50,8 @@
 - 本插件的自定义规则,简单的说就是**语法查询=>替换工具**,只不过语法查询的准确度远远超过了普通的查询替换,正则的查询替换  
 - 通过实现各种语言的`CSS选择器查询`,允许通过同一种查询规范兼容不同语言,并自带`语法树调试工具`,保证查询符合预期  
 
+![ast调试](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/zh-Hans/image/ast调试.jpg)
+
 ### 数据提取
 - 当代码需要国际化时,需要将将部分字符串提取出来,集中翻译,然后再通过专门的国际化函数调用  
 - 本插件可以通过`语法查询`先提取出指定数据,然后翻译完成后,再将指定数据替换到原来的字符串上,由于定位`选择器`不变,所以查找到的替换位置也是绑定的  
@@ -80,6 +82,7 @@
 - [https://www.bilibili.com/video/BV1Vj411J7VZ/](https://www.bilibili.com/video/BV1Vj411J7VZ/) 插件的一些使用演示
 - [插件中文说明](https://github.com/wszgrcy/code-recycle/blob/main/doc/README.zh-Hans.md)
 - [https://github.com/wszgrcy/code-recycle](https://github.com/wszgrcy/code-recycle) 目前保存i18n的仓库,也是未来开源的仓库
+- [教程合集](https://space.bilibili.com/31978940/channel/collectiondetail?sid=1891886)
 ## 其他
 ### 是否可以离线运行
 - 当动作/代码片段第一次执行后,会进行本地缓存,之后的调用不会依赖服务器

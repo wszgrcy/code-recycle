@@ -33,9 +33,9 @@
 
 - **Custom rules**: It can be understood as a general language designer for the principle diagram (https://angular.io/guide/schematics).
 
-![动态代码片段](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.1/doc/zh-Hans/image/删除节点.jpg)
+![delete_node_demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/delete_node_demo.jpg)
 
-![自定义规则简介](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.1/doc/zh-Hans/image/自定义规则简介.jpg)
+![custom_rule_demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/custom_rule_demo.jpg)
 
 ## Usage scenario
 ### Initialize project/module
@@ -45,7 +45,7 @@
 - This extension can directly cut the project files and add multiple files to the `action`, supporting file synchronization and conflict resolution.
 - Specifying the different file positions to call the `action` can initialize the entire project or initialize a specific function module.
 
-![组合动作](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.1/doc/zh-Hans/image/组合动作.jpg)
+![action](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/action.jpg)
 
 ### Dynamic code snippets
 
@@ -56,12 +56,15 @@
 - This extension allows you to call the `code snippets` and pass the context to the action, generate the corresponding code, and insert it into the corresponding position through the `custom rules`.
 > You can define a `trigger.xx.yy` pattern like this (regular expression matching), and pass `xx`, `yy` to the `action`, then generate related code through the `action`.
 
+![snippet](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/snippet.jpg)
+
 ### Code Refactoring/Upgrading/Migrating
 - This workload is often large, usually some repetitive labor, but very low-tech problems; only a few cases need treatment, but sometimes a large amount of repetitive work leads to operation errors debugging, which takes a lot of time; and sometimes at the end of the modification, it is found that the plan is not feasible and needs to be redone the code
 - The custom rules in this extension, simply put, are **syntax query=>replace tool**, However, the accuracy of the syntax search is much higher than that of  search and replacement,  regular expression search and replacement.
 
 - Through the implementation of various language's `CSS selector queries`, it allows compatibility of different languages with the same query specification and includes a `AST debugging tool` to ensure the query meets the expected results.
 
+![ast](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/ast.jpg)
 
 
 
