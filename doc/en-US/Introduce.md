@@ -92,7 +92,7 @@
 ---
 
 ## Related resources
-
+- [code-recycle-demo](https://youtu.be/41xOhQdWtlY)
 - [https://www.bilibili.com/video/BV1Nb4y1u7FP/](https://www.bilibili.com/video/BV1Nb4y1u7FP/) - Introduction to the extension video
 - [https://www.bilibili.com/video/BV1Vj411J7VZ/](https://www.bilibili.com/video/BV1Vj411J7VZ/) - Some demonstration of the extension usage
 - [https://github.com/wszgrcy/code-recycle](https://github.com/wszgrcy/code-recycle) The current repository for saving i18n, which will also be open-sourced in the future.
