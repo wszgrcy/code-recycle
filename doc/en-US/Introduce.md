@@ -1,4 +1,5 @@
 # Code Recycle: Code Generator Designer
+![start](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.3/doc/image/run-with-angular.webp)
 
 - How to develop quickly? The less code you write, the faster the development process.
 
