@@ -32,7 +32,7 @@
 ## DEFINITION
 - **Action**: Execution unit, all file modifications are performed within the action.
 
-- **Custom rules**: It can be understood as a general language designer for the principle diagram (https://angular.io/guide/schematics).
+- **Custom rules**: It can be understood as a general language designer for the [schematics](https://angular.io/guide/schematics).
 
 ![delete_node_demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/delete_node_demo.jpg)
 
@@ -77,15 +77,19 @@
 ### Convenience
 - Can be added quickly to any project
 - File cutting is more convenient
+
 ### Interactivity
 - Input variables
 - Solution for template conflicts
+
 ### Atomicity
 - Each action execution will be created in **VFS**, only all operations are successful before they are written to the file
 - Dryrun mode, you can output the modified content to the console after execution, debugging completely normal before modification mode is written to the file
+
 ### Composition
 - Different projects can be combined into one action
 - Actions can refer to other actions
+
 ### Generalizability
 - Language independence, framework independence, as long as there is an appropriate parser for the corresponding language, you can use it
 
@@ -97,6 +101,7 @@
 - [https://www.bilibili.com/video/BV1Vj411J7VZ/](https://www.bilibili.com/video/BV1Vj411J7VZ/) - Some demonstration of the extension usage
 - [https://github.com/wszgrcy/code-recycle](https://github.com/wszgrcy/code-recycle) The current repository for saving i18n, which will also be open-sourced in the future.
 - [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)
+
 ## Other
 ### Can it run offline?
 - After the action/code snippet is executed for the first time, it will perform local caching. Subsequent calls will not depend on the server.
