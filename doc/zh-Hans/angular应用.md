@@ -15,6 +15,8 @@
 
 - 目前也提供了一些**动作**和**动态代码片段**,方便 Angular 开发者来使用
 > 所有处于**公共区**的内容都可以直接调用或根据自己的使用习惯进行**修改**
+
+
 ### **[动态代码片段]** html中 指令/管道 自动引用
 - 该动作自动查找指定区域的管道和指令,如果存在则会在调用时进行引用,不存在则会在指定文件夹中创建一个空的实现,然后进行引用
 ![directive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/directive.gif)
@@ -35,6 +37,7 @@
 #### column
 - 调用此片段时会自动向`{{columnList}}`中插入名字
 ![mtable](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/mtable.gif)
+
 ### **动作** 组件模板
 - 执行时会自动创建组件及最近模块(Model||Standalone Component)插入相关引入
 > 类似官方的原理图
@@ -46,6 +49,8 @@
 ## 其他
 ## 那么在哪里可以找得到呢?
 - `目前`支持`Vscode`与所有系统,目前已经在[微软插件市场](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)上架  
+
+
 ## 其他语言/框架如何使用?
 - 任何语言/框架都可以使用,但是目前只有 Angular 提供了一些开箱即用的功能
 > 即开发者用**设计器**实现了上述的内容并`公开`到**公共区**
