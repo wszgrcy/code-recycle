@@ -31,16 +31,18 @@
 ### **动态代码片段** material design
 - 执行时会插入相关引用(如果不存在),并且生成相关ts代码(如果有)
 ![mbutton](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/mbutton.gif)
-![mtable](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/mtable.gif)
 
 #### column
 - 调用此片段时会自动向`{{columnList}}`中插入名字
+![mtable](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/mtable.gif)
 ### **动作** 组件模板
 - 执行时会自动创建组件及最近模块(Model||Standalone Component)插入相关引入
 > 类似官方的原理图
+
 ![template1](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/template1.webp)
 
 ---
+
 ## 其他
 ## 那么在哪里可以找得到呢?
 - 目前支持`Vscode`与所有系统,目前已经在[微软插件市场](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)上架  
