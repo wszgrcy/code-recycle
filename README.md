@@ -106,7 +106,7 @@
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                       |
 | `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                             |
-| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw` |
+| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw`,`:use` |
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                               |
 
 #### Description
@@ -118,6 +118,7 @@
 - `::parent`: query the parent element
 - `::children(x)`: query the xth child element of the current element
 - `::xx`: query the custom child element defined in the current language.
+- Custom pseudo-classes `:use`: like `:is`,Can query siblings and descendants 
 
 #### Query general attributes of a node
 

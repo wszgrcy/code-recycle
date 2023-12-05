@@ -102,7 +102,7 @@
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                       |
 | `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                             |
-| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw` |
+| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw`,`:use` |
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                               |
 
 #### 说明
@@ -114,7 +114,7 @@
 - `::parent` 查询父级元素
 - `::children(x)` 查询当前元素的第几个子级元素
 - `::xx` 查询该语言自定义的子级元素
-
+- 自定义伪类`:use` 与`:is`类似,但是可以查询兄弟和后代
 #### 查询节点通用属性
 
 - `index` 索引,代表当前节点处于父级的哪个位置
