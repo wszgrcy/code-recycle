@@ -10,25 +10,36 @@
 ## Code Recycle 提供了部分开箱即用的 Angular 功能
 - `Code Recycle`拥有一个**可视化可编程的设计器**, 可以进行各种`有确定逻辑`的代码生成设计.
 > 你可以理解为,它有一个可以自定义的原理图
+
+![自定义规则简介](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.1/doc/zh-Hans/image/自定义规则简介.jpg)
+
 - 目前也提供了一些**动作**和**动态代码片段**,方便 Angular 开发者来使用
 > 所有处于**公共区**的内容都可以直接调用或根据自己的使用习惯进行**修改**
 ### **动态代码片段** html中 指令/管道 自动引用
 - 该动作自动查找指定区域的管道和指令,如果存在则会在调用时进行引用,不存在则会在指定文件夹中创建一个空的实现,然后进行引用
+![directive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/directive.gif)
+![pipe](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/pipe.gif)
 
 ### **动态代码片段** reference 
 - 执行时自动在ts文件中插入 `@ViewChild {{name}}:any` 及导入(如果不存在)
+![reference](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/reference.gif)
 
 ### **动态代码片段** html中 方法/属性 自动生成
 - 执行时会自动在ts文件中插入 方法/属性 
+![cfn](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/cfn.gif)
 
 ### **动态代码片段** material design
 - 执行时会插入相关引用(如果不存在),并且生成相关ts代码(如果有)
+![mbutton](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/mbutton.gif)
+![mtable](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/mtable.gif)
 
 #### column
 - 调用此片段时会自动向`{{columnList}}`中插入名字
 ### **动作** 组件模板
 - 执行时会自动创建组件及最近模块(Model||Standalone Component)插入相关引入
 > 类似官方的原理图
+![template1](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.5/doc/image/dynamic-snippet-angular/template1.webp)
+
 ---
 ## 其他
 ## 那么在哪里可以找得到呢?
