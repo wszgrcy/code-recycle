@@ -16,7 +16,7 @@
 - `Code Recycle` has a **visual and programmable designer** that can generate various code based on `predetermined logic`.
 > You can understand it as having a customizable principle diagram.
 
-![自定义规则简介](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.1/doc/zh-Hans/image/自定义规则简介.jpg)
+![custom_rule_demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.2/doc/en-US/image/custom_rule_demo.jpg)
 
 - Now, some **actions** and **dynamic code snippets** are also available for Angular developers to use.
 > All content in the **public area** can be directly called or **modified** according to your usage habits.
@@ -62,7 +62,8 @@
 - Other languages/frameworks can refer to some existing **actions** and **code snippets** in the public area to implement what they need.
 
 ## Relevant resources
-- [video](https://www.bilibili.com/video/BV1wc411i7pZ/) Quick development in Angular by using dynamic code snippets.
+- [video_ENG_Subtitle](https://youtu.be/9iG8E5gzguE) Quick development in Angular by using dynamic code snippets.
+- [video_ZH](https://www.bilibili.com/video/BV1wc411i7pZ/) Quick development in Angular by using dynamic code snippets.
 - [code-recycle-demo](https://youtu.be/41xOhQdWtlY)
 - [https://www.bilibili.com/video/BV1Nb4y1u7FP/](https://www.bilibili.com/video/BV1Nb4y1u7FP/) - Introduction to the extension video
 - [https://www.bilibili.com/video/BV1Vj411J7VZ/](https://www.bilibili.com/video/BV1Vj411J7VZ/) - Some demonstration of the extension usage
