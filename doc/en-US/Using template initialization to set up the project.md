@@ -3,6 +3,7 @@
 
 - However, sometimes an update for a specific function (module) cannot be synchronized across all the file templates. We need to continue making adjustments after generating the templates.
 - At this time, you can try using the module function of Code Recycle.
+
 ## The template function of Code Recycle that it possesses.
 - Support interaction. You can input a string when calling to modify some variables in the file. You can choose options to control whether the content is generated.
 ![template-process](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.6/doc/image/template/template-process.jpg)
@@ -25,11 +26,6 @@
 ## Where can I find it?
 - `Currently`, it supports all systems and is now available on the [Microsoft Vscode Marketplace](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)  
 
-
-## How do I use other languages/frameworks?
-- Any language/framework can be used, but currently only Angular provides some pre-trained features that can be used immediately.
-> That is,Extension developers have implemented the above content using the **designer** and made it available in the **public area**.
-- Other languages/frameworks can refer to some existing **actions** and **code snippets** in the public area to implement what they need.
 
 ## Relevant resources
 - [Video: Initialize project - template generation is reversible](https://youtu.be/ci_daT_l04U?feature=shared)
