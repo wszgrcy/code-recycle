@@ -20,7 +20,7 @@
 ## 那么在哪里可以找得到呢?
 - `目前`支持`VSCode`与所有系统,目前已经在[微软插件市场](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)上架 
 
-- 安装登录之后,打开命令面板输入`code-recycle`,进入配置;进入公共区 搜索`interactive`找到公开的视图动作并添加;在侧边栏找到`Code Recyle`视图,打开选择刚才添加的动作
+- 安装登录之后,打开命令面板输入`code-recycle`,进入配置;进入公共区 搜索`interactive`找到公开的视图动作并添加;在侧边栏找到`Code Recycle`视图,打开选择刚才添加的动作
 
 ![add-custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.9/doc/image/add-custom-interactive.jpg)
 
