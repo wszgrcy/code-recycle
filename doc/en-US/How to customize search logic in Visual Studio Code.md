@@ -27,6 +27,7 @@
 ![add-custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.9/doc/image/add-custom-interactive.jpg)
 
 ## Relevant resources
+- [Video: How to customize search logic in Visual Studio Code?](https://youtu.be/-I4Zb36sesI)
 - [Video: Initialize project - template generation is reversible](https://youtu.be/ci_daT_l04U?feature=shared)
 - [Code Cycle: Turing Complete Implementation](https://youtu.be/nvoNm8Vr06c?feature=shared)
 - [Quick development in Angular by using dynamic code snippets](https://youtu.be/9iG8E5gzguE) 
