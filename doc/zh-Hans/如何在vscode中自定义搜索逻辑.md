@@ -10,7 +10,7 @@
 - 目前开箱即用的提供了一个自定义搜索逻辑`动作`,当然您也可以直接复制此`动作`,修改为自己想要的
 
 ![custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.8/doc/image/custom-interactive.jpg)
-![demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.9/doc/image/view-action/demo.webp)
+![demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.9/doc/image/view-action/demo.gif)
 
 ### 除了自定义搜索 Code Recycle 还可以做什么
 - 最初,拓展设计为了更方便的定位文件内容,**处理代码级可重复逻辑**,修改文件内容
