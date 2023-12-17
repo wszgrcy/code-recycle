@@ -17,6 +17,7 @@
 	"code-recycle.preview-change-file": "预览修改",
 	"code-recycle.update-content": "更新位置",
 	"code-recycle.callActionByFile": "执行动作",
+	"code-recycle.CancelCallActionByFile": "取消执行动作(模板)",
 	"code-recycle.select-rename": "通用:替换变量",
 	"code-recycle.config.title": "配置",
 	"code-recycle.menus.language": "再生:语言",
@@ -28,6 +29,8 @@
 	"code-recycle.register.title": "注册",
 	"code-recycle.templateIgnore.description": "添加模板文件时,根据 ignore 过滤文件",
 	"code-recycle.actionCallSubmit": "确认修改",
+	"code-recycle.actionCallDelete": "确认删除",
 	"code-recycle.callActionByEditor": "编辑器中调用动作",
-	"code-recycle.startupRefresh.description":"启动时刷新缓存数据,将会阻塞扩展启动"
+	"code-recycle.startupRefresh.description": "启动时刷新缓存数据,将会阻塞扩展启动",
+	"code-recycle.view.title": "交互"
 }

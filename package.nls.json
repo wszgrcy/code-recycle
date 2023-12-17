@@ -17,6 +17,7 @@
 	"code-recycle.preview-change-file": "previewChangedFile",
 	"code-recycle.update-content": "updatePosition",
 	"code-recycle.callActionByFile": "Call Action",
+	"code-recycle.CancelCallActionByFile": "Cancel Call Action(Only Template)",
 	"code-recycle.select-rename": "select replace",
 	"code-recycle.config.title": "Config",
 	"code-recycle.menus.language": "recycle:language",
@@ -27,7 +28,9 @@
 	"code-recycle.login.title": "login",
 	"code-recycle.register.title": "register",
 	"code-recycle.templateIgnore.description": "When adding Template, use ignore filter files",
-	"code-recycle.actionCallSubmit":"Submit",
-	"code-recycle.callActionByEditor":"Call Action In Editor",
-	"code-recycle.startupRefresh.description":"Flushing cache data during startup will block expansion startup"
+	"code-recycle.actionCallSubmit": "Submit",
+	"code-recycle.actionCallDelete": "Delete",
+	"code-recycle.callActionByEditor": "Call Action In Editor",
+	"code-recycle.startupRefresh.description": "Flushing cache data during startup will block expansion startup",
+	"code-recycle.view.title": "Interactive"
 }

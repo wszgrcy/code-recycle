@@ -1,0 +1,1736 @@
+{
+    ".sys": [
+        "abb"
+    ],
+    ".abnf": [
+        "abnf"
+    ],
+    ".acmetest": [
+        "acme"
+    ],
+    ".adb": [
+        "ada83",
+        "ada95",
+        "ada2005",
+        "ada2012"
+    ],
+    ".ads": [
+        "ada83",
+        "ada95",
+        "ada2005",
+        "ada2012"
+    ],
+    ".txt": [
+        "alef",
+        "angelscript",
+        "arithmetic",
+        "asm6502",
+        "bdf",
+        "bencoding",
+        "bibcode",
+        "bicep",
+        "calculator",
+        "callable",
+        "caql",
+        "clf",
+        "clojure",
+        "clu",
+        "cmake",
+        "cobol85",
+        "cookie",
+        "cql",
+        "creole",
+        "csharp",
+        "ctl",
+        "cypher",
+        "datalog",
+        "dice",
+        "dif",
+        "doiurl",
+        "brainflack",
+        "cool",
+        "lolcode",
+        "loop",
+        "nanofuck",
+        "sickbay",
+        "snowball",
+        "wheel",
+        "fdo91",
+        "fen",
+        "flowmatic",
+        "focal",
+        "fol",
+        "fortran77",
+        "gedcom",
+        "gml",
+        "gtin",
+        "guido",
+        "guitartab",
+        "icon",
+        "inf",
+        "informix",
+        "iso8601",
+        "istc",
+        "itn",
+        "jam",
+        "janus",
+        "ecmascript",
+        "jpa",
+        "karel",
+        "kuka",
+        "lambda",
+        "lcc",
+        "limbo",
+        "lisa",
+        "logo",
+        "ucb-logo",
+        "lrc",
+        "ltl",
+        "lucene",
+        "matlab",
+        "mckeeman-form",
+        "mdx",
+        "memcached",
+        "metamath",
+        "metric",
+        "modelica",
+        "modula2",
+        "molecule",
+        "moo",
+        "morsecode",
+        "mumath",
+        "muparser",
+        "newick",
+        "oberon",
+        "orwell",
+        "p",
+        "parkingsign",
+        "pbm",
+        "pcre",
+        "pdn",
+        "pii",
+        "pl0",
+        "ply",
+        "postalcode",
+        "powerbuilder",
+        "prolog",
+        "promql",
+        "propcalc",
+        "properties",
+        "qif",
+        "r",
+        "redcode",
+        "refal",
+        "rexx",
+        "datetime",
+        "rfc822",
+        "domain",
+        "filter",
+        "robotwar",
+        "romannumerals",
+        "ron",
+        "rpn",
+        "scotty",
+        "semver",
+        "sexpression",
+        "sici",
+        "sieve",
+        "smiles",
+        "sparql",
+        "star",
+        "stellaris",
+        "suokif",
+        "swift-fin",
+        "szf",
+        "telephone",
+        "terraform",
+        "tiny",
+        "tinybasic",
+        "tinymud",
+        "tnt",
+        "trac",
+        "tsv",
+        "ttm",
+        "turing",
+        "graphemes",
+        "url",
+        "useragent",
+        "vmf",
+        "wavefront",
+        "wkt",
+        "wln",
+        "xpath",
+        "xpath20",
+        "xpath31",
+        "xsd-regex",
+        "xyz",
+        "c#"
+    ],
+    ".alg": [
+        "algol60"
+    ],
+    ".a60": [
+        "algol60"
+    ],
+    ".als": [
+        "alloy"
+    ],
+    ".alp": [
+        "alpaca"
+    ],
+    ".g2": [
+        "antlr2"
+    ],
+    ".g": [
+        "antlr2",
+        "antlr3"
+    ],
+    ".interp": [
+        "antlr4"
+    ],
+    ".java": [
+        "antlr4",
+        "java",
+        "java8",
+        "java9",
+        "javadoc"
+    ],
+    ".tokens": [
+        "antlr4"
+    ],
+    ".g4": [
+        "antlr4"
+    ],
+    ".cls": [
+        "apex",
+        "vb6",
+        "tex"
+    ],
+    ".aql": [
+        "arangodb"
+    ],
+    ".ASM": [
+        "asm8080"
+    ],
+    ".A86": [
+        "asm8086"
+    ],
+    ".asm": [
+        "asmmasm"
+    ],
+    ".Z80": [
+        "asmz80"
+    ],
+    ".s": [
+        "pdp7"
+    ],
+    ".ptx": [
+        "ptx-1.0",
+        "ptx-2.1"
+    ],
+    ".asn": [
+        "asn",
+        "asn_3gpp"
+    ],
+    ".b": [
+        "b",
+        "bcpl",
+        "brainfuck"
+    ],
+    ".bas": [
+        "basic",
+        "vba",
+        "vb",
+        "visual basic"
+    ],
+    ".bcpl": [
+        "bcpl"
+    ],
+    ".bdf": [
+        "bdf"
+    ],
+    ".bnf": [
+        "bnf"
+    ],
+    ".c": [
+        "c",
+        "lpc",
+        "microc",
+        "tinyc"
+    ],
+    ".i": [
+        "c"
+    ],
+    ".capnp": [
+        "capnproto"
+    ],
+    ".clj": [
+        "clojure"
+    ],
+    ".cljs": [
+        "clojure"
+    ],
+    ".cljc": [
+        "clojure"
+    ],
+    ".cljx": [
+        "clojure"
+    ],
+    ".clojure": [
+        "clojure"
+    ],
+    ".edn": [
+        "clojure",
+        "edn"
+    ],
+    ".cpp": [
+        "cpp14",
+        "cpp",
+        "c++"
+    ],
+    ".cc": [
+        "cpp14",
+        "cpp",
+        "c++"
+    ],
+    ".cql": [
+        "cql3"
+    ],
+    ".cs": [
+        "csharp",
+        "c#"
+    ],
+    ".csx": [
+        "csharp",
+        "c#"
+    ],
+    ".cake": [
+        "csharp",
+        "c#"
+    ],
+    ".css": [
+        "css3",
+        "css"
+    ],
+    ".csv": [
+        "csv"
+    ],
+    ".cto": [
+        "cto"
+    ],
+    ".dart": [
+        "dart2",
+        "dart"
+    ],
+    ".db": [
+        "databank",
+        "muddb"
+    ],
+    ".dot": [
+        "dot"
+    ],
+    ".edf": [
+        "edif300"
+    ],
+    ".P": [
+        "erlang"
+    ],
+    ".cl": [
+        "cool"
+    ],
+    ".faa": [
+        "fasta"
+    ],
+    ".ffn": [
+        "fasta"
+    ],
+    ".fna": [
+        "fasta"
+    ],
+    ".fbs": [
+        "flatbuffers"
+    ],
+    ".gd": [
+        "gdscript"
+    ],
+    ".gff": [
+        "gff3"
+    ],
+    ".vert": [
+        "glsl"
+    ],
+    ".frag": [
+        "glsl"
+    ],
+    ".glsl": [
+        "glsl"
+    ],
+    ".geom": [
+        "glsl"
+    ],
+    ".gml": [
+        "gml"
+    ],
+    ".go": [
+        "golang",
+        "go"
+    ],
+    ".dgs": [
+        "graphstream-dgs"
+    ],
+    ".hs": [
+        "haskell"
+    ],
+    ".html": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".htm": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".shtml": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".xhtml": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".xht": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".mdoc": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".jsp": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".asp": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".aspx": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".jshtm": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".volt": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".ejs": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".rhtml": [
+        "html",
+        "htm",
+        "xhtml"
+    ],
+    ".ics": [
+        "ical"
+    ],
+    ".idl": [
+        "idl",
+        "webidl"
+    ],
+    ".iri": [
+        "iri"
+    ],
+    ".jav": [
+        "java"
+    ],
+    ".js": [
+        "ecmascript",
+        "javascript",
+        "typescript",
+        "js",
+        "ts"
+    ],
+    ".es6": [
+        "javascript",
+        "js"
+    ],
+    ".mjs": [
+        "javascript",
+        "js"
+    ],
+    ".cjs": [
+        "javascript",
+        "js"
+    ],
+    ".pac": [
+        "javascript",
+        "js"
+    ],
+    ".jsx": [
+        "jsx",
+        "javascriptreact",
+        "javascript jsx",
+        "javascript react"
+    ],
+    ".ts": [
+        "typescript",
+        "ts"
+    ],
+    ".cts": [
+        "typescript",
+        "ts"
+    ],
+    ".mts": [
+        "typescript",
+        "ts"
+    ],
+    ".json": [
+        "json",
+        "json5"
+    ],
+    ".code-profile": [
+        "json"
+    ],
+    ".bowerrc": [
+        "json"
+    ],
+    ".jscsrc": [
+        "json"
+    ],
+    ".webmanifest": [
+        "json"
+    ],
+    ".js.map": [
+        "json"
+    ],
+    ".css.map": [
+        "json"
+    ],
+    ".ts.map": [
+        "json"
+    ],
+    ".har": [
+        "json"
+    ],
+    ".jslintrc": [
+        "json"
+    ],
+    ".jsonld": [
+        "json"
+    ],
+    ".geojson": [
+        "json"
+    ],
+    ".ipynb": [
+        "json"
+    ],
+    ".vuerc": [
+        "json"
+    ],
+    ".tsbuildinfo": [
+        "json"
+    ],
+    ".json5": [
+        "json5"
+    ],
+    ".kt": [
+        "kotlin",
+        "kotlin-formal"
+    ],
+    ".kts": [
+        "kotlin"
+    ],
+    ".kquery": [
+        "kquery"
+    ],
+    ".lark": [
+        "lark"
+    ],
+    ".less": [
+        "less"
+    ],
+    ".lua": [
+        "lua"
+    ],
+    ".mo": [
+        "modelica"
+    ],
+    ".mps": [
+        "mps"
+    ],
+    ".m": [
+        "mumps",
+        "objective-c"
+    ],
+    ".x": [
+        "oncrpc"
+    ],
+    ".pas": [
+        "pascal"
+    ],
+    ".pc": [
+        "peoplecode"
+    ],
+    ".pgn": [
+        "pgn"
+    ],
+    ".php": [
+        "php"
+    ],
+    ".php4": [
+        "php"
+    ],
+    ".php5": [
+        "php"
+    ],
+    ".phtml": [
+        "php"
+    ],
+    ".ctp": [
+        "php"
+    ],
+    ".ply": [
+        "ply"
+    ],
+    ".srf": [
+        "powerbuilder"
+    ],
+    ".srw": [
+        "powerbuilder"
+    ],
+    ".properties": [
+        "properties"
+    ],
+    ".conf": [
+        "properties"
+    ],
+    ".cfg": [
+        "properties"
+    ],
+    ".directory": [
+        "properties"
+    ],
+    ".gitattributes": [
+        "properties"
+    ],
+    ".gitconfig": [
+        "properties"
+    ],
+    ".gitmodules": [
+        "properties"
+    ],
+    ".editorconfig": [
+        "properties"
+    ],
+    ".npmrc": [
+        "properties"
+    ],
+    ".proto": [
+        "protobuf2",
+        "protobuf3"
+    ],
+    ".provn": [
+        "prov-n"
+    ],
+    ".py": [
+        "python",
+        "py"
+    ],
+    ".rpy": [
+        "python",
+        "py"
+    ],
+    ".pyw": [
+        "python",
+        "py"
+    ],
+    ".cpy": [
+        "python",
+        "py"
+    ],
+    ".gyp": [
+        "python",
+        "py"
+    ],
+    ".gypi": [
+        "python",
+        "py"
+    ],
+    ".pyi": [
+        "python",
+        "py"
+    ],
+    ".ipy": [
+        "python",
+        "py"
+    ],
+    ".pyt": [
+        "python",
+        "py"
+    ],
+    ".map": [
+        "quakemap"
+    ],
+    ".r": [
+        "r"
+    ],
+    ".rhistory": [
+        "r"
+    ],
+    ".rprofile": [
+        "r"
+    ],
+    ".rt": [
+        "r"
+    ],
+    ".rkt": [
+        "racket-bsl",
+        "racket-isl"
+    ],
+    ".stmt": [
+        "rego"
+    ],
+    ".rex": [
+        "rexx"
+    ],
+    ".rb": [
+        "corundum",
+        "ruby",
+        "rb"
+    ],
+    ".rs": [
+        "rust"
+    ],
+    ".scala": [
+        "scala"
+    ],
+    ".scss": [
+        "scss"
+    ],
+    ".sgf": [
+        "sgf"
+    ],
+    ".st": [
+        "smalltalk",
+        "stringtemplate"
+    ],
+    ".smt2": [
+        "smtlibv2"
+    ],
+    ".sno": [
+        "snobol"
+    ],
+    ".spass": [
+        "spass"
+    ],
+    ".sql": [
+        "athena",
+        "derby",
+        "drill",
+        "hivev2",
+        "hivev3",
+        "hivev4",
+        "mariadb",
+        "mysql",
+        "phoenix",
+        "plsql",
+        "postgresql",
+        "snowflake",
+        "sqlite",
+        "trino",
+        "tsql",
+        "informix-sql",
+        "sql"
+    ],
+    ".hql": [
+        "hivev4"
+    ],
+    ".swift": [
+        "swift2",
+        "swift3",
+        "swift5",
+        "swift"
+    ],
+    ".bin": [
+        "tcp"
+    ],
+    ".tf": [
+        "terraform"
+    ],
+    ".thrift": [
+        "thrift"
+    ],
+    ".ora": [
+        "tnsnames"
+    ],
+    ".toml": [
+        "toml"
+    ],
+    ".ttl": [
+        "turtle"
+    ],
+    ".as": [
+        "unreal_angelscript"
+    ],
+    ".upnp": [
+        "upnp"
+    ],
+    ".v": [
+        "v",
+        "verilog"
+    ],
+    ".vb": [
+        "vb6",
+        "vb",
+        "visual basic"
+    ],
+    ".frm": [
+        "vb6"
+    ],
+    ".vm": [
+        "velocity"
+    ],
+    ".sv": [
+        "systemverilog"
+    ],
+    ".vhd": [
+        "vhdl"
+    ],
+    ".wat": [
+        "wat"
+    ],
+    ".wren": [
+        "wren"
+    ],
+    ".xml": [
+        "xml"
+    ],
+    ".xsd": [
+        "xml"
+    ],
+    ".ascx": [
+        "xml"
+    ],
+    ".atom": [
+        "xml"
+    ],
+    ".axml": [
+        "xml"
+    ],
+    ".axaml": [
+        "xml"
+    ],
+    ".bpmn": [
+        "xml"
+    ],
+    ".cpt": [
+        "xml"
+    ],
+    ".csl": [
+        "xml"
+    ],
+    ".csproj": [
+        "xml"
+    ],
+    ".csproj.user": [
+        "xml"
+    ],
+    ".dita": [
+        "xml"
+    ],
+    ".ditamap": [
+        "xml"
+    ],
+    ".dtd": [
+        "xml"
+    ],
+    ".ent": [
+        "xml"
+    ],
+    ".mod": [
+        "xml"
+    ],
+    ".dtml": [
+        "xml"
+    ],
+    ".fsproj": [
+        "xml"
+    ],
+    ".fxml": [
+        "xml"
+    ],
+    ".iml": [
+        "xml"
+    ],
+    ".isml": [
+        "xml"
+    ],
+    ".jmx": [
+        "xml"
+    ],
+    ".launch": [
+        "xml"
+    ],
+    ".menu": [
+        "xml"
+    ],
+    ".mxml": [
+        "xml"
+    ],
+    ".nuspec": [
+        "xml"
+    ],
+    ".opml": [
+        "xml"
+    ],
+    ".owl": [
+        "xml"
+    ],
+    ".proj": [
+        "xml"
+    ],
+    ".props": [
+        "xml"
+    ],
+    ".pt": [
+        "xml"
+    ],
+    ".publishsettings": [
+        "xml"
+    ],
+    ".pubxml": [
+        "xml"
+    ],
+    ".pubxml.user": [
+        "xml"
+    ],
+    ".rbxlx": [
+        "xml"
+    ],
+    ".rbxmx": [
+        "xml"
+    ],
+    ".rdf": [
+        "xml"
+    ],
+    ".rng": [
+        "xml"
+    ],
+    ".rss": [
+        "xml"
+    ],
+    ".shproj": [
+        "xml"
+    ],
+    ".storyboard": [
+        "xml"
+    ],
+    ".svg": [
+        "xml"
+    ],
+    ".targets": [
+        "xml"
+    ],
+    ".tld": [
+        "xml"
+    ],
+    ".tmx": [
+        "xml"
+    ],
+    ".vbproj": [
+        "xml"
+    ],
+    ".vbproj.user": [
+        "xml"
+    ],
+    ".vcxproj": [
+        "xml"
+    ],
+    ".vcxproj.filters": [
+        "xml"
+    ],
+    ".wsdl": [
+        "xml"
+    ],
+    ".wxi": [
+        "xml"
+    ],
+    ".wxl": [
+        "xml"
+    ],
+    ".wxs": [
+        "xml"
+    ],
+    ".xaml": [
+        "xml"
+    ],
+    ".xbl": [
+        "xml"
+    ],
+    ".xib": [
+        "xml"
+    ],
+    ".xlf": [
+        "xml"
+    ],
+    ".xliff": [
+        "xml"
+    ],
+    ".xpdl": [
+        "xml"
+    ],
+    ".xul": [
+        "xml"
+    ],
+    ".xoml": [
+        "xml"
+    ],
+    ".yar": [
+        "yara"
+    ],
+    ".utf8": [
+        "z"
+    ],
+    ".bat": [
+        "bat",
+        "batch"
+    ],
+    ".cmd": [
+        "bat",
+        "batch"
+    ],
+    ".coffee": [
+        "coffeescript",
+        "coffee"
+    ],
+    ".cson": [
+        "coffeescript",
+        "coffee"
+    ],
+    ".iced": [
+        "coffeescript",
+        "coffee"
+    ],
+    ".code-workspace": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".jsonc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".eslintrc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".eslintrc.json": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".jsfmtrc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".jshintrc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".swcrc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".hintrc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".babelrc": [
+        "jsonc",
+        "json with comments"
+    ],
+    ".cxx": [
+        "cpp",
+        "c++"
+    ],
+    ".c++": [
+        "cpp",
+        "c++"
+    ],
+    ".hpp": [
+        "cpp",
+        "c++"
+    ],
+    ".hh": [
+        "cpp",
+        "c++"
+    ],
+    ".hxx": [
+        "cpp",
+        "c++"
+    ],
+    ".h++": [
+        "cpp",
+        "c++"
+    ],
+    ".h": [
+        "cpp",
+        "c++"
+    ],
+    ".ii": [
+        "cpp",
+        "c++"
+    ],
+    ".ino": [
+        "cpp",
+        "c++"
+    ],
+    ".inl": [
+        "cpp",
+        "c++"
+    ],
+    ".ipp": [
+        "cpp",
+        "c++"
+    ],
+    ".ixx": [
+        "cpp",
+        "c++"
+    ],
+    ".tpp": [
+        "cpp",
+        "c++"
+    ],
+    ".txx": [
+        "cpp",
+        "c++"
+    ],
+    ".hpp.in": [
+        "cpp",
+        "c++"
+    ],
+    ".h.in": [
+        "cpp",
+        "c++"
+    ],
+    ".cu": [
+        "cuda-cpp",
+        "cuda c++"
+    ],
+    ".cuh": [
+        "cuda-cpp",
+        "cuda c++"
+    ],
+    ".diff": [
+        "diff"
+    ],
+    ".patch": [
+        "diff"
+    ],
+    ".rej": [
+        "diff"
+    ],
+    ".dockerfile": [
+        "dockerfile",
+        "docker",
+        "containerfile"
+    ],
+    ".containerfile": [
+        "dockerfile",
+        "docker",
+        "containerfile"
+    ],
+    ".gitignore_global": [
+        "ignore"
+    ],
+    ".gitignore": [
+        "ignore"
+    ],
+    ".npmignore": [
+        "ignore"
+    ],
+    ".fs": [
+        "fsharp",
+        "f#"
+    ],
+    ".fsi": [
+        "fsharp",
+        "f#"
+    ],
+    ".fsx": [
+        "fsharp",
+        "f#"
+    ],
+    ".fsscript": [
+        "fsharp",
+        "f#"
+    ],
+    ".groovy": [
+        "groovy"
+    ],
+    ".gvy": [
+        "groovy"
+    ],
+    ".gradle": [
+        "groovy"
+    ],
+    ".jenkinsfile": [
+        "groovy"
+    ],
+    ".nf": [
+        "groovy"
+    ],
+    ".handlebars": [
+        "handlebars"
+    ],
+    ".hbs": [
+        "handlebars"
+    ],
+    ".hjs": [
+        "handlebars"
+    ],
+    ".hlsl": [
+        "hlsl"
+    ],
+    ".hlsli": [
+        "hlsl"
+    ],
+    ".fx": [
+        "hlsl"
+    ],
+    ".fxh": [
+        "hlsl"
+    ],
+    ".vsh": [
+        "hlsl"
+    ],
+    ".psh": [
+        "hlsl"
+    ],
+    ".cginc": [
+        "hlsl"
+    ],
+    ".compute": [
+        "hlsl"
+    ],
+    ".ini": [
+        "ini"
+    ],
+    ".jsonl": [
+        "jsonl",
+        "json lines"
+    ],
+    ".code-snippets": [
+        "snippets",
+        "code snippets"
+    ],
+    ".jl": [
+        "julia"
+    ],
+    ".jmd": [
+        "juliamarkdown",
+        "julia markdown"
+    ],
+    ".sty": [
+        "tex"
+    ],
+    ".bbx": [
+        "tex"
+    ],
+    ".cbx": [
+        "tex"
+    ],
+    ".tex": [
+        "latex"
+    ],
+    ".ltx": [
+        "latex"
+    ],
+    ".ctx": [
+        "latex"
+    ],
+    ".bib": [
+        "bibtex"
+    ],
+    ".log": [
+        "log"
+    ],
+    ".mak": [
+        "makefile"
+    ],
+    ".mk": [
+        "makefile"
+    ],
+    ".md": [
+        "markdown"
+    ],
+    ".mkd": [
+        "markdown"
+    ],
+    ".mdwn": [
+        "markdown"
+    ],
+    ".mdown": [
+        "markdown"
+    ],
+    ".markdown": [
+        "markdown"
+    ],
+    ".markdn": [
+        "markdown"
+    ],
+    ".mdtxt": [
+        "markdown"
+    ],
+    ".mdtext": [
+        "markdown"
+    ],
+    ".workbook": [
+        "markdown"
+    ],
+    ".mm": [
+        "objective-cpp",
+        "objective-c++"
+    ],
+    ".pl": [
+        "perl"
+    ],
+    ".pm": [
+        "perl"
+    ],
+    ".pod": [
+        "perl"
+    ],
+    ".t": [
+        "perl"
+    ],
+    ".PL": [
+        "perl"
+    ],
+    ".psgi": [
+        "perl"
+    ],
+    ".p6": [
+        "perl6",
+        "perl 6"
+    ],
+    ".pl6": [
+        "perl6",
+        "perl 6"
+    ],
+    ".pm6": [
+        "perl6",
+        "perl 6"
+    ],
+    ".nqp": [
+        "perl6",
+        "perl 6"
+    ],
+    ".ps1": [
+        "powershell",
+        "ps",
+        "ps1"
+    ],
+    ".psm1": [
+        "powershell",
+        "ps",
+        "ps1"
+    ],
+    ".psd1": [
+        "powershell",
+        "ps",
+        "ps1"
+    ],
+    ".pssc": [
+        "powershell",
+        "ps",
+        "ps1"
+    ],
+    ".psrc": [
+        "powershell",
+        "ps",
+        "ps1"
+    ],
+    ".pug": [
+        "jade",
+        "pug"
+    ],
+    ".jade": [
+        "jade",
+        "pug"
+    ],
+    ".cshtml": [
+        "razor"
+    ],
+    ".razor": [
+        "razor"
+    ],
+    ".rst": [
+        "restructuredtext"
+    ],
+    ".rbx": [
+        "ruby",
+        "rb"
+    ],
+    ".rjs": [
+        "ruby",
+        "rb"
+    ],
+    ".gemspec": [
+        "ruby",
+        "rb"
+    ],
+    ".rake": [
+        "ruby",
+        "rb"
+    ],
+    ".ru": [
+        "ruby",
+        "rb"
+    ],
+    ".erb": [
+        "ruby",
+        "rb"
+    ],
+    ".podspec": [
+        "ruby",
+        "rb"
+    ],
+    ".rbi": [
+        "ruby",
+        "rb"
+    ],
+    ".code-search": [
+        "search-result",
+        "search result"
+    ],
+    ".shader": [
+        "shaderlab"
+    ],
+    ".sh": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".bash": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".bashrc": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".bash_aliases": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".bash_profile": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".bash_login": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".ebuild": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".profile": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".bash_logout": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".xprofile": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".xsession": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".xsessionrc": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".Xsession": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zsh": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zshrc": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zprofile": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zlogin": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zlogout": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zshenv": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".zsh-theme": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".fish": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".ksh": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".csh": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".cshrc": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".tcshrc": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".yashrc": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".yash_profile": [
+        "shellscript",
+        "shell script",
+        "bash",
+        "fish",
+        "sh",
+        "zsh",
+        "ksh",
+        "csh"
+    ],
+    ".dsql": [
+        "sql"
+    ],
+    ".tsx": [
+        "typescriptreact",
+        "typescript jsx",
+        "typescript react",
+        "tsx"
+    ],
+    ".brs": [
+        "vb",
+        "visual basic"
+    ],
+    ".vbs": [
+        "vb",
+        "visual basic"
+    ],
+    ".vba": [
+        "vb",
+        "visual basic"
+    ],
+    ".xsl": [
+        "xsl"
+    ],
+    ".xslt": [
+        "xsl"
+    ],
+    ".yml": [
+        "yaml"
+    ],
+    ".eyaml": [
+        "yaml"
+    ],
+    ".eyml": [
+        "yaml"
+    ],
+    ".yaml": [
+        "yaml"
+    ],
+    ".cff": [
+        "yaml"
+    ]
+}

@@ -55,7 +55,7 @@
   "未找到模板;可能是因为模板已经被删除": "Could not find the template; may be because the template has been deleted.",
   "未找到模板对应文件: {fileName};可能是因为文件已经被删除": "Could not find the template corresponding to fileName: It may be because the file has been deleted.",
   "执行文件操作时文件已经存在": "When executing file operations, the file already exists.",
-  "[更新文件]-{value}": "[Update file] - {value}",
+  "[处理文件]-{value}": "[Process file] - {value}",
   "编辑器被提前关闭": "The editor was closed prematurely.",
   "在 {name} 中未找到嵌套动作,退出执行": "In {name}, no nested actions found, exiting execution.",
   "堆栈: {rulePath}": "Stack: {rulePath}",
@@ -63,5 +63,7 @@
   "未进行交互退出": "Exit without interaction",
   "没有找到自定义函数 {id}": "couldn't find a custom function with the name {id}.",
   " \"{path}\" 解析为 UTF-8 文本失败": "Failed to decode \"{path}\" as UTF-8 text.",
-  "未找到 action: {id}": "action not found: {id}"
+  "代码片段 {name} 中未找到 动作: {id}": "Action not found in code snippet {name}: {id}",
+  "未找到嵌套动作: {id}": "Nested action not found: {id}",
+  "取消":"Cancel "
 }

@@ -83,7 +83,8 @@
 ![custom-rule](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/custom-rule.webp)
 
 #### 自定义规则-上下文
-
+- 自定义规则是图灵完备的
+> [图灵完备演示视频](https://www.bilibili.com/video/BV19w411b7qx/)
 - `选中文件/文件夹路径`,`当前工作空间文件夹路径`
 - 如果被`代码片段`调用,还有`选中内容`,`插入内容`,`参数`
 
@@ -195,6 +196,10 @@
 
 - 在`文件管理器`中选择文件/文件夹右键调用
 - 在`编辑器`中执行命令`callActionByFile`调用
+- 在`视图`中交互执行动作
+> 通过自定义规则设计交互视图并使用
+
+![custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.8/doc/image/custom-interactive.jpg)
 
 ### 代码片段
 

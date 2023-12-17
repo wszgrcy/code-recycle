@@ -87,6 +87,7 @@
 
 #### Custom Rule - Context
 
+- Custom rules are Turing complete
 - `Chosen file/folder path`, `Current workspace folder path`
 - If called by the `Code Snippet`, there are `chosen content`, `inserted content`, and `parameters`.
 
@@ -102,12 +103,12 @@
 - Use `css selector` for different language node queries
 - Implement the majority of the [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors) functions
 
-| name             | Support                                                                                                                                                                                           |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                       |
-| `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                             |
+| name             | Support                                                                                                                                                                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                              |
+| `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                                    |
 | `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw`,`:use` |
-| `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                               |
+| `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                                      |
 
 #### Description
 
@@ -118,7 +119,7 @@
 - `::parent`: query the parent element
 - `::children(x)`: query the xth child element of the current element
 - `::xx`: query the custom child element defined in the current language.
-- Custom pseudo-classes `:use`: like `:is`,Can query siblings and descendants 
+- Custom pseudo-classes `:use`: like `:is`,Can query siblings and descendants
 
 #### Query general attributes of a node
 
@@ -200,6 +201,11 @@
 
 - Select file/folder right-click in the `File Manager` to call
 - Execute command `callActionByFile` in the `Editor`
+- Interacting with actions in a view
+
+> Design interactive views through custom rules and use them
+
+![custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.8/doc/image/custom-interactive.jpg)
 
 ### Code snippet
 

@@ -3,7 +3,7 @@
   "displayName": "Code Recycle",
   "description": "Quickly initialize the project,Stackable layer structure,Programmable input logic,Dynamic code snippets,Code-level dependency injection",
   "icon": "doc/icon/512.png",
-  "version": "1.3.1",
+  "version": "1.3.6",
   "engines": {
     "vscode": "^1.82.2"
   },
@@ -120,6 +120,10 @@
         "title": "%code-recycle.callActionByFile%"
       },
       {
+        "command": "code-recycle.CancelCallActionByFile",
+        "title": "%code-recycle.CancelCallActionByFile%"
+      },
+      {
         "command": "code-recycle.callActionByEditor",
         "title": "%code-recycle.callActionByEditor%"
       },
@@ -146,8 +150,31 @@
         "command": "code-recycle.actionCallSubmit",
         "title": "%code-recycle.actionCallSubmit%",
         "icon": "$(check)"
+      },
+      {
+        "command": "code-recycle.actionCallDelete",
+        "title": "%code-recycle.actionCallDelete%",
+        "icon": "$(trash)"
       }
     ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "code-recycle-interactive",
+          "icon": "doc/icon/icon.svg",
+          "title": "Code Recycle"
+        }
+      ]
+    },
+    "views": {
+      "code-recycle-interactive": [
+        {
+          "id": "code-recycle.InteractiveAction",
+          "name": "%code-recycle.view.title%",
+          "type": "webview"
+        }
+      ]
+    },
     "configuration": {
       "type": "object",
       "title": "%code-recycle.config.title%",
@@ -374,6 +401,11 @@
           "default": [
             "."
           ]
+        },
+        "code-recycle.cancelAction": {
+          "default": {
+            "skipSame": false
+          }
         }
       }
     },
@@ -389,7 +421,12 @@
         {
           "command": "code-recycle.actionCallSubmit",
           "group": "navigation",
-          "when": "isInDiffEditor && resourceScheme == ActionCall"
+          "when": "isInDiffEditor && (resourceScheme == ActionCall || resourceScheme == CancelActionCall)"
+        },
+        {
+          "command": "code-recycle.actionCallDelete",
+          "group": "navigation",
+          "when": "isInDiffEditor && resourceScheme == CancelActionCall"
         },
         {
           "command": "code-recycle.highlight-range-list",
@@ -426,7 +463,8 @@
         },
         {
           "command": "code-recycle.callActionByFile",
-          "group": "code-recycle-use"
+          "group": "code-recycle-use",
+          "alt": "code-recycle.CancelCallActionByFile"
         },
         {
           "command": "code-recycle.select-include",
@@ -591,15 +629,16 @@
     "@vscode/vsce": "^2.22.0",
     "@vue/compiler-dom": "^3.3.9",
     "bcryptjs": "^2.4.3",
-    "cyia-code-util": "^2.2.10",
+    "cyia-code-util": "^2.3.4",
     "didyoumean2": "^6.0.1",
     "fast-diff": "^1.3.0",
     "fast-equals": "^5.0.1",
-    "fast-glob": "^3.3.1",
+    "fast-glob": "^3.3.2",
     "fastest-levenshtein": "^1.0.16",
     "file-type": "^18.5.0",
     "handlebars": "^4.7.8",
     "ignore": "^5.2.4",
+    "index-to-position": "^0.1.2",
     "interval-operations": "^2.0.0",
     "lodash": "^4.17.21",
     "minimatch": "^9.0.3",
@@ -616,6 +655,7 @@
     "typescript": "5.2.2",
     "utility-types": "^3.10.0",
     "uuid": "^9.0.1",
+    "web-tree-sitter": "^0.20.8",
     "zod": "3.22.4"
   }
 }
