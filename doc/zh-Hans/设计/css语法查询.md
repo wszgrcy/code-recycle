@@ -1,5 +1,5 @@
 ## 语法查询
-- 支持400+种语法解析器;均可以使用css选择器的格式进行节点查询
+- 支持400+种语法解析器;均可以使用CSS选择器风格进行节点查询
 - 实现了[CSS 选择器](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)的大部分功能
 
 ![ast-view.png](../image/ast-view.png)
@@ -11,7 +11,7 @@
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                              |
 | `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                                    |
-| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw`,`:use` |
+| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,**`:raw`**,**`:use`** |
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                                      |
 
 ### 说明
