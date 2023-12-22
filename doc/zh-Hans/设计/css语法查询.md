@@ -1,6 +1,11 @@
-## css语法查询
+## 语法查询
 - 支持400+种语法解析器;均可以使用css选择器的格式进行节点查询
 - 实现了[CSS 选择器](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)的大部分功能
+
+![ast-view.png](../image/ast-view.png)
+![ast-view-属性.png](../image/ast-view-属性.png)
+
+## CSS 选择器支持
 
 | name             | Support                                                                                                                                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -9,7 +14,7 @@
 | `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw`,`:use` |
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                                      |
 
-#### 说明
+### 说明
 
 - 自定义伪类`:raw`,用于查询当前节点`原始`的 value/tag 属性
 
@@ -20,7 +25,7 @@
 - `::xx` 查询该语言自定义的子级元素
 - 自定义伪类`:use` 与`:is`类似,但是可以查询兄弟和后代
 
-#### 查询节点通用属性
+### 查询节点通用属性
 
 - `index` 索引,代表当前节点处于父级的哪个位置
 - `tag` 节点的标签
@@ -29,7 +34,16 @@
 - `children` 该节点的子元素列表
 - `type` 节点类型(node/token)
 
-#### 支持语言/语法
+### 举例
+以上面的`ast view`截图为准
+
+- `VariableDeclaration`=>查询tag=`VariableDeclaration`的节点
+- `VariableDeclaration:has(VariableDefinition[value=a])`=>查询`VariableDeclaration`的子节点中有`VariableDefinition`标签,并且内容(value)为`a`
+- `VariableDeclaration::children(0)`=>查询`VariableDeclaration`节点的第0个子节点(`let`)
+- `let:use(*,+VariableDefinition)`=> 查询`let自身和他的兄弟节点是VariableDefinition`
+- `VariableDeclaration[name=VariableDeclaration]`=>查询`VariableDeclaration`节点中`name`属性为`VariableDeclaration`的节点
+
+### 支持语言/语法
 
 - typescript(typescript)
 - typescript(javascript)
