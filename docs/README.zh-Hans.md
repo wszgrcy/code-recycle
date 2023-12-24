@@ -83,8 +83,9 @@
 ![custom-rule](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.0/doc/image/custom-rule.webp)
 
 #### 自定义规则-上下文
+
 - 自定义规则是图灵完备的
-> [图灵完备演示视频](https://www.bilibili.com/video/BV19w411b7qx/)
+  > [图灵完备演示视频](https://www.bilibili.com/video/BV19w411b7qx/)
 - `选中文件/文件夹路径`,`当前工作空间文件夹路径`
 - 如果被`代码片段`调用,还有`选中内容`,`插入内容`,`参数`
 
@@ -99,12 +100,12 @@
 - 使用`css选择器`进行不同语言的节点查询
 - 实现了[css 选择器](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)的大部分功能
 
-| name             | Support                                                                                                                                                                                           |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                       |
-| `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                             |
+| name             | Support                                                                                                                                                                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                              |
+| `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                                    |
 | `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,`:raw`,`:use` |
-| `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                               |
+| `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                                      |
 
 #### 说明
 
@@ -116,6 +117,7 @@
 - `::children(x)` 查询当前元素的第几个子级元素
 - `::xx` 查询该语言自定义的子级元素
 - 自定义伪类`:use` 与`:is`类似,但是可以查询兄弟和后代
+
 #### 查询节点通用属性
 
 - `index` 索引,代表当前节点处于父级的哪个位置
@@ -188,6 +190,26 @@
 | verilogparent/verilog        | verilogparent/systemverilog | vhdl                  | vmf                         | wavefront                   | webidl                      |
 | wkt-crs-v1                   | wln                         | wren                  | xml                         | xpathparent/xpath           | xpathparent/XPath20         |
 
+| tree-sitter       |            |        |                   |                 |               |
+| ----------------- | ---------- | ------ | ----------------- | --------------- | ------------- |
+| haskell           | javascript | php    | java              | c_sharp         | css           |
+| cpp               | python     | c      | ruby              | go              | bash          |
+| tsx               | json       | scala  | embedded_template | agda            | jsdoc         |
+| tsq               | regex      | ocaml  | ocaml_interface   | dbscheme        | ql            |
+| toml              | swift      | ada    | sosl              | soql            | apex          |
+| capnp             | clojure    | cmake  | comment           | commonlisp      | cuda          |
+| d                 | dockerfile | dot    | elixir            | elm             | elisp         |
+| erlang            | fennel     | fish   | formula           | fortran         | gitattributes |
+| gleam             | glsl       | gomod  | gowork            | graphql         | hack          |
+| jq                | json5      | kotlin | lalrpop           | latex           | lean          |
+| tablegen          | lua        | make   | markdown          | markdown_inline | meson         |
+| nix               | objc       | org    | pascal            | pgn             | proto         |
+| racket            | rasi       | re2c   | rego              | rst             | r             |
+| scss              | sexp       | smali  | sourcepawn        | sparql          | sql_bigquery  |
+| ssh_client_config | svelte     | thrift | query             | turtle          | twig          |
+| vue               | wat        | wast   | wgsl              | yaml            | yang          |
+
+- `tree-sitter`需要拉取`https://github.com/wszgrcy/tree-sitter-wasm-bundle`仓库或根据格式自定义;然后将本地路径写入到配置`code-recycle.parser.tree-sitter.repository`中
 ---
 
 ## 调用
@@ -197,7 +219,7 @@
 - 在`文件管理器`中选择文件/文件夹右键调用
 - 在`编辑器`中执行命令`callActionByFile`调用
 - 在`视图`中交互执行动作
-> 通过自定义规则设计交互视图并使用
+  > 通过自定义规则设计交互视图并使用
 
 ![custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.0.8/doc/image/custom-interactive.jpg)
 

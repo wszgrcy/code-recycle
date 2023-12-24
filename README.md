@@ -193,6 +193,26 @@
 | verilogparent/verilog        | verilogparent/systemverilog | vhdl                  | vmf                         | wavefront                   | webidl                      |
 | wkt-crs-v1                   | wln                         | wren                  | xml                         | xpathparent/xpath           | xpathparent/XPath20         |
 
+| tree-sitter       |            |        |                   |                 |               |
+| ----------------- | ---------- | ------ | ----------------- | --------------- | ------------- |
+| haskell           | javascript | php    | java              | c_sharp         | css           |
+| cpp               | python     | c      | ruby              | go              | bash          |
+| tsx               | json       | scala  | embedded_template | agda            | jsdoc         |
+| tsq               | regex      | ocaml  | ocaml_interface   | dbscheme        | ql            |
+| toml              | swift      | ada    | sosl              | soql            | apex          |
+| capnp             | clojure    | cmake  | comment           | commonlisp      | cuda          |
+| d                 | dockerfile | dot    | elixir            | elm             | elisp         |
+| erlang            | fennel     | fish   | formula           | fortran         | gitattributes |
+| gleam             | glsl       | gomod  | gowork            | graphql         | hack          |
+| jq                | json5      | kotlin | lalrpop           | latex           | lean          |
+| tablegen          | lua        | make   | markdown          | markdown_inline | meson         |
+| nix               | objc       | org    | pascal            | pgn             | proto         |
+| racket            | rasi       | re2c   | rego              | rst             | r             |
+| scss              | sexp       | smali  | sourcepawn        | sparql          | sql_bigquery  |
+| ssh_client_config | svelte     | thrift | query             | turtle          | twig          |
+| vue               | wat        | wast   | wgsl              | yaml            | yang          |
+
+- `tree-sitter` needs to fetch code from the `https://github.com/wszgrcy/tree-sitter-wasm-bundle` repository or customized according to the format, then write the local path into the configuration file `code-recycle.parser.tree-sitter.repository`.
 ---
 
 ## Call

@@ -32,5 +32,6 @@
 	"code-recycle.actionCallDelete": "确认删除",
 	"code-recycle.callActionByEditor": "编辑器中调用动作",
 	"code-recycle.startupRefresh.description": "启动时刷新缓存数据,将会阻塞扩展启动",
-	"code-recycle.view.title": "交互"
+	"code-recycle.view.title": "交互",
+	"code-recycle.parser.tree-sitter.repository.description":"请将 https://github.com/wszgrcy/tree-sitter-wasm-bundle 下载到本地"
 }

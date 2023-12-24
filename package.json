@@ -2,8 +2,8 @@
   "name": "code-recycle",
   "displayName": "Code Recycle",
   "description": "Quickly initialize the project,Stackable layer structure,Programmable input logic,Dynamic code snippets,Code-level dependency injection",
-  "icon": "doc/icon/512.png",
-  "version": "1.3.6",
+  "icon": "docs/icon/512.png",
+  "version": "1.4.1",
   "engines": {
     "vscode": "^1.82.2"
   },
@@ -161,7 +161,7 @@
       "activitybar": [
         {
           "id": "code-recycle-interactive",
-          "icon": "doc/icon/icon.svg",
+          "icon": "docs/icon/icon.svg",
           "title": "Code Recycle"
         }
       ]
@@ -194,6 +194,10 @@
         },
         "code-recycle.defaultParser": {
           "type": "object"
+        },
+        "code-recycle.parser.tree-sitter.repository": {
+          "description": "%code-recycle.parser.tree-sitter.repository.description%",
+          "type": "string"
         },
         "code-recycle.highlight": {
           "default": {
@@ -385,6 +389,9 @@
           "type": "boolean",
           "default": false
         },
+        "code-recycle.action.gitClone.tmpDir": {
+          "type": "string"
+        },
         "code-recycle.template.autoFilterBinary": {
           "default": true
         },
@@ -447,7 +454,7 @@
         {
           "command": "code-recycle.ast-view",
           "group": "navigation",
-          "when": "!isInDiffEditor && resourceScheme == file && !activeEditorIsDirty"
+          "when": "!isInDiffEditor && resourceScheme == file "
         },
         {
           "command": "code-recycle.select-exclude",
@@ -573,7 +580,7 @@
     "test:only": "node ./test-dist/runTest.js",
     "local-publish": "vsce package --skip-license",
     "vs-publish": "vsce publish --skip-license",
-    "copy-assets": "rimraf ./build && node ./script/build.js && cpx \"dist/**/*\" ./build/dist && cpx \"webview/main-view/dist/**/*\" ./build/webview/main-view/dist && cpx ./LICENSE ./build && cpx \"package.nls.*\" ./build && cpx ./README.md ./build && cpx \"./l10n/**/*\" ./build/l10n && cpx \"doc/icon/**/*\" ./build/doc/icon",
+    "copy-assets": "rimraf ./build && node ./script/build.js && cpx \"dist/**/*\" ./build/dist && cpx \"webview/main-view/dist/**/*\" ./build/webview/main-view/dist && cpx ./LICENSE ./build && cpx \"package.nls.*\" ./build && cpx ./README.md ./build && cpx \"./l10n/**/*\" ./build/l10n && cpx \"docs/icon/**/*\" ./build/docs/icon",
     "build-ext": "ts-node ./script/ext-to-language/generate-ext.ts",
     "l10n:g": "vscode-l10n-dev export -o ./l10n ./src",
     "l10n:update": "ts-node --esm ./script/i18n/l10n-update.ts"
@@ -609,17 +616,17 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@angular-devkit/core": "17.0.5",
-    "@angular-devkit/schematics": "17.0.5",
-    "@angular/compiler": "17.0.5",
+    "@angular-devkit/core": "17.0.8",
+    "@angular-devkit/schematics": "17.0.8",
+    "@angular/compiler": "17.0.8",
     "@lezer/cpp": "^1.1.1",
     "@lezer/css": "^1.1.4",
     "@lezer/html": "^1.3.7",
     "@lezer/java": "^1.1.0",
-    "@lezer/javascript": "^1.4.9",
+    "@lezer/javascript": "^1.4.11",
     "@lezer/json": "^1.0.1",
     "@lezer/lezer": "^1.1.2",
-    "@lezer/markdown": "^1.1.1",
+    "@lezer/markdown": "^1.1.2",
     "@lezer/php": "^1.0.1",
     "@lezer/python": "^1.1.9",
     "@lezer/rust": "^1.0.1",
@@ -627,21 +634,22 @@
     "@lezer/xml": "^1.0.3",
     "@trpc/client": "10.44.1",
     "@vscode/vsce": "^2.22.0",
-    "@vue/compiler-dom": "^3.3.9",
+    "@vue/compiler-dom": "^3.3.13",
     "bcryptjs": "^2.4.3",
-    "cyia-code-util": "^2.3.4",
+    "cyia-code-util": "^2.4.12",
     "didyoumean2": "^6.0.1",
     "fast-diff": "^1.3.0",
     "fast-equals": "^5.0.1",
     "fast-glob": "^3.3.2",
     "fastest-levenshtein": "^1.0.16",
-    "file-type": "^18.5.0",
+    "file-type": "^18.7.0",
     "handlebars": "^4.7.8",
     "ignore": "^5.2.4",
     "index-to-position": "^0.1.2",
     "interval-operations": "^2.0.0",
     "lodash": "^4.17.21",
     "minimatch": "^9.0.3",
+    "murmurhash": "^2.0.1",
     "node-fetch": "^3.3.2",
     "normalize-path": "^3.0.0",
     "pinyin-pro": "^3.17.0",

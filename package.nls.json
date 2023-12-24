@@ -32,5 +32,7 @@
 	"code-recycle.actionCallDelete": "Delete",
 	"code-recycle.callActionByEditor": "Call Action In Editor",
 	"code-recycle.startupRefresh.description": "Flushing cache data during startup will block expansion startup",
-	"code-recycle.view.title": "Interactive"
+	"code-recycle.view.title": "Interactive",
+	"code-recycle.parser.tree-sitter.repository.description":"Please download the https://github.com/wszgrcy/tree-sitter-wasm-bundle to your local machine."
+
 }
