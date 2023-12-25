@@ -14,3 +14,5 @@
 - [Version&Public](/en-US/public)
 - [Other](/en-US/other)
 - [I18n](/en-US/i18n)
+- Article
+    - [How programmers encapsulate logic](./How%20programmers%20encapsulate%20logic.md)
