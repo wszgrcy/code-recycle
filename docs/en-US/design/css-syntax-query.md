@@ -1,11 +1,11 @@
-## 语法查询
-- 支持400+种语法解析器;均可以使用CSS选择器风格进行节点查询
-- 实现了[CSS 选择器](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)的大部分功能
+## Syntax Query
+- supports 400+ syntax parsers; all can be queried using CSS selector style
+- Achieves most of the features of [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
 
-![ast-view.png](../image/ast-view.png)
-![ast-view-属性.png](../image/ast-view-属性.png)
+![ast-view.png](../../zh-Hans/image/ast-view.png)
+![ast-view-属性.png](../../zh-Hans/image/ast-view-属性.png)
 
-## CSS 选择器支持
+## CSS Selector Support
 
 | name             | Support                                                                                                                                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -14,37 +14,34 @@
 | `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,**`:raw`**,**`:use`** |
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                                      |
 
-### 说明
+### Description
 
-- 自定义伪类`:raw`,用于查询当前节点`原始`的 value/tag 属性
+- Implements custom pseudo-class `:raw` to query the `origin` value/tag attributes of the current node
 
-  > xxx:raw([value=yyy]);此选择器使用场景比较极端.极少数情况下可能会被使用
+  > xxx:raw([value=yyy]); This selector has a very unusual use case and is only likely to be used in a few situations.
+- `::parent` queries the parent element
+- `::children(x)` queries the xth child element of the current element
+- `::xx` queries a custom sub-element defined in the current language
+- The custom pseudo-class `:use` is similar to `:is`, but can query brothers and descendants.
 
-- `::parent` 查询父级元素
-- `::children(x)` 查询当前元素的第几个子级元素
-- `::xx` 查询该语言自定义的子级元素
-- 自定义伪类`:use` 与`:is`类似,但是可以查询兄弟和后代
+## query general attributes of nodes
+- `index` index, representing the position of the current node in its parent
+- `tag` tag of the node
+- `value` text of the node
+- `range` position of the node
+- `children` child elements of the node
+- `type` type of the node (node/token)
+### Examples
 
-### 查询节点通用属性
+The above `AST view` screenshot is used as the reference.
 
-- `index` 索引,代表当前节点处于父级的哪个位置
-- `tag` 节点的标签
-- `value` 该节点的文本
-- `range` 该节点的位置
-- `children` 该节点的子元素列表
-- `type` 节点类型(node/token)
+- `VariableDeclaration`=> Query nodes with tag `VariableDeclaration`
+- `VariableDeclaration:has(VariableDefinition[value=a])`=> Query the child nodes of `VariableDeclaration` that have `VariableDefinition` tag and its content (value) is `a`
+- `VariableDeclaration::children(0)`=> Query the 0th child node of `VariableDeclaration`=> `let`
+- `let:use(*,+VariableDefinition)`=> Query the nodes that `let` itself and its sibling nodes are `VariableDefinition`
+- `VariableDeclaration[name=VariableDeclaration]`=> Query the nodes in `VariableDeclaration` nodes that have `name` attribute as `VariableDeclaration`
 
-### 举例
-以上面的`ast view`截图为准
-
-- `VariableDeclaration`=>查询tag=`VariableDeclaration`的节点
-- `VariableDeclaration:has(VariableDefinition[value=a])`=>查询`VariableDeclaration`的子节点中有`VariableDefinition`标签,并且内容(value)为`a`
-- `VariableDeclaration::children(0)`=>查询`VariableDeclaration`节点的第0个子节点=>`let`
-- `let:use(*,+VariableDefinition)`=> 查询`let自身和他的兄弟节点是VariableDefinition`
-- `VariableDeclaration[name=VariableDeclaration]`=>查询`VariableDeclaration`节点中`name`属性为`VariableDeclaration`的节点
-
-### 支持语言/语法
-
+### Supported languages/grammar
 - typescript(typescript)
 - typescript(javascript)
 - typescript(typescriptreact)
@@ -125,4 +122,4 @@
 | ssh_client_config | svelte     | thrift | query             | turtle          | twig          |
 | vue               | wat        | wast   | wgsl              | yaml            | yang          |
 
-- `tree-sitter`需要拉取`https://github.com/wszgrcy/tree-sitter-wasm-bundle`仓库或根据格式自定义;然后将本地路径写入到配置`code-recycle.parser.tree-sitter.repository`中
+- `tree-sitter` needs to be pulled from the `https://github.com/wszgrcy/tree-sitter-wasm-bundle` repository or customized according to the format. Then, the local path is written into the configuration `code-recycle.parser.tree-sitter.repository`.
