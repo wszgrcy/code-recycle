@@ -13,13 +13,15 @@
 ## Code Recycle has implemented syntax parsing, CSS-style queries, and content replacement.
 - I have implemented an extension that interfaces with various parsing libraries currently available on the market. The current version supports the parsing of over [400+ syntaxes](https://wszgrcy.github.io/code-recycle/#/zh-Hans/%E8%AE%BE%E8%AE%A1/css%E8%AF%AD%E6%B3%95%E6%9F%A5%E8%AF%A2?id=%e6%94%af%e6%8c%81%e8%af%ad%e8%a8%80%e8%af%ad%e6%b3%95), covering about **99%** of commonly used languages and syntaxes
 - It also has a unified CSS style query that allows everyone to use the same logic to query regardless of the language.
+
 > :has  selects all nodes that satisfy a certain rule for the current node  
 > :is  selects the current node that satisfies a certain rule  
 > :use  selects the current node and other nodes that are selected through the current node  
 > ::parent, ::children  selects the parent and children of the current node respectively  
-> [... more](https://wszgrcy.github.io/code-recycle/#/zh-Hans/%E8%AE%BE%E8%AE%A1/css%E8%AF%AD%E6%B3%95%E6%9F%A5%E8%AF%A2?id=css-%E9%80%89%E6%8B%A9%E5%99%A8%E6%94%AF%E6%8C%81)
-> The extension has implemented almost complete CSS syntax querying, so there is no need to worry about scenarios where there are no choices. If there are, you can contact me and I will provide a solution.
+> [... more](https://wszgrcy.github.io/code-recycle/#/zh-Hans/%E8%AE%BE%E8%AE%A1/css%E8%AF%AD%E6%B3%95%E6%9F%A5%E8%AF%A2?id=css-%E9%80%89%E6%8B%A9%E5%99%A8%E6%94%AF%E6%8C%81) The extension has implemented almost complete CSS syntax querying, so there is no need to worry about scenarios where there are no choices. If there are, you can contact me and I will provide a solution.
+- You can see the following image for an introduction to this extension
 
+![mind](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.1/docs/en-US/image/mind.png)
 
 ## Business scenarios
 - For static use cases, such as initializing projects/functional modules, everyone can use templates. Whether it's self-made templates or direct use of Git templates, it is convenient.
@@ -29,13 +31,14 @@
 
 - Some dynamic initialization in development, such as writing custom components into HTML content in front-end development, often need to be imported and declared in the code. Using dynamic code snippets can make it very convenient
 
-![custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.0/docs/image/custom-interactive.jpg)
+
 ![reference](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.0/docs/image/dynamic-snippet-angular/reference.gif)
 
 - To extract text for internationalization or other purposes, you can use the action to directly query and write files
 - Code restructuring, such as moving parameters, logic migration, if you don't have confidence/pay attention to detail/have more than 10 minutes of direct modification, you can directly create the modification logic with the action to avoid modifying the time
 - If you have some specific operations, such as advanced custom search, and need to repeat this operation repeatedly, you can use visual actions to design your search
 
+![custom-interactive](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.0/docs/image/custom-interactive.jpg)
 ![demo](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.0/docs/image/view-action/demo.gif)
 
 - In summary, as long as the thing you want to achieve does not require too much consideration, it is recommended to consider using this extension. It may bring you unexpected surprises for your development.
