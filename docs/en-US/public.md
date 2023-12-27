@@ -17,7 +17,8 @@
 - In the command panel, enter `code-recycle.code-recycle` to find the public area
 - In the public area, select the desired resources and click `+` to add
 
-![Public Area](../zh-Hans/image/公共区.jpg)
+![公共区](./image/public-use.png)
+
 
 ## Modify Usage Version
 - The private and public resources have the same method to modify the usage version

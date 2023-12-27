@@ -16,3 +16,4 @@
 - [I18n](/en-US/i18n)
 - Article
     - [How programmers encapsulate logic](./How%20programmers%20encapsulate%20logic.md)
+    - [hybridize the project?You can initialize it at any location in the Git Repo as a template combination.](./article/hybridize%20the%20project.md)
