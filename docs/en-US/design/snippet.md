@@ -25,6 +25,7 @@
 
 - Specify which languages are available
 
+![](../../zh-Hans/image/language.png)
 ## Effective Files
 
 - Specify which files are available
