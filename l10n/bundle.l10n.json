@@ -38,7 +38,7 @@
   "- 描述: {value}": "- Description: {value}",
   "动作缺失: 代码片段 {name} 上动作缺失": "Action missing: Code snippet {name} missing action.",
   "- 调用动作: {value}": "- call action: {value}",
-  "---DYNAMIC PADDING---": "---DYNAMIC PADDING---",
+  "---动态占位符---": "---DYNAMIC PLACEHOLDER---",
   "触发(部分)": "Trigger (part)",
   "触发": "Trigger",
   "模板变量 [{varItem}]:": "Template Variable[{varItem}]:",

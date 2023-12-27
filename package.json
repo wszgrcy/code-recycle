@@ -3,7 +3,7 @@
   "displayName": "Code Recycle",
   "description": "Quickly initialize the project,Stackable layer structure,Programmable input logic,Dynamic code snippets,Code-level dependency injection",
   "icon": "docs/icon/512.png",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "engines": {
     "vscode": "^1.82.2"
   },
@@ -608,9 +608,9 @@
     "glob": "^10.3.4",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "prettier": "3.1.0",
+    "prettier": "3.1.1",
     "rimraf": "^5.0.1",
-    "ts-loader": "^9.5.0",
+    "ts-loader": "^9.5.1",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
@@ -626,7 +626,7 @@
     "@lezer/javascript": "^1.4.11",
     "@lezer/json": "^1.0.1",
     "@lezer/lezer": "^1.1.2",
-    "@lezer/markdown": "^1.1.2",
+    "@lezer/markdown": "^1.2.0",
     "@lezer/php": "^1.0.1",
     "@lezer/python": "^1.1.9",
     "@lezer/rust": "^1.0.1",
@@ -659,7 +659,7 @@
     "slash": "^5.1.0",
     "snappyjs": "^0.7.0",
     "static-injector": "3.0.0",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "5.2.2",
     "utility-types": "^3.10.0",
     "uuid": "^9.0.1",

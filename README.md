@@ -4,8 +4,8 @@
 
 ---
 
-| [中文](https://github.com/wszgrcy/code-recycle/blob/main/doc/README.zh-Hans.md) |
-| ------------------------------------------------------------------------------- |
+| [中文](https://wszgrcy.github.io/code-recycle/#/zh-Hans/README) | [English](https://wszgrcy.github.io/code-recycle/#/en-US/README) |
+| --------------------------------------------------------------- | ---------------------------------------------------------------- |
 
 ## Quick Start
 
@@ -213,6 +213,7 @@
 | vue               | wat        | wast   | wgsl              | yaml            | yang          |
 
 - `tree-sitter` needs to fetch code from the `https://github.com/wszgrcy/tree-sitter-wasm-bundle` repository or customized according to the format, then write the local path into the configuration file `code-recycle.parser.tree-sitter.repository`.
+
 ---
 
 ## Call
