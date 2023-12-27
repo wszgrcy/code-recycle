@@ -14,7 +14,7 @@ git checkout yyyy
 
 ## Git repository pull in `Code Recycle`.
 
-![](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.2/docs/zh-Hans/image/git-template-demp.png)
+![](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.3/docs/en-US/image/git-template-demo.png)
 
 - `Code Recycle` is currently a VS Code extension that [supports pulling Git repositories](https://wszgrcy.github.io/code-recycle/#/en-US/design/custom-rule?id=git-template)
 - Any content can be pulled at any location and written to any location.

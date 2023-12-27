@@ -14,7 +14,7 @@ git checkout yyyy
 
 ## `Code Recycle`中的Git仓库拉取
 
-![](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.2/docs/zh-Hans/image/git-template-demp.png)
+![](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.1.3/docs/zh-Hans/image/git-template-demo.png)
 
 - `Code Recycle` 目前是一个VSCode拓展,支持[Git仓库拉取](https://wszgrcy.github.io/code-recycle/#/zh-Hans/%E8%AE%BE%E8%AE%A1/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99?id=git%e6%a8%a1%e6%9d%bf)
 - 可以在拉取任意位置的内容,写入到任意位置
