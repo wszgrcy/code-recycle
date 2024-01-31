@@ -7,6 +7,7 @@
 - 脚本
     - [工具](/zh-Hans/脚本工具)
     - [规则](/zh-Hans/脚本规则)
+    - <a href="/api-docs/index.html" target="blank">API</a>
 - 设计
     - [模板](/zh-Hans/设计/模板)
     - [代码片段](/zh-Hans/设计/代码片段)

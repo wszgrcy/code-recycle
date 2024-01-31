@@ -4,6 +4,7 @@
     - [Quick start](/en-US/quickstart)
 - Script
     - [Rule](/en-US/script-rule)
+    - <a href="/api-docs/index.html" target="blank">API</a>
 - Design
     - [Template](/en-US/design/template)
     - [Snippet](/en-US/design/snippet)
