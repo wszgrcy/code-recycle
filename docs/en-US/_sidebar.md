@@ -2,6 +2,8 @@
 - Getting started
     - [Home](/en-US/README)
     - [Quick start](/en-US/quickstart)
+- Script
+    - [Rule](/en-US/script-rule)
 - Design
     - [Template](/en-US/design/template)
     - [Snippet](/en-US/design/snippet)

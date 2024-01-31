@@ -24,8 +24,6 @@ Quickly initializes projects,Code refinement,Dynamic code snippets,Reduces redun
 - Language-independent, framework-independent, as long as syntax parsing is supported.
 - CSS syntax query, supports over 400+ syntax parsing
 - Syntax query debugging for abstract syntax trees
-- Turing complete
-- Visual design
 - Visual operation
 
 ---
