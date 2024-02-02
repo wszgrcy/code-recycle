@@ -1,10 +1,12 @@
 - [Overview](/en-US/mind)
 - Getting started
     - [Home](/en-US/README)
+    - [Quick start-Script(Recommend)](/en-US/quickstart-script)
     - [Quick start](/en-US/quickstart)
 - Script
-    - [Rule](/en-US/script-rule)
+    - [Util](/en-US/script-util)
     - <a href="/api-docs/index.html" target="blank">API</a>
+    - [Rule](/en-US/script-rule)
 - Design
     - [Template](/en-US/design/template)
     - [Snippet](/en-US/design/snippet)

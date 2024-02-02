@@ -1,5 +1,5 @@
 ## Code Recycle
-> 一个模板处理与可编程逻辑设计器
+> 可编程的高级语法查询/替换工具
 
 ## 概述
 
@@ -40,7 +40,20 @@
 ## 使用方式
 - [脚本(推荐)](./快速开始-脚本.md)
 - [UI视图](./快速开始-UI.md)
+
 ## 快速体验
+
+### 脚本(推荐)
+- `git clone https://github.com/wszgrcy/code-recycle-plugin-script.git`
+- 修改编辑器设置`settings.json`
+
+```json
+"code-recycle.script": {
+    "dir": "/path/to/code-recycle-plugin-script"
+}
+```
+
+### UI
 - 你可以安装插件登录后,进入公共区找到带`demo`标签的公开实例快速了解
 
 ![公共区](./image/公共区.jpg)
