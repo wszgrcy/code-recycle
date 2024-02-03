@@ -6,11 +6,18 @@
 ![Install](../zh-Hans/image/安装.png)
 
 ## Create a new script folder
-- Choose a location to create a folder and create it in the following hierarchy
+- Choose a location to create a folder  
+- change editor `settings.json`
 
+```json
+"code-recycle.script": {
+    "dir": "/path/to/code-recycle-plugin-script"
+}
+```
 
 ?> You can refer to the [Demo Repo](https://github.com/wszgrcy/code-recycle-plugin-script)
 
+- create it in the following hierarchy
 
 ```tree
 .
