@@ -1,24 +1,14 @@
-- [Overview](/en-US/mind)
 - Getting started
     - [Home](/en-US/README)
-    - [Quick start-Script(Recommend)](/en-US/quickstart-script)
-    - [Quick start](/en-US/quickstart)
+    - [Quick start-Script](/en-US/quickstart-script)
+    - [Quick start-CLI](/en-US/quickstart-cli)
 - Script
     - [Util](/en-US/script-util)
     - <a href="./api-docs/index.html" target="blank">API</a>
     - [Rule](/en-US/script-rule)
 - Design
-    - [Template](/en-US/design/template)
-    - [Snippet](/en-US/design/snippet)
-    - [Action](/en-US/design/action)
-    - [Custom Rule](/en-US/design/custom-rule)
+    - [Like Query](/en-US/design/like-query)
     - [CSS Syntax Query](/en-US/design/css-syntax-query)
-- Call
-    - [Call Snippet](/en-US/call-snippet)
-    - [Call Action](/en-US/call-action)
-- [Version&Public](/en-US/public)
 - [Other](/en-US/other)
 - [I18n](/en-US/i18n)
-- Article
-    - [How programmers encapsulate logic](./How%20programmers%20encapsulate%20logic.md)
-    - [hybridize the project?You can initialize it at any location in the Git Repo as a template combination.](./article/hybridize%20the%20project.md)
+- [Plan](/en-US/plan)

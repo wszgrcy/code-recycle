@@ -1,26 +1,16 @@
-- [概览](/zh-Hans/mind)
 
 - 入门
     - [首页](/zh-Hans/README)
-    - [快速开始-脚本(推荐)](/zh-Hans/快速开始-脚本)
-    - [快速开始-UI](/zh-Hans/快速开始-UI)
+    - [快速开始-插件脚本](/zh-Hans/快速开始-脚本)
+    - [快速开始-CLI](/zh-Hans/快速开始-cli)
 - 脚本
     - [工具](/zh-Hans/脚本工具)
     - <a href="./api-docs/index.html" target="blank">API</a>
     - [规则](/zh-Hans/脚本规则)
 - 设计
-    - [模板](/zh-Hans/设计/模板)
-    - [代码片段](/zh-Hans/设计/代码片段)
-    - [动作](/zh-Hans/设计/动作)
-    - [自定义规则](/zh-Hans/设计/自定义规则)
+    - [Like查询](/zh-Hans/设计/like查询)
     - [CSS语法查询](/zh-Hans/设计/css语法查询)
-- 调用
-    - [调用代码片段](/zh-Hans/调用代码片段)
-    - [调用动作](/zh-Hans/调用动作)
-- [版本&公开](/zh-Hans/公开)
+
 - [其他](/zh-Hans/其他)
 - [国际化](/zh-Hans/国际化)
-
-- 文章
-    - [程序员如何封装逻辑](/zh-Hans/程序员如何封装逻辑.md)
-    - [项目杂交?Git仓库任意位置作为模板组合初始化](/zh-Hans/article/项目杂交-任意git仓库作为模板使用.md)
+- [计划](/zh-Hans/计划)

@@ -1,0 +1,3456 @@
+{
+  ".ts": [
+    {
+      "use": "typescript",
+      "language": "typescript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "typescript"
+    }
+  ],
+  ".cts": [
+    {
+      "use": "typescript",
+      "language": "typescript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "typescript"
+    }
+  ],
+  ".mts": [
+    {
+      "use": "typescript",
+      "language": "typescript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "typescript"
+    }
+  ],
+  ".js": [
+    {
+      "use": "typescript",
+      "language": "javascript"
+    },
+    {
+      "use": "@lezer",
+      "language": "javascript"
+    },
+    {
+      "use": "antlr4",
+      "language": "javascript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "javascript"
+    },
+    {
+      "use": "typescript",
+      "language": "typescript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "typescript"
+    },
+    {
+      "use": "typescript",
+      "language": "javascriptreact"
+    }
+  ],
+  ".es6": [
+    {
+      "use": "typescript",
+      "language": "javascript"
+    },
+    {
+      "use": "@lezer",
+      "language": "javascript"
+    },
+    {
+      "use": "antlr4",
+      "language": "javascript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "javascript"
+    }
+  ],
+  ".mjs": [
+    {
+      "use": "typescript",
+      "language": "javascript"
+    },
+    {
+      "use": "@lezer",
+      "language": "javascript"
+    },
+    {
+      "use": "antlr4",
+      "language": "javascript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "javascript"
+    }
+  ],
+  ".cjs": [
+    {
+      "use": "typescript",
+      "language": "javascript"
+    },
+    {
+      "use": "@lezer",
+      "language": "javascript"
+    },
+    {
+      "use": "antlr4",
+      "language": "javascript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "javascript"
+    }
+  ],
+  ".pac": [
+    {
+      "use": "typescript",
+      "language": "javascript"
+    },
+    {
+      "use": "@lezer",
+      "language": "javascript"
+    },
+    {
+      "use": "antlr4",
+      "language": "javascript"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "javascript"
+    }
+  ],
+  ".tsx": [
+    {
+      "use": "typescript",
+      "language": "typescriptreact"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "tsx"
+    }
+  ],
+  ".jsx": [
+    {
+      "use": "typescript",
+      "language": "javascriptreact"
+    }
+  ],
+  ".html": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".htm": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".shtml": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".xhtml": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".xht": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".mdoc": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".jsp": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".asp": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".aspx": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".jshtm": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".volt": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".ejs": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".rhtml": [
+    {
+      "use": "@angular/compiler",
+      "language": "html"
+    },
+    {
+      "use": "htmlparser2",
+      "language": "html"
+    },
+    {
+      "use": "@lezer",
+      "language": "html"
+    },
+    {
+      "use": "antlr4",
+      "language": "html"
+    }
+  ],
+  ".xml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xsd": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".ascx": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".atom": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".axml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".axaml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".bpmn": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".cpt": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".csl": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".csproj": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".csproj.user": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".dita": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".ditamap": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".dtd": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".ent": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".mod": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".dtml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".fsproj": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".fxml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".iml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".isml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".jmx": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".launch": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".menu": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".mxml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".nuspec": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".opml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".owl": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".proj": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".props": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".pt": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".publishsettings": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".pubxml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".pubxml.user": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".rbxlx": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".rbxmx": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".rdf": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".rng": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".rss": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".shproj": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".storyboard": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".svg": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".targets": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".tld": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".tmx": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".vbproj": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".vbproj.user": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".vcxproj": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".vcxproj.filters": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".wsdl": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".wxi": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".wxl": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".wxs": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xaml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xbl": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xib": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xlf": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xliff": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xpdl": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xul": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".xoml": [
+    {
+      "use": "htmlparser2",
+      "language": "xml"
+    },
+    {
+      "use": "@lezer",
+      "language": "xml"
+    },
+    {
+      "use": "antlr4",
+      "language": "xml"
+    }
+  ],
+  ".code-profile": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".json": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json5"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json5"
+    }
+  ],
+  ".bowerrc": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".jscsrc": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".webmanifest": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".js.map": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".css.map": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".ts.map": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".har": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".jslintrc": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".jsonld": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".geojson": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".ipynb": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".vuerc": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".tsbuildinfo": [
+    {
+      "use": "jsonc-parser",
+      "language": "json"
+    },
+    {
+      "use": "@lezer",
+      "language": "json"
+    },
+    {
+      "use": "antlr4",
+      "language": "json"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json"
+    }
+  ],
+  ".sql": [
+    {
+      "use": "gsql-ast-parser",
+      "language": "sql"
+    },
+    {
+      "use": "antlr4",
+      "language": "tsql"
+    },
+    {
+      "use": "antlr4",
+      "language": "mysql"
+    },
+    {
+      "use": "antlr4",
+      "language": "plsql"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "sqlite"
+    },
+    {
+      "use": "antlr4",
+      "language": "drill"
+    },
+    {
+      "use": "antlr4",
+      "language": "derby"
+    },
+    {
+      "use": "antlr4",
+      "language": "trino"
+    },
+    {
+      "use": "antlr4",
+      "language": "athena"
+    },
+    {
+      "use": "antlr4",
+      "language": "hivev2"
+    },
+    {
+      "use": "antlr4",
+      "language": "hivev3"
+    },
+    {
+      "use": "antlr4",
+      "language": "hivev4"
+    },
+    {
+      "use": "antlr4",
+      "language": "mariadb"
+    },
+    {
+      "use": "antlr4",
+      "language": "informix-sql"
+    }
+  ],
+  ".dsql": [
+    {
+      "use": "gsql-ast-parser",
+      "language": "sql"
+    }
+  ],
+  ".vue": [
+    {
+      "use": "@vue/compiler-dom",
+      "language": "vue"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "vue"
+    }
+  ],
+  ".cpp": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    },
+    {
+      "use": "antlr4",
+      "language": "CPP14"
+    }
+  ],
+  ".cc": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    },
+    {
+      "use": "antlr4",
+      "language": "CPP14"
+    }
+  ],
+  ".cxx": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".c++": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".hpp": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".hh": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".hxx": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".h++": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".h": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".ii": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".ino": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".inl": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".ipp": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".ixx": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".tpp": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".txx": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".hpp.in": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".h.in": [
+    {
+      "use": "@lezer",
+      "language": "cpp"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "cpp"
+    }
+  ],
+  ".css": [
+    {
+      "use": "@lezer",
+      "language": "css"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "css"
+    },
+    {
+      "use": "antlr4",
+      "language": "CSS3"
+    }
+  ],
+  ".java": [
+    {
+      "use": "@lezer",
+      "language": "java"
+    },
+    {
+      "use": "antlr4",
+      "language": "java"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "java"
+    },
+    {
+      "use": "antlr4",
+      "language": "java8"
+    },
+    {
+      "use": "antlr4",
+      "language": "java20"
+    },
+    {
+      "use": "antlr4",
+      "language": "antlr4"
+    }
+  ],
+  ".jav": [
+    {
+      "use": "@lezer",
+      "language": "java"
+    },
+    {
+      "use": "antlr4",
+      "language": "java"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "java"
+    }
+  ],
+  ".md": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".mkd": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".mdwn": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".mdown": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".markdown": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".markdn": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".mdtxt": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".mdtext": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".workbook": [
+    {
+      "use": "@lezer",
+      "language": "markdown"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "markdown"
+    }
+  ],
+  ".php": [
+    {
+      "use": "@lezer",
+      "language": "php"
+    },
+    {
+      "use": "antlr4",
+      "language": "php"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "php"
+    }
+  ],
+  ".php4": [
+    {
+      "use": "@lezer",
+      "language": "php"
+    },
+    {
+      "use": "antlr4",
+      "language": "php"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "php"
+    }
+  ],
+  ".php5": [
+    {
+      "use": "@lezer",
+      "language": "php"
+    },
+    {
+      "use": "antlr4",
+      "language": "php"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "php"
+    }
+  ],
+  ".phtml": [
+    {
+      "use": "@lezer",
+      "language": "php"
+    },
+    {
+      "use": "antlr4",
+      "language": "php"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "php"
+    }
+  ],
+  ".ctp": [
+    {
+      "use": "@lezer",
+      "language": "php"
+    },
+    {
+      "use": "antlr4",
+      "language": "php"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "php"
+    }
+  ],
+  ".py": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    },
+    {
+      "use": "antlr4",
+      "language": "python3"
+    },
+    {
+      "use": "antlr4",
+      "language": "Python3"
+    }
+  ],
+  ".rpy": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".pyw": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".cpy": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".gyp": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".gypi": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".pyi": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".ipy": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".pyt": [
+    {
+      "use": "@lezer",
+      "language": "python"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "python"
+    }
+  ],
+  ".rs": [
+    {
+      "use": "@lezer",
+      "language": "rust"
+    },
+    {
+      "use": "antlr4",
+      "language": "rust"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "rust"
+    }
+  ],
+  ".sass": [
+    {
+      "use": "@lezer",
+      "language": "sass"
+    },
+    {
+      "use": "antlr4",
+      "language": "scss"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "scss"
+    }
+  ],
+  ".sys": [
+    {
+      "use": "antlr4",
+      "language": "abb"
+    }
+  ],
+  ".abnf": [
+    {
+      "use": "antlr4",
+      "language": "abnf"
+    }
+  ],
+  ".acmetest": [
+    {
+      "use": "antlr4",
+      "language": "acme"
+    }
+  ],
+  ".adb": [
+    {
+      "use": "antlr4",
+      "language": "ada83"
+    },
+    {
+      "use": "antlr4",
+      "language": "ada95"
+    },
+    {
+      "use": "antlr4",
+      "language": "ada2005"
+    },
+    {
+      "use": "antlr4",
+      "language": "ada2012"
+    }
+  ],
+  ".ads": [
+    {
+      "use": "antlr4",
+      "language": "ada83"
+    },
+    {
+      "use": "antlr4",
+      "language": "ada95"
+    },
+    {
+      "use": "antlr4",
+      "language": "ada2005"
+    },
+    {
+      "use": "antlr4",
+      "language": "ada2012"
+    }
+  ],
+  ".alg": [
+    {
+      "use": "antlr4",
+      "language": "algol60"
+    }
+  ],
+  ".a60": [
+    {
+      "use": "antlr4",
+      "language": "algol60"
+    }
+  ],
+  ".als": [
+    {
+      "use": "antlr4",
+      "language": "alloy"
+    }
+  ],
+  ".alp": [
+    {
+      "use": "antlr4",
+      "language": "alpaca"
+    }
+  ],
+  ".g2": [
+    {
+      "use": "antlr4",
+      "language": "antlr2"
+    }
+  ],
+  ".g": [
+    {
+      "use": "antlr4",
+      "language": "antlr2"
+    }
+  ],
+  ".interp": [
+    {
+      "use": "antlr4",
+      "language": "antlr4"
+    }
+  ],
+  ".tokens": [
+    {
+      "use": "antlr4",
+      "language": "antlr4"
+    }
+  ],
+  ".g4": [
+    {
+      "use": "antlr4",
+      "language": "antlr4"
+    }
+  ],
+  ".aql": [
+    {
+      "use": "antlr4",
+      "language": "arangodb"
+    }
+  ],
+  ".ASM": [
+    {
+      "use": "antlr4",
+      "language": "asm8080"
+    }
+  ],
+  ".A86": [
+    {
+      "use": "antlr4",
+      "language": "asm8086"
+    }
+  ],
+  ".asm": [
+    {
+      "use": "antlr4",
+      "language": "nasm"
+    },
+    {
+      "use": "antlr4",
+      "language": "asmMASM"
+    }
+  ],
+  ".Z80": [
+    {
+      "use": "antlr4",
+      "language": "asmZ80"
+    }
+  ],
+  ".s": [
+    {
+      "use": "antlr4",
+      "language": "pdp7"
+    }
+  ],
+  ".ptx": [
+    {
+      "use": "antlr4",
+      "language": "ptx-1.0"
+    },
+    {
+      "use": "antlr4",
+      "language": "ptx-2.1"
+    }
+  ],
+  ".S": [
+    {
+      "use": "antlr4",
+      "language": "asmRSICV"
+    }
+  ],
+  ".asn": [
+    {
+      "use": "antlr4",
+      "language": "asn"
+    }
+  ],
+  ".b": [
+    {
+      "use": "antlr4",
+      "language": "b"
+    },
+    {
+      "use": "antlr4",
+      "language": "brainfuck"
+    }
+  ],
+  ".bas": [
+    {
+      "use": "antlr4",
+      "language": "basic"
+    },
+    {
+      "use": "antlr4",
+      "language": "vba"
+    },
+    {
+      "use": "antlr4",
+      "language": "vb6"
+    }
+  ],
+  ".bdf": [
+    {
+      "use": "antlr4",
+      "language": "bdf"
+    }
+  ],
+  ".bnf": [
+    {
+      "use": "antlr4",
+      "language": "bnf"
+    }
+  ],
+  ".c": [
+    {
+      "use": "antlr4",
+      "language": "C"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "c"
+    },
+    {
+      "use": "antlr4",
+      "language": "tinyc"
+    },
+    {
+      "use": "antlr4",
+      "language": "microc"
+    }
+  ],
+  ".i": [
+    {
+      "use": "antlr4",
+      "language": "C"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "c"
+    }
+  ],
+  ".capnp": [
+    {
+      "use": "antlr4",
+      "language": "capnproto"
+    }
+  ],
+  ".clj": [
+    {
+      "use": "antlr4",
+      "language": "clojure"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "clojure"
+    }
+  ],
+  ".cljs": [
+    {
+      "use": "antlr4",
+      "language": "clojure"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "clojure"
+    }
+  ],
+  ".cljc": [
+    {
+      "use": "antlr4",
+      "language": "clojure"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "clojure"
+    }
+  ],
+  ".cljx": [
+    {
+      "use": "antlr4",
+      "language": "clojure"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "clojure"
+    }
+  ],
+  ".clojure": [
+    {
+      "use": "antlr4",
+      "language": "clojure"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "clojure"
+    }
+  ],
+  ".edn": [
+    {
+      "use": "antlr4",
+      "language": "edn"
+    },
+    {
+      "use": "antlr4",
+      "language": "clojure"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "clojure"
+    }
+  ],
+  ".qll": [
+    {
+      "use": "antlr4",
+      "language": "codeql"
+    }
+  ],
+  ".ql": [
+    {
+      "use": "antlr4",
+      "language": "codeql"
+    }
+  ],
+  ".cql": [
+    {
+      "use": "antlr4",
+      "language": "cql3"
+    }
+  ],
+  ".csv": [
+    {
+      "use": "antlr4",
+      "language": "csv"
+    }
+  ],
+  ".cto": [
+    {
+      "use": "antlr4",
+      "language": "cto"
+    }
+  ],
+  ".dart": [
+    {
+      "use": "tree-sitter",
+      "language": "dart"
+    },
+    {
+      "use": "antlr4",
+      "language": "Dart2"
+    }
+  ],
+  ".dot": [
+    {
+      "use": "antlr4",
+      "language": "dot"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "dot"
+    }
+  ],
+  ".edf": [
+    {
+      "use": "antlr4",
+      "language": "edif300"
+    }
+  ],
+  ".ex": [
+    {
+      "use": "antlr4",
+      "language": "elixir-parser"
+    }
+  ],
+  ".P": [
+    {
+      "use": "antlr4",
+      "language": "erlang"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "erlang"
+    }
+  ],
+  ".cl": [
+    {
+      "use": "antlr4",
+      "language": "cool"
+    }
+  ],
+  ".faa": [
+    {
+      "use": "antlr4",
+      "language": "fasta"
+    }
+  ],
+  ".ffn": [
+    {
+      "use": "antlr4",
+      "language": "fasta"
+    }
+  ],
+  ".fna": [
+    {
+      "use": "antlr4",
+      "language": "fasta"
+    }
+  ],
+  ".fbs": [
+    {
+      "use": "antlr4",
+      "language": "flatbuffers"
+    }
+  ],
+  ".vert": [
+    {
+      "use": "antlr4",
+      "language": "glsl"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "glsl"
+    }
+  ],
+  ".frag": [
+    {
+      "use": "antlr4",
+      "language": "glsl"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "glsl"
+    }
+  ],
+  ".glsl": [
+    {
+      "use": "antlr4",
+      "language": "glsl"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "glsl"
+    }
+  ],
+  ".geom": [
+    {
+      "use": "antlr4",
+      "language": "glsl"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "glsl"
+    }
+  ],
+  ".gml": [
+    {
+      "use": "antlr4",
+      "language": "gml"
+    }
+  ],
+  ".go": [
+    {
+      "use": "tree-sitter",
+      "language": "go"
+    },
+    {
+      "use": "antlr4",
+      "language": "golang"
+    }
+  ],
+  ".dgs": [
+    {
+      "use": "antlr4",
+      "language": "graphstream-dgs"
+    }
+  ],
+  ".ics": [
+    {
+      "use": "antlr4",
+      "language": "ical"
+    }
+  ],
+  ".idl": [
+    {
+      "use": "antlr4",
+      "language": "IDL"
+    },
+    {
+      "use": "antlr4",
+      "language": "webidl"
+    }
+  ],
+  ".iri": [
+    {
+      "use": "antlr4",
+      "language": "iri"
+    }
+  ],
+  ".json5": [
+    {
+      "use": "antlr4",
+      "language": "json5"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "json5"
+    }
+  ],
+  ".kt": [
+    {
+      "use": "antlr4",
+      "language": "kotlin"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "kotlin"
+    },
+    {
+      "use": "antlr4",
+      "language": "kotlin-formal"
+    }
+  ],
+  ".kts": [
+    {
+      "use": "antlr4",
+      "language": "kotlin"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "kotlin"
+    }
+  ],
+  ".kquery": [
+    {
+      "use": "antlr4",
+      "language": "kquery"
+    }
+  ],
+  ".less": [
+    {
+      "use": "antlr4",
+      "language": "less"
+    }
+  ],
+  ".lua": [
+    {
+      "use": "antlr4",
+      "language": "Lua"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "lua"
+    }
+  ],
+  ".mo": [
+    {
+      "use": "antlr4",
+      "language": "modelica"
+    }
+  ],
+  ".mps": [
+    {
+      "use": "antlr4",
+      "language": "mps"
+    }
+  ],
+  ".db": [
+    {
+      "use": "antlr4",
+      "language": "muddb"
+    }
+  ],
+  ".m": [
+    {
+      "use": "antlr4",
+      "language": "mumps"
+    }
+  ],
+  ".x": [
+    {
+      "use": "antlr4",
+      "language": "oncrpc"
+    }
+  ],
+  ".pas": [
+    {
+      "use": "antlr4",
+      "language": "pascal"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "pascal"
+    }
+  ],
+  ".pc": [
+    {
+      "use": "antlr4",
+      "language": "peoplecode"
+    }
+  ],
+  ".ply": [
+    {
+      "use": "antlr4",
+      "language": "ply"
+    }
+  ],
+  ".srf": [
+    {
+      "use": "antlr4",
+      "language": "powerbuilder"
+    }
+  ],
+  ".srw": [
+    {
+      "use": "antlr4",
+      "language": "powerbuilder"
+    }
+  ],
+  ".conf": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".properties": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".cfg": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".directory": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".gitattributes": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".gitconfig": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".gitmodules": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".editorconfig": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".repo": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".npmrc": [
+    {
+      "use": "antlr4",
+      "language": "properties"
+    }
+  ],
+  ".proto": [
+    {
+      "use": "antlr4",
+      "language": "protobuf2"
+    },
+    {
+      "use": "antlr4",
+      "language": "protobuf3"
+    }
+  ],
+  ".provn": [
+    {
+      "use": "antlr4",
+      "language": "prov-n"
+    }
+  ],
+  ".map": [
+    {
+      "use": "antlr4",
+      "language": "quakemap"
+    }
+  ],
+  ".rkt": [
+    {
+      "use": "antlr4",
+      "language": "racket-bsl"
+    },
+    {
+      "use": "antlr4",
+      "language": "racket-isl"
+    }
+  ],
+  ".rst": [
+    {
+      "use": "antlr4",
+      "language": "restructuredtext"
+    }
+  ],
+  ".rb": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    },
+    {
+      "use": "antlr4",
+      "language": "Corundum"
+    }
+  ],
+  ".scala": [
+    {
+      "use": "antlr4",
+      "language": "scala"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "scala"
+    }
+  ],
+  ".sgf": [
+    {
+      "use": "antlr4",
+      "language": "sgf"
+    }
+  ],
+  ".st": [
+    {
+      "use": "antlr4",
+      "language": "smalltalk"
+    }
+  ],
+  ".smt2": [
+    {
+      "use": "antlr4",
+      "language": "smtlibv2"
+    }
+  ],
+  ".sno": [
+    {
+      "use": "antlr4",
+      "language": "snobol"
+    }
+  ],
+  ".rq": [
+    {
+      "use": "antlr4",
+      "language": "sparql"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "sparql"
+    }
+  ],
+  ".hql": [
+    {
+      "use": "antlr4",
+      "language": "hivev4"
+    }
+  ],
+  ".bin": [
+    {
+      "use": "antlr4",
+      "language": "tcp"
+    }
+  ],
+  ".tf": [
+    {
+      "use": "antlr4",
+      "language": "terraform"
+    }
+  ],
+  ".toml": [
+    {
+      "use": "antlr4",
+      "language": "toml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "toml"
+    }
+  ],
+  ".ttl": [
+    {
+      "use": "antlr4",
+      "language": "turtle"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "turtle"
+    }
+  ],
+  ".as": [
+    {
+      "use": "antlr4",
+      "language": "unreal_angelscript"
+    }
+  ],
+  ".upnp": [
+    {
+      "use": "antlr4",
+      "language": "upnp"
+    }
+  ],
+  ".cls": [
+    {
+      "use": "antlr4",
+      "language": "vb6"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "apex"
+    }
+  ],
+  ".vb": [
+    {
+      "use": "antlr4",
+      "language": "vb6"
+    }
+  ],
+  ".frm": [
+    {
+      "use": "antlr4",
+      "language": "vb6"
+    },
+    {
+      "use": "antlr4",
+      "language": "vba"
+    }
+  ],
+  ".v": [
+    {
+      "use": "antlr4",
+      "language": "verilog"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "verilog"
+    }
+  ],
+  ".sv": [
+    {
+      "use": "antlr4",
+      "language": "systemverilog"
+    }
+  ],
+  ".vhd": [
+    {
+      "use": "antlr4",
+      "language": "vhdl"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "vhdl"
+    }
+  ],
+  ".wren": [
+    {
+      "use": "antlr4",
+      "language": "wren"
+    }
+  ],
+  ".yar": [
+    {
+      "use": "antlr4",
+      "language": "yara"
+    }
+  ],
+  ".hs": [
+    {
+      "use": "tree-sitter",
+      "language": "haskell"
+    }
+  ],
+  ".cs": [
+    {
+      "use": "tree-sitter",
+      "language": "c_sharp"
+    }
+  ],
+  ".rbx": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".rjs": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".gemspec": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".rake": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".ru": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".erb": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".podspec": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".rbi": [
+    {
+      "use": "tree-sitter",
+      "language": "ruby"
+    }
+  ],
+  ".sh": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".bash": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".bashrc": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".bash_aliases": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".bash_profile": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".bash_login": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".ebuild": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".profile": [
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    }
+  ],
+  ".bash_logout": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".xprofile": [
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    }
+  ],
+  ".xsession": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".xsessionrc": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".Xsession": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".zsh": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".zshrc": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".zprofile": [
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    }
+  ],
+  ".zlogin": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".zlogout": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".zshenv": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".zsh-theme": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".fish": [
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    }
+  ],
+  ".ksh": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".csh": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".cshrc": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".tcshrc": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".yashrc": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".yash_profile": [
+    {
+      "use": "tree-sitter",
+      "language": "bash"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "fish"
+    }
+  ],
+  ".swift": [
+    {
+      "use": "tree-sitter",
+      "language": "swift"
+    }
+  ],
+  ".dockerfile": [
+    {
+      "use": "tree-sitter",
+      "language": "dockerfile"
+    }
+  ],
+  ".containerfile": [
+    {
+      "use": "tree-sitter",
+      "language": "dockerfile"
+    }
+  ],
+  ".tex": [
+    {
+      "use": "tree-sitter",
+      "language": "latex"
+    }
+  ],
+  ".ltx": [
+    {
+      "use": "tree-sitter",
+      "language": "latex"
+    }
+  ],
+  ".ctx": [
+    {
+      "use": "tree-sitter",
+      "language": "latex"
+    }
+  ],
+  ".pgn": [
+    {
+      "use": "tree-sitter",
+      "language": "pgn"
+    }
+  ],
+  ".stmt": [
+    {
+      "use": "tree-sitter",
+      "language": "rego"
+    }
+  ],
+  ".r": [
+    {
+      "use": "tree-sitter",
+      "language": "r"
+    }
+  ],
+  ".rhistory": [
+    {
+      "use": "tree-sitter",
+      "language": "r"
+    }
+  ],
+  ".rprofile": [
+    {
+      "use": "tree-sitter",
+      "language": "r"
+    }
+  ],
+  ".rt": [
+    {
+      "use": "tree-sitter",
+      "language": "r"
+    }
+  ],
+  ".thrift": [
+    {
+      "use": "tree-sitter",
+      "language": "thrift"
+    }
+  ],
+  ".wat": [
+    {
+      "use": "tree-sitter",
+      "language": "wat"
+    }
+  ],
+  ".yml": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".eyaml": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".eyml": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".cff": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml-tmlanguage": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml-tmpreferences": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml-tmtheme": [
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ]
+}

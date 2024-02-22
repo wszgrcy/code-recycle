@@ -16,34 +16,34 @@ Quickly initializes projects,Code refinement,Dynamic code snippets,Reduces redun
 - Quickly cut and freely arrange
 - Conflict interaction handling
 - Generated content can be cancelled.
-- Pull specific files from Git repository as template
+- [Pull specific files from Git repository as template](/en-US/script-rule?id=osgitclone)
 
 ### Code snippets
 - Dynamic code snippets, generate content across files
 
 ### Custom Rules
 - Language-independent, framework-independent, as long as syntax parsing is supported.
-- CSS syntax query, supports over 400+ syntax parsing
-- Syntax query debugging for abstract syntax trees
+- [CSS syntax query, supports over 400+ syntax parsing](/en-US/design/css-syntax-query?id=css-selector-support)
+- [Syntax query debugging for abstract syntax trees](/en-US/design/css-syntax-query?id=syntax-query)
 - Visual operation
 
 ---
 
 ## Editors Supported
-| VSCode |
-| - |
+|VSCode|CLI|
+|-|-|
 
 ## Operating Systems Supported
 | Windows | Linux | OSX |
 | ------- | ------- | ---- |
 
 ## Usage
-- [Script(Recommend)](./quickstart-script.md)
-- [UI View](./quickstart.md)
+- [VSCode Script](./quickstart-script.md)
+- [CLI](./quickstart-cli.md)
 
 ## Quick Experience
 
-### Script(Recommend)
+### VSCode Script(Recommend)
 - `git clone https://github.com/wszgrcy/code-recycle-plugin-script.git`
 - change editor `settings.json`
 
@@ -53,10 +53,7 @@ Quickly initializes projects,Code refinement,Dynamic code snippets,Reduces redun
 }
 ```
 
-### UI
-- After installing plugins and logging in, you can go to the public area and find a public instance with the `demo` tag to quickly understand
 
-![公共区](../zh-Hans/image/公共区.jpg)
 
 ## About Open Source
 

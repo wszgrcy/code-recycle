@@ -204,6 +204,29 @@ let b= '123';
   let b= '123';
 ```
 
+---
+### like
+- Search for specified files and match corresponding content
+- [like query](./design/like-query.md)
+
+```ts
+{ query: 'let a=[[$var]]', mode: 'like', replace: { var: '7' } }
+```
+
+```diff
+- let a = 6;
++ let a = 7;
+  let b= '123';
+```
+
+### replace
+- When passed as an object, `replace` represents replacing the value in the input attribute; Other situations indicate replacing the value of matching nodes
+```ts
+{ query: 'NumericLiteral', replace:'7' } // Replace number literal with 7
+{ query: 'let a=[[$var]]', mode: 'like', replace:'let a=7' } // Replace the entire content with let a=7
+{ query: 'let a=[[$var]]', mode: 'like', replace: { var: '7' } } // Replace the matching variable var with 7
+{ query: 'let a=[[$var]]', mode: 'like', replace: { var: (context,node)=>{return {value:'7'}} } } // Replace the matching variable var with 7
+```
 
 ## More
 - The document is constantly improving, and some features may not be displayed. If you encounter any related issues, you can ask questions at [Issues](https://github.com/wszgrcy/code-recycle/issues)

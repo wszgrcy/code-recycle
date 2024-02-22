@@ -11,19 +11,23 @@
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Descendant`     | `*`,` `,`>`,`<`,`+`,`~`,`,`                                                                                                                                                                              |
 | `Attribute`      | `[xx]`,`[xx=yy]`,`[xx^=yy]`,`[xx$=yy]`,`[xx*=yy]`,`[xx!=yy]`,`[xx~=yy]` , `[xx\|=yy]`                                                                                                                    |
-| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,**`:raw`**,**`:use`** |
+| `Pseudo`         | `:not`,`:has`,`:is`,`:where`,`:first-child`,`:last-child`,`:only-child`,`:nth-child`,`:nth-last-child`,`:first-of-type`,`:last-of-type`,`:only-of-type`,`:nth-of-type`,`:nth-last-of-type`,**`:raw`**,**`:use`**,**`:like`**,**`:infer`**|
 | `Pseudo-element` | `::parent`, `::children(x)` ,`::xx`                                                                                                                                                                      |
 
 ### 说明
 
-- 自定义伪类`:raw`,用于查询当前节点`原始`的 value/tag 属性
 
   > xxx:raw([value=yyy]);此选择器使用场景比较极端.极少数情况下可能会被使用
 
 - `::parent` 查询父级元素
 - `::children(x)` 查询当前元素的第几个子级元素
 - `::xx` 查询该语言自定义的子级元素
-- 自定义伪类`:use` 与`:is`类似,但是可以查询兄弟和后代
+
+#### 自定义伪类
+- `:raw`,用于查询当前节点`原始`的 value/tag 属性
+- `:use` 与`:is`类似,但是可以查询兄弟和后代
+- `:infer(xxx)` 将匹配到的节点保存到`infer`对象中,保存的名字为`xxx`
+- `:like(xxx)` 在`selector`模式中调用[like模式](./like查询.md)
 
 ### 查询节点通用属性
 
