@@ -14,3 +14,6 @@
 - [其他](/zh-Hans/其他)
 - [国际化](/zh-Hans/国际化)
 - [计划](/zh-Hans/计划)
+
+- 文章
+    - [可能是目前支持语言最多的语法查询](/zh-Hans/article/code-recycle)
