@@ -12,3 +12,5 @@
 - [Other](/en-US/other)
 - [I18n](/en-US/i18n)
 - [Plan](/en-US/plan)
+- Article
+    - [code-recycle](/en-US/design/code-recycle)
