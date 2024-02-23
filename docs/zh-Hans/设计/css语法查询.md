@@ -130,3 +130,5 @@
 | vue               | wat        | wast   | wgsl              | yaml            | yang          |
 
 - `tree-sitter`需要拉取`https://github.com/wszgrcy/tree-sitter-wasm-bundle`仓库或根据格式自定义;然后将本地路径写入到配置`code-recycle.parser.tree-sitter.repository`中
+
+?> 在CLI中设置`treeSitterParserDir`

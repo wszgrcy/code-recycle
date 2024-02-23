@@ -23,6 +23,36 @@ export default fn;
 > `package.json`script`start: "code-recycle ./index.ts"` command `npm start`
 - `./test/test.ts` will change `6` => `7`
 
+## Config
+- You can manually specify `CR_LANG=en` if the language display is incorrect
+
+```
+> npx code-recycle --help
+Usage: code-recycle [options] <file-path>
+
+Arguments:
+  file-path             Script path
+
+Options:
+  --path [file-path]    Workspace path, relative path for use; the default value is the current directory.
+  --root [file-path]    Root path; default is the same as path.
+  --dryRun              dryRun mode (default: false)
+  -c,--config [config]  Configuration file path; default is to look for 'code-recycle.json' in the current directory. (default: false)
+  -h, --help            display help for command
+```
+- `--config`
+
+?> "gitCloneTmpDir": Use git to pull the saved temporary directory; Default to system temporary directory
+
+?> "treeSitterParserDir": tree-sitter build[wasm repo](./design/css-syntax-query?id=supported-languagesgrammar)
+
+```jsonc
+// code-recycle.json
+{
+  "treeSitterParserDir":"/path/to/tree-sitter-wasm-bundle"
+}
+```
+
 ## More?
 
 - [Script Util](./script-util.md) Introduce

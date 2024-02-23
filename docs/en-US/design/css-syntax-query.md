@@ -123,3 +123,5 @@ The above `AST view` screenshot is used as the reference.
 | vue               | wat        | wast   | wgsl              | yaml            | yang          |
 
 - `tree-sitter` needs to be pulled from the `https://github.com/wszgrcy/tree-sitter-wasm-bundle` repository or customized according to the format. Then, the local path is written into the configuration `code-recycle.parser.tree-sitter.repository`.
+
+?> in CLI set `treeSitterParserDir`
