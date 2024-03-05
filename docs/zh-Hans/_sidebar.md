@@ -1,15 +1,16 @@
 
 - 入门
     - [首页](/zh-Hans/README)
-    - [快速开始-插件脚本](/zh-Hans/快速开始-脚本)
-    - [快速开始-CLI](/zh-Hans/快速开始-cli)
-- 脚本
+    - [快速开始](/zh-Hans/快速开始)
+- 使用
     - [工具](/zh-Hans/脚本工具)
+    - [脚本开发](/zh-Hans/脚本开发)
+    - [配置](/zh-Hans/配置)
     - <a href="./api-docs/index.html" target="blank">API</a>
-    - [规则](/zh-Hans/脚本规则)
-- 设计
-    - [Like查询](/zh-Hans/设计/like查询)
-    - [CSS语法查询](/zh-Hans/设计/css语法查询)
+- [解析器](/zh-Hans/解析器)
+- 模式
+    - [Like查询](/zh-Hans/模式/like)
+    - [CSS语法查询](/zh-Hans/模式/selector)
 
 - [其他](/zh-Hans/其他)
 - [国际化](/zh-Hans/国际化)

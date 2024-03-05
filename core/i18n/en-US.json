@@ -1,4 +1,63 @@
 {
+    "2208235257172978403": {
+        "id": "2208235257172978403",
+        "text": "缺少解析内容",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "缺少解析内容"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Missing parsing content"
+    },
+    "8181132945625321940": {
+        "id": "8181132945625321940",
+        "text": "[路径]{$PH}\n创建解析器失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "[路径]",
+            "\n创建解析器失败"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "[Path]{$PH}\nCreating parser failed"
+    },
+    "6716389568867879895": {
+        "id": "6716389568867879895",
+        "text": "读取[{$PH}]失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "读取[",
+            "]失败"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "Failed to read [{$PH}]"
+    },
+    "8323168210352725054": {
+        "id": "8323168210352725054",
+        "text": "[{$PH}]使用默认解析器[{$PH_1}]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "[",
+            "]使用默认解析器[",
+            "]"
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1"
+        ],
+        "associatedMessageIds": {},
+        "target": "[{$PH}] Use the default parser [{$PH_1}]"
+    },
     "4125101881757972227": {
         "id": "4125101881757972227",
         "text": "未通过拓展名找到[{$PH}]的解析器,请手动指定一个类型;",
@@ -145,30 +204,6 @@
         "placeholderNames": [],
         "associatedMessageIds": {},
         "target": "Call other scripts"
-    },
-    "4712700047275120668": {
-        "id": "4712700047275120668",
-        "text": "最后一个块值",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "最后一个块值"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "The last block value."
-    },
-    "6059878130738859295": {
-        "id": "6059878130738859295",
-        "text": "(x)调用块",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)调用块"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Call block"
     },
     "8743633047963026412": {
         "id": "8743633047963026412",
@@ -410,30 +445,6 @@
         "associatedMessageIds": {},
         "target": "Read the parameters from the external script (the parameters defined in the `call.functionBlock`)"
     },
-    "5832705427449999794": {
-        "id": "5832705427449999794",
-        "text": "选择值",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "选择值"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Choose a value"
-    },
-    "4335065392045069661": {
-        "id": "4335065392045069661",
-        "text": "(x)读取下拉选项",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)读取下拉选项"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Read the dropdown options"
-    },
     "1578028346393025901": {
         "id": "1578028346393025901",
         "text": "配置名",
@@ -457,90 +468,6 @@
         "placeholderNames": [],
         "associatedMessageIds": {},
         "target": "Read some settings of the platform."
-    },
-    "8358202196252260256": {
-        "id": "8358202196252260256",
-        "text": "根据保存",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "根据保存"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "According to save"
-    },
-    "1309379593286039285": {
-        "id": "1309379593286039285",
-        "text": "(x)读取上下文参数,经过一定处理后,写入到数据变量中",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)读取上下文参数,经过一定处理后,写入到数据变量中"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Read the context parameters, process them, and then write them into the data variables."
-    },
-    "693515987129469616": {
-        "id": "693515987129469616",
-        "text": "根据输入",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "根据输入"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "According to the input"
-    },
-    "6122043266328349535": {
-        "id": "6122043266328349535",
-        "text": "(x)设置上下文参数",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)设置上下文参数"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Set context parameters"
-    },
-    "29445361772884824": {
-        "id": "29445361772884824",
-        "text": "Function",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "Function"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Function"
-    },
-    "251615123493812657": {
-        "id": "251615123493812657",
-        "text": "(x)定义内联函数;上下文参数[item]:调用时传入;上下文参数[input]:定义时传入;",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)定义内联函数;上下文参数[item]:调用时传入;上下文参数[input]:定义时传入;"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Define an inline function; context parameters [item]: called when passed in; context parameters [input]: defined when passed in."
-    },
-    "2032107354026728377": {
-        "id": "2032107354026728377",
-        "text": "(x)调用内联函数",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)调用内联函数"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Call inline function"
     },
     "7484924592985135724": {
         "id": "7484924592985135724",
@@ -577,30 +504,6 @@
         "placeholderNames": [],
         "associatedMessageIds": {},
         "target": "use \"content resolve variable\",use css style statement query node"
-    },
-    "9055526389004139541": {
-        "id": "9055526389004139541",
-        "text": "object||array",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "object||array"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "object||array"
-    },
-    "1862405504612668571": {
-        "id": "1862405504612668571",
-        "text": "(x)数据映射,创建(继承)对象或创建一个元组;通常用于对已有节点的修改",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数据映射,创建(继承)对象或创建一个元组;通常用于对已有节点的修改"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Data mapping, creating objects or tuples by inheriting from existing nodes; often used for modifying existing nodes."
     },
     "545745233465884544": {
         "id": "545745233465884544",
@@ -745,18 +648,6 @@
         "placeholderNames": [],
         "associatedMessageIds": {},
         "target": "Rename file"
-    },
-    "6179238204579640919": {
-        "id": "6179238204579640919",
-        "text": "(x)调用动作,与嵌套动作类似,需要指定动作调用时所在文件夹",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)调用动作,与嵌套动作类似,需要指定动作调用时所在文件夹"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Call the action, similar to nested actions, needs to specify the file folder where the action is to be called."
     },
     "308903105454776584": {
         "id": "308903105454776584",
@@ -926,330 +817,6 @@
         "associatedMessageIds": {},
         "target": "Get global action variable"
     },
-    "4320992197668786866": {
-        "id": "4320992197668786866",
-        "text": "变量对象",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "变量对象"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Variable Object"
-    },
-    "6225238665657815860": {
-        "id": "6225238665657815860",
-        "text": "模板",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "模板"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Template"
-    },
-    "4673129811361636644": {
-        "id": "4673129811361636644",
-        "text": "(!)(x)字符串模板,用于文本拼接;插入时需要通过\"input/input.xx\"获取输入数据;如a{{input}}b,如果输入为\"1\",则输出为\"a1b\";未来可能会重新设计支持不同的模板",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(!)(x)字符串模板,用于文本拼接;插入时需要通过\"input/input.xx\"获取输入数据;如a{{input}}b,如果输入为\"1\",则输出为\"a1b\";未来可能会重新设计支持不同的模板"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(!)(x)String template for text concatenation; input data is required through \"input/input.xx\"; e.g., a{{input}}b; if the input is \"1\", the output will be \"a1b\"; future updates may involve re-designing to support different templates."
-    },
-    "5500414333854455892": {
-        "id": "5500414333854455892",
-        "text": "array",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "array"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "array"
-    },
-    "4649349266961736038": {
-        "id": "4649349266961736038",
-        "text": "(x)数组/字符串裁剪,同Array.prototype.slice",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组/字符串裁剪,同Array.prototype.slice"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array/String truncation, similar to Array.prototype.slice"
-    },
-    "5224359451625100827": {
-        "id": "5224359451625100827",
-        "text": "(x)数组排序,支持默认排序和多字段排序",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组排序,支持默认排序和多字段排序"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array sorting, supporting default sorting and multi-field sorting"
-    },
-    "7087004844914721057": {
-        "id": "7087004844914721057",
-        "text": "(x)数组反转;同Array.prototype.reverse",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组反转;同Array.prototype.reverse"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Reverse the array; same as Array.prototype.reverse"
-    },
-    "6322510611466566122": {
-        "id": "6322510611466566122",
-        "text": "(x)数组拍平;同Array.prototype.flat",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组拍平;同Array.prototype.flat"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Flatten the array; same as Array.prototype.flat"
-    },
-    "806869092513575846": {
-        "id": "806869092513575846",
-        "text": "boolean|数组项",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "boolean|数组项"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "boolean | array item"
-    },
-    "5296562010929159647": {
-        "id": "5296562010929159647",
-        "text": "(x)数组查询;多种查询方式;上下文参数[item]:每一项;上下文参数[index]:每一项索引;",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组查询;多种查询方式;上下文参数[item]:每一项;上下文参数[index]:每一项索引;"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array query; multiple query methods; context parameters [item]: each item; context parameters [index]: each item index;"
-    },
-    "2557845416357546728": {
-        "id": "2557845416357546728",
-        "text": "(x)数组连接",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组连接"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array Connection"
-    },
-    "6351919215805574953": {
-        "id": "6351919215805574953",
-        "text": "(x)数组映射;同Array.prototype.map;上下文参数[item]:每一项;上下文参数[index]:每一项索引;",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组映射;同Array.prototype.map;上下文参数[item]:每一项;上下文参数[index]:每一项索引;"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array mapping; same as Array.prototype.map; context parameter [item]: each item; context parameter [index]: each item index;"
-    },
-    "1492140081384813557": {
-        "id": "1492140081384813557",
-        "text": "(x)数组连接;数组=>字符串,同Array.prototype.join",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组连接;数组=>字符串,同Array.prototype.join"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array connection; array=> string, same Array.prototype.join"
-    },
-    "3210079392002044062": {
-        "id": "3210079392002044062",
-        "text": "[分类名(string),原数组类型][]",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "[分类名(string),原数组类型][]"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "[Category name (string), original array type]"
-    },
-    "548443014933966415": {
-        "id": "548443014933966415",
-        "text": "(x)数组分类;根据返回的分类名,将数组分成不同组;上下文参数[item]:每一项;上下文参数[index]:每一项索引;",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组分类;根据返回的分类名,将数组分成不同组;上下文参数[item]:每一项;上下文参数[index]:每一项索引;"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array classification; According to the returned classification name, divide the array into different groups; Context parameters [item]: Each item; Context parameters [index]: Each item index."
-    },
-    "3923930042119739396": {
-        "id": "3923930042119739396",
-        "text": "(x)数组过滤;上下文参数[item]:每一项;上下文参数[index]:每一项索引;",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)数组过滤;上下文参数[item]:每一项;上下文参数[index]:每一项索引;"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Array filtering; context parameters [item]: each item; context parameters [index]: each item index;"
-    },
-    "3427265856708888476": {
-        "id": "3427265856708888476",
-        "text": "(x)添加元素",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)添加元素"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Add element"
-    },
-    "3441845762729467063": {
-        "id": "3441845762729467063",
-        "text": "(x)删除元素",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)删除元素"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Delete element"
-    },
-    "6273006454848015926": {
-        "id": "6273006454848015926",
-        "text": "object",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "object"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "object"
-    },
-    "7187712731493242487": {
-        "id": "7187712731493242487",
-        "text": "(x)对象合并",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)对象合并"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Object Merge"
-    },
-    "6140401152544160124": {
-        "id": "6140401152544160124",
-        "text": "[key,value][]",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "[key,value][]"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "[key, value][]"
-    },
-    "4625287418172928111": {
-        "id": "4625287418172928111",
-        "text": "(x)对象=>数组",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)对象=>数组"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Object => Array"
-    },
-    "8842570089478510766": {
-        "id": "8842570089478510766",
-        "text": "对象没有 node.range 属性",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "对象没有 node.range 属性"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "The object does not have a `node.range` attribute."
-    },
-    "6755167927895673267": {
-        "id": "6755167927895673267",
-        "text": "解析器",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "解析器"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Parser"
-    },
-    "8147612211911843856": {
-        "id": "8147612211911843856",
-        "text": "插入到节点前/后",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "插入到节点前/后"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Insert before/after the node"
-    },
-    "6301831699558202396": {
-        "id": "6301831699558202396",
-        "text": "[number,number]",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "[number,number]"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "[number,number]"
-    },
-    "3223307753214975835": {
-        "id": "3223307753214975835",
-        "text": "获得插入范围;将一个节点上的范围转换为插入的范围,如: \"node.range:[0,2]\",返回\"[0,0]\"或\"[2,2]\" ",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "获得插入范围;将一个节点上的范围转换为插入的范围,如: \"node.range:[0,2]\",返回\"[0,0]\"或\"[2,2]\" "
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Get the insert range; convert the range of a node into the insert range, e.g., \"node.range:[0,2]\", return \"[0,0]\" or \"[2,2]\""
-    },
     "7483692357142320038": {
         "id": "7483692357142320038",
         "text": "输入值",
@@ -1298,90 +865,6 @@
         "associatedMessageIds": {},
         "target": "Use the path to get the specified data from objects/arrays/nodes, such as \"[0].a\" to get the a attribute of the 0th element."
     },
-    "7524651614374240764": {
-        "id": "7524651614374240764",
-        "text": "大部分string|Regexp",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "大部分string|Regexp"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Most strings | Regexp"
-    },
-    "1206628336260264385": {
-        "id": "1206628336260264385",
-        "text": "(x)一些通用函数.如果需要传入多个参数需要手动设置",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)一些通用函数.如果需要传入多个参数需要手动设置"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Some general functions. If you need to pass multiple parameters, you need to set them manually."
-    },
-    "2841284545333488932": {
-        "id": "2841284545333488932",
-        "text": "(x)创建真/假值",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)创建真/假值"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Create true/false values"
-    },
-    "372599757224337950": {
-        "id": "372599757224337950",
-        "text": "Regexp",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "Regexp"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Regexp"
-    },
-    "1150342939608347237": {
-        "id": "1150342939608347237",
-        "text": "(x)创建正则表达式",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)创建正则表达式"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Create a regular expression"
-    },
-    "2404587876855289322": {
-        "id": "2404587876855289322",
-        "text": "真值数据",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "真值数据"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "True value data"
-    },
-    "3181144555940034951": {
-        "id": "3181144555940034951",
-        "text": "(x)||:真值数据;??:不包含null,undefined的真值数据",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)||:真值数据;??:不包含null,undefined的真值数据"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)||: True data;??: Does not contain null, undefined true data"
-    },
     "5818136601703935258": {
         "id": "5818136601703935258",
         "text": "匹配列表",
@@ -1418,78 +901,6 @@
         "associatedMessageIds": {},
         "target": "The most similar string, with a default similarity score of 0.4"
     },
-    "7398719621436728016": {
-        "id": "7398719621436728016",
-        "text": "number|number[]",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "number|number[]"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "number|number[]"
-    },
-    "5643429007141937123": {
-        "id": "5643429007141937123",
-        "text": "(x)进行普通的数字运算,支持数字和数组",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)进行普通的数字运算,支持数字和数组"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Perform ordinary digital operations, support numbers and arrays"
-    },
-    "6778360414562695864": {
-        "id": "6778360414562695864",
-        "text": "number|[number,number]",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "number|[number,number]"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "number|[number,number]"
-    },
-    "1139635268300337859": {
-        "id": "1139635268300337859",
-        "text": "(x)创建一个数字或数组",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)创建一个数字或数组"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Create a digital or array"
-    },
-    "3439364008385828632": {
-        "id": "3439364008385828632",
-        "text": "(x)真值比较;比较输入值为真值/假值",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)真值比较;比较输入值为真值/假值"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)True value comparison; compare the input values with true/false values."
-    },
-    "1641605476351164309": {
-        "id": "1641605476351164309",
-        "text": "(x)基础比较;比较顺序为\"第一个值\" \"比较类型\" \"第二个值\"",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)基础比较;比较顺序为\"第一个值\" \"比较类型\" \"第二个值\""
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Basic Comparison; Comparison Order is \"First Value\" \"Comparison Type\" \"Second Value\""
-    },
     "226552766009640080": {
         "id": "226552766009640080",
         "text": "输入1",
@@ -1525,54 +936,6 @@
         "placeholderNames": [],
         "associatedMessageIds": {},
         "target": "Array comparison; comparison order is \"Input 1\" \"Comparison Type\" \"Input 1\""
-    },
-    "7718615247027252130": {
-        "id": "7718615247027252130",
-        "text": "(x)字符串比较;比较顺序为\"第一个值\" \"比较类型\" \"第二个值\"",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)字符串比较;比较顺序为\"第一个值\" \"比较类型\" \"第二个值\""
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)String Comparison; Comparison order is \"First Value\" \"Comparison Type\" \"Second Value\""
-    },
-    "8278616693061966116": {
-        "id": "8278616693061966116",
-        "text": "(x)多个比较结果(数值) 与/或",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)多个比较结果(数值) 与/或"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Multiple comparison results (values) and/or"
-    },
-    "9159402565558196271": {
-        "id": "9159402565558196271",
-        "text": "(x)类型比较",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)类型比较"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Type Comparison"
-    },
-    "8385655792854640407": {
-        "id": "8385655792854640407",
-        "text": "(x)结果取反",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "(x)结果取反"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "(x)Reverse the result"
     },
     "5304620216375490299": {
         "id": "5304620216375490299",
@@ -1754,18 +1117,6 @@
         "associatedMessageIds": {},
         "target": "[editor] Showing Data"
     },
-    "7046507481322126576": {
-        "id": "7046507481322126576",
-        "text": "抛出异常",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "抛出异常"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Throw an exception"
-    },
     "8649445790648586210": {
         "id": "8649445790648586210",
         "text": "匹配,参考 https://git-scm.com/docs/git-sparse-checkout#_internalsfull_pattern_set",
@@ -1838,53 +1189,29 @@
         "associatedMessageIds": {},
         "target": "Retrieve specific files from a specified repository using Git; do not store account passwords in URLs."
     },
-    "8102712190873939883": {
-        "id": "8102712190873939883",
-        "text": "调试将输入的数据显示在模态弹窗上",
+    "3557857825235592135": {
+        "id": "3557857825235592135",
+        "text": "工作路径,用于使用时的相对路径;默认为当前文件夹",
         "meaning": "",
         "description": "",
         "messageParts": [
-            "调试将输入的数据显示在模态弹窗上"
+            "工作路径,用于使用时的相对路径;默认为当前文件夹"
         ],
         "placeholderNames": [],
         "associatedMessageIds": {},
-        "target": "Debugging will display the input data in the modal pop-up."
+        "target": "Workspace path, relative path for use; the default value is the current directory."
     },
-    "3622230069434584352": {
-        "id": "3622230069434584352",
-        "text": "调试将输入的数据显示在下方的输出上",
+    "3192359919212555214": {
+        "id": "3192359919212555214",
+        "text": "根路径;默认与 path 相同",
         "meaning": "",
         "description": "",
         "messageParts": [
-            "调试将输入的数据显示在下方的输出上"
+            "根路径;默认与 path 相同"
         ],
         "placeholderNames": [],
         "associatedMessageIds": {},
-        "target": "Debugging will display the input data in the output channel below."
-    },
-    "739824482759674349": {
-        "id": "739824482759674349",
-        "text": "工作路径,用于使用时的相对路径",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "工作路径,用于使用时的相对路径"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Workspace path, relative path for use"
-    },
-    "1414347262909767624": {
-        "id": "1414347262909767624",
-        "text": "根路径",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "根路径"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "The root path."
+        "target": "Root path; default is the same as path."
     },
     "7892909161588803190": {
         "id": "7892909161588803190",
@@ -1898,17 +1225,89 @@
         "associatedMessageIds": {},
         "target": "dryRun mode"
     },
-    "948914772096209323": {
-        "id": "948914772096209323",
-        "text": "配置",
+    "2428251060841325847": {
+        "id": "2428251060841325847",
+        "text": "配置文件路径;默认会查找当前文件夹下的'code-recycle.json'",
         "meaning": "",
         "description": "",
         "messageParts": [
-            "配置"
+            "配置文件路径;默认会查找当前文件夹下的'code-recycle.json'"
         ],
         "placeholderNames": [],
         "associatedMessageIds": {},
-        "target": "Configuration"
+        "target": "Configuration file path; default is to look for 'code-recycle.json' in the current directory."
+    },
+    "7348536599171964415": {
+        "id": "7348536599171964415",
+        "text": "列出根据拓展名默认使用的解析器",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "列出根据拓展名默认使用的解析器"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "List the default parsers used by extension name"
+    },
+    "4223042308911561027": {
+        "id": "4223042308911561027",
+        "text": "列出支持的解析器",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "列出支持的解析器"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "List supported parsers"
+    },
+    "8617072951806666063": {
+        "id": "8617072951806666063",
+        "text": "allOf 模式失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "allOf 模式失败"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "The \"allOf\" pattern failed."
+    },
+    "1583744270618099028": {
+        "id": "1583744270618099028",
+        "text": "oneOf 模式失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "oneOf 模式失败"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "The \"oneOf\" pattern failed."
+    },
+    "5264367185978753552": {
+        "id": "5264367185978753552",
+        "text": "not 模式失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "not 模式失败"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "The \"not\" mode failed."
+    },
+    "7735619440828116211": {
+        "id": "7735619440828116211",
+        "text": "anyOf 模式失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "anyOf 模式失败"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "The \"anyOf\" pattern failed."
     },
     "8325920937765143736": {
         "id": "8325920937765143736",
@@ -1940,9 +1339,9 @@
         "associatedMessageIds": {},
         "target": "[Description]{$PH}\n"
     },
-    "3051283960594482905": {
-        "id": "3051283960594482905",
-        "text": "{$PH}[可空]{$PH_1}\n[多选]{$PH_2}\n{$PH_3}[路径]{$PH_4}\n[选择器]{$PH_5}: 未查询到内容",
+    "6828247761147888631": {
+        "id": "6828247761147888631",
+        "text": "{$PH}[可空]{$PH_1}\n[多选]{$PH_2}\n{$PH_3}[路径]{$PH_4}\n[解析器]{$PH_5}\n[查询]{$PH_6}: 未查询到内容",
         "meaning": "",
         "description": "",
         "messageParts": [
@@ -1951,7 +1350,8 @@
             "\n[多选]",
             "\n",
             "[路径]",
-            "\n[选择器]",
+            "\n[解析器]",
+            "\n[查询]",
             ": 未查询到内容"
         ],
         "placeholderNames": [
@@ -1960,10 +1360,50 @@
             "PH_2",
             "PH_3",
             "PH_4",
-            "PH_5"
+            "PH_5",
+            "PH_6"
         ],
         "associatedMessageIds": {},
-        "target": "{$PH}[Nullable]{$PH_1}\n[Multiple]{$PH_2}\n{$PH_3}[Path]{$PH_4}\n[Selector]{$PH_5}: Not found"
+        "target": "{$PH}[Optional]{$PH_1}\n[Multiple]{$PH_2}\n{$PH_3}[Path]{$PH_4}\n[Parser]{$PH_5}\n[Query]{$PH_6}: Not Found"
+    },
+    "5023012194143943896": {
+        "id": "5023012194143943896",
+        "text": "请求[{$PH}]异常",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "请求[",
+            "]异常"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "Request [{$PH}] Exception"
+    },
+    "6755167927895673267": {
+        "id": "6755167927895673267",
+        "text": "解析器",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "解析器"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Parser"
+    },
+    "8781623708371146609": {
+        "id": "8781623708371146609",
+        "text": "安装解析器",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "安装解析器"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Install parser"
     },
     "858593555243770161": {
         "id": "858593555243770161",
@@ -2032,6 +1472,23 @@
         "associatedMessageIds": {},
         "target": "Action: {$PH}\nFile: {$PH_1}\nContent: {$PH_2}"
     },
+    "5642033716428914150": {
+        "id": "5642033716428914150",
+        "text": "操作: {$PH}\n文件: {$PH_1}\n内容: [[二进制文件]]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "操作: ",
+            "\n文件: ",
+            "\n内容: [[二进制文件]]"
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1"
+        ],
+        "associatedMessageIds": {},
+        "target": "Operation: {$PH}\nFile: {$PH_1}\nContent: [[Binary File]]"
+    },
     "2977255924875571582": {
         "id": "2977255924875571582",
         "text": "操作: {$PH}\n文件: {$PH_1}",
@@ -2048,6 +1505,42 @@
         ],
         "associatedMessageIds": {},
         "target": "Action: {$PH}\nFile: {$PH_1}"
+    },
+    "4481204387393086613": {
+        "id": "4481204387393086613",
+        "text": "操作: {$PH}\n文件: {$PH_1}\n变更:\n{$PH_2}",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "操作: ",
+            "\n文件: ",
+            "\n变更:\n",
+            ""
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1",
+            "PH_2"
+        ],
+        "associatedMessageIds": {},
+        "target": "Operation: {$PH}\nFile: {$PH_1}\nModification:\n{$PH_2}"
+    },
+    "8265240327939069958": {
+        "id": "8265240327939069958",
+        "text": "操作: {$PH}\n文件: {$PH_1}\n变更: [[二进制文件]]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "操作: ",
+            "\n文件: ",
+            "\n变更: [[二进制文件]]"
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1"
+        ],
+        "associatedMessageIds": {},
+        "target": "Operation: {$PH}\nFile: {$PH_1}\nModification: [[Binary File]]"
     },
     "2316336837798522139": {
         "id": "2316336837798522139",
@@ -2068,32 +1561,20 @@
         "associatedMessageIds": {},
         "target": "Action: {$PH}\nOld file: {$PH_1}\nNew file: {$PH_2}"
     },
-    "2208235257172978403": {
-        "id": "2208235257172978403",
-        "text": "缺少解析内容",
+    "7439073211389230734": {
+        "id": "7439073211389230734",
+        "text": "未找到[{$PH}]对应的解析器",
         "meaning": "",
         "description": "",
         "messageParts": [
-            "缺少解析内容"
-        ],
-        "placeholderNames": [],
-        "associatedMessageIds": {},
-        "target": "Missing parsing content"
-    },
-    "8181132945625321940": {
-        "id": "8181132945625321940",
-        "text": "[路径]{$PH}\n创建解析器失败",
-        "meaning": "",
-        "description": "",
-        "messageParts": [
-            "[路径]",
-            "\n创建解析器失败"
+            "未找到[",
+            "]对应的解析器"
         ],
         "placeholderNames": [
             "PH"
         ],
         "associatedMessageIds": {},
-        "target": "[Path]{$PH}\nCreating parser failed"
+        "target": "The parser for [{$PH}] is not found."
     },
     "2380228134203224837": {
         "id": "2380228134203224837",
@@ -2106,6 +1587,79 @@
         "placeholderNames": [],
         "associatedMessageIds": {},
         "target": "The file already exists when performing file operations."
+    },
+    "1139283125866733154": {
+        "id": "1139283125866733154",
+        "text": "未找到[{$PH}]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "未找到[",
+            "]"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "not found [{$PH}]"
+    },
+    "1303758950206454450": {
+        "id": "1303758950206454450",
+        "text": "未知类型",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "未知类型"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Unknown Type"
+    },
+    "4005284290503977037": {
+        "id": "4005284290503977037",
+        "text": "未知来源",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "未知来源"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Unknown Source"
+    },
+    "5246503755691816719": {
+        "id": "5246503755691816719",
+        "text": "使用文件路径模板[{$PH}]发现未赋值变量[{$PH_1}]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "使用文件路径模板[",
+            "]发现未赋值变量[",
+            "]"
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1"
+        ],
+        "associatedMessageIds": {},
+        "target": "Discover unassigned variable [{$PH_1}] using file path template [{$PH}]"
+    },
+    "5407069293707397937": {
+        "id": "5407069293707397937",
+        "text": "使用文件模板[{$PH}]的内容发现未赋值变量[{$PH_1}]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "使用文件模板[",
+            "]的内容发现未赋值变量[",
+            "]"
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1"
+        ],
+        "associatedMessageIds": {},
+        "target": "Using the content of the file template [{$PH}], it was found that the variable [{$PH_1}] has not been assigned a value."
     },
     "2840180695162053755": {
         "id": "2840180695162053755",
@@ -2121,5 +1675,106 @@
         ],
         "associatedMessageIds": {},
         "target": "\"{$PH}\" failed to parse as UTF-8 text."
+    },
+    "8594463332884509584": {
+        "id": "8594463332884509584",
+        "text": "文件夹[{$PH}]不存在",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "文件夹[",
+            "]不存在"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "The folder [{$PH}] does not exist."
+    },
+    "2539665494595598122": {
+        "id": "2539665494595598122",
+        "text": "准备使用[{$PH}]安装解析器[{$PH_1}]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "准备使用[",
+            "]安装解析器[",
+            "]"
+        ],
+        "placeholderNames": [
+            "PH",
+            "PH_1"
+        ],
+        "associatedMessageIds": {},
+        "target": "Prepare to use [{$PH}] install parser [{$PH_1}]"
+    },
+    "8547358482592215550": {
+        "id": "8547358482592215550",
+        "text": "安装成功",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "安装成功"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Installed successfully."
+    },
+    "7281516940372848235": {
+        "id": "7281516940372848235",
+        "text": "安装失败",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "安装失败"
+        ],
+        "placeholderNames": [],
+        "associatedMessageIds": {},
+        "target": "Installation failed."
+    },
+    "4059182401617783433": {
+        "id": "4059182401617783433",
+        "text": "准备下载解析器[{$PH}]",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "准备下载解析器[",
+            "]"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "Prepare to download the parser [{$PH}]"
+    },
+    "164567472653781749": {
+        "id": "164567472653781749",
+        "text": "{$PH} 下载依赖失败;切换下一个",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "",
+            " 下载依赖失败;切换下一个"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "{$PH} Download dependency failed; switch to the next."
+    },
+    "6057614462523659443": {
+        "id": "6057614462523659443",
+        "text": "下载[{$PH}]失败,请检查镜像源",
+        "meaning": "",
+        "description": "",
+        "messageParts": [
+            "下载[",
+            "]失败,请检查镜像源"
+        ],
+        "placeholderNames": [
+            "PH"
+        ],
+        "associatedMessageIds": {},
+        "target": "The download of [{$PH}] failed. Please check the mirror source."
     }
 }
