@@ -3,7 +3,6 @@
     - [首页](/zh-Hans/README)
     - [快速开始](/zh-Hans/快速开始)
 - 使用
-    - [工具](/zh-Hans/脚本工具)
     - [脚本开发](/zh-Hans/脚本开发)
     - [配置](/zh-Hans/配置)
     - <a href="./api-docs/index.html" target="blank">API</a>

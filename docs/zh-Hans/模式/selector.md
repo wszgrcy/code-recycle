@@ -38,11 +38,10 @@
 - `type` 节点类型(node/token)
 
 ### 举例
-以上面的`ast view`截图为准
 
 - `VariableDeclaration`=>查询tag=`VariableDeclaration`的节点
 - `VariableDeclaration:has(VariableDefinition[value=a])`=>查询`VariableDeclaration`的子节点中有`VariableDefinition`标签,并且内容(value)为`a`
 - `VariableDeclaration::children(0)`=>查询`VariableDeclaration`节点的第0个子节点=>`let`
-- `let:use(*,+VariableDefinition)`=> 查询`let自身和他的兄弟节点是VariableDefinition`
+- `let:use(*,+VariableDefinition)`=> 查询`let自身和他的兄弟节点tag=VariableDefinition`
 - `VariableDeclaration[name=VariableDeclaration]`=>查询`VariableDeclaration`节点中`name`属性为`VariableDeclaration`的节点
 
