@@ -1,1 +1,0 @@
-![mind](./image/mind.png)

@@ -1587,6 +1587,86 @@
       "language": "vue"
     }
   ],
+  ".yml": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".eyaml": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".eyml": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".cff": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml-tmlanguage": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml-tmpreferences": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
+  ".yaml-tmtheme": [
+    {
+      "use": "yaml",
+      "language": "yaml"
+    },
+    {
+      "use": "tree-sitter",
+      "language": "yaml"
+    }
+  ],
   ".cpp": [
     {
       "use": "@lezer",
@@ -3403,54 +3483,6 @@
     {
       "use": "tree-sitter",
       "language": "wat"
-    }
-  ],
-  ".yml": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".eyaml": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".eyml": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".yaml": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".cff": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".yaml-tmlanguage": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".yaml-tmpreferences": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
-    }
-  ],
-  ".yaml-tmtheme": [
-    {
-      "use": "tree-sitter",
-      "language": "yaml"
     }
   ]
 }

@@ -24,6 +24,10 @@
     "language": ["vue"]
   },
   {
+    "use": "yaml",
+    "language": ["yaml"]
+  },
+  {
     "use": "@lezer",
     "language": ["cpp", "css", "html", "java", "javascript", "json", "lezer", "markdown", "php", "python", "rust", "sass", "xml"]
   },

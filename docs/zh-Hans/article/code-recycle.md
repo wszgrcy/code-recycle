@@ -62,3 +62,6 @@ class A{
 ## 如何使用?
 - `code-recycle`目前同时支持`cli`与`VSCode extension`
 - 你可以参考[快速开始-cli](https://wszgrcy.github.io/code-recycle/#/zh-Hans/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B-cli)
+- 你可以拉取[演示仓库](https://github.com/wszgrcy/code-recycle-plugin-script)快速上手
+
+> git clone https://github.com/wszgrcy/code-recycle-plugin-script.git
