@@ -155,7 +155,7 @@ query:(context)=>{return 'let'},
 > In the current design, the files to be ignored are first traversed and then ignored. Therefore, if there are performance issues, you can use `excludeList` to exclude the specified folder first.  
 > The files to be ignored themselves will not be ignored, and they need to be added manually to the configuration.
 #### Template
-- Support multiple content templates, but the `@angular-devkit`/`handlebars` template engine supports partial variable awareness, and if the context does not provide it, it will prompt for interaction.
+- Support multiple  templates,  `@angular-devkit`(path)/`handlebars` template engine supports partial variable awareness, and if the context does not provide it, it will prompt for interaction.
 - Path template only has `@angular-devkit`, and `__name@toUpper__` is a kind of pipeline writing style, equivalent to `toUpper(name)`.
 - Using `pathTemplateSuffix` can remove the template suffix.
 
