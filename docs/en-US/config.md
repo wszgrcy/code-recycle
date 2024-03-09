@@ -1,5 +1,5 @@
 ## Config
-- [Document](/api-docs/interfaces/Config.html ':ignore')
+- [Document](api-docs/interfaces/Config.html ':ignore')
 
 ### Parser
 - The parser in `antlr4` and `tree-sitter` is not included in the installed package by default, and will be automatically downloaded when used.

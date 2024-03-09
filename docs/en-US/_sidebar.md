@@ -4,7 +4,7 @@
 - Use
     - [Script Development](/en-US/script-development.md)
     - [Config](/en-US/config.md)
-    - <a href="./api-docs/index.html" target="blank">API</a>
+    - <a href="api-docs/index.html" target="blank">API</a>
 - Mode
     - [Like Query](/en-US/mode/like)
     - [CSS Syntax Query](/en-US/mode/selector)

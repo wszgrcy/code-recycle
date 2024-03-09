@@ -14,7 +14,7 @@ const fn: ScriptFunction = async (
 export default fn;
 ```
 
-- [Function definition](/api-docs/interfaces/ScriptFunction.html ':ignore')
+- [Function definition](api-docs/interfaces/ScriptFunction.html ':ignore')
 - After the function is executed, it will write the contents modified in the VFS to the file system.
 
 
@@ -35,13 +35,13 @@ changeList:
 ```
 
 ### FileQueryLayer
-- [Document](/api-docs/interfaces/FileQueryLayer.html ':ignore')
+- [Document](api-docs/interfaces/FileQueryLayer.html ':ignore')
 - Allow specifying paths/using glob to input text for parsing.
 
 > When no parser is specified, determine the parser to use based on the file extension.
 
 ### NodeQueryItem
-- [Document](/api-docs/types/NodeQueryItem.html ':ignore')
+- [Document](api-docs/types/NodeQueryItem.html ':ignore')
 - In the query layer, the `list` is passed the query node configuration for querying.
 
 #### Query pattern
@@ -70,7 +70,7 @@ replace:(context) => {}
 
 
 ##### Read context
-- [FileQueryLayer](/api-docs/interfaces/FileQueryLayer.html ':ignore') and [NodeQueryItem](/api-docs/types/NodeQueryItem.html ':ignore') both can be specified with a name `name:'xx'` for context reading.
+- [FileQueryLayer](api-docs/interfaces/FileQueryLayer.html ':ignore') and [NodeQueryItem](api-docs/types/NodeQueryItem.html ':ignore') both can be specified with a name `name:'xx'` for context reading.
 - Through `context.getContext`, you can read the context of any node, and it takes a path as an argument.
 
 > `root.xx`It represents the context of the `name:'xx'` query layer in the entire context.
@@ -125,7 +125,7 @@ callback(context, index) {
 > `ctxValue` Read the value of the context node.  
 > `ctxInferValue`Read the variable saved during the query process.  
 > `ctxData`Read the additional data added to the node.  
-> `path.xxx`(join,normalize,resolve,relative,basename,dirname,isAbsolute,getSystemPath,split) [Reference](/api-docs/classes/Util.html#path ':ignore');Path processing  
+> `path.xxx`(join,normalize,resolve,relative,basename,dirname,isAbsolute,getSystemPath,split) [Reference](api-docs/classes/Util.html#path ':ignore');Path processing  
 > `lodash.xxx`/`_.xxx` [Reference](https://lodash.com/docs)  
 
 - Custom pipeline`util.setCustomPipe`
@@ -147,7 +147,7 @@ query:(context)=>{return 'let'},
 
 ---
 ### FileCopyLayer
-- [Document](/api-docs/types/FileCopyLayer.html ':ignore')
+- [Document](api-docs/types/FileCopyLayer.html ':ignore')
 - Copy files from the local/git repository to a specified location.
 - The file can be a template, and it will be automatically rendered when it is passed into the context.
 - `ignoreList` is the file to be ignored, such as `.gitignore`, and `excludeList` excludes certain files.
@@ -166,10 +166,10 @@ query:(context)=>{return 'let'},
 
 
 ## rule
-- [Document](/api-docs/classes/Util.html#rule ':ignore')
+- [Document](api-docs/classes/Util.html#rule ':ignore')
 
 ## host(VFS)
-- [Document](/api-docs/classes/ReadScopedHost.html ':ignore')
+- [Document](api-docs/classes/ReadScopedHost.html ':ignore')
 - In VFS, all paths are in posix format.
 
 ## Examples

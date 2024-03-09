@@ -5,7 +5,7 @@
 - 使用
     - [脚本开发](/zh-Hans/脚本开发)
     - [配置](/zh-Hans/配置)
-    - <a href="./api-docs/index.html" target="blank">API</a>
+    - <a href="api-docs/index.html" target="blank">API</a>
 - [解析器](/zh-Hans/解析器)
 - 模式
     - [Like查询](/zh-Hans/模式/like)
