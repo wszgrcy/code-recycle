@@ -1,5 +1,6 @@
 ## Code Recycle
-> A search and replace tool specifically designed for programming languages.
+> A search/replace tool specifically designed for code programming
+> Use more readable text to search for similar structures in the code
 
 ## Using scenario
 
@@ -13,7 +14,9 @@
 ---
 
 ## Features
-### Query
+### Language Query
+- Multi-language parsing; support for over 400 different grammatical parsing options.
+
 - A way similar to normal queries, but more in line with the expectations of searchers.
 
 > Normal queries only match the same text and do not consider the grammatical relationship between them. `like queries` provide results that are in line with the grammar of the programming language associated with the file.
@@ -25,7 +28,7 @@ let a    =     1;let b=`let a=1`
 So you don't have to worry about the impact of different formatting on the queries, and you don't have to worry about the results of non-grammarical nodes.
 
 - Multi-level queries; support different languages and different parsing results; quickly access results that have already been queried.
-- Multi-language parsing; support for over 400 different grammatical parsing options.
+- Using VSCode extension can display AST for search and debugging
 - Auto-determine parser based on suffix name.
 
 ### Template
@@ -36,6 +39,10 @@ So you don't have to worry about the impact of different formatting on the queri
 
 - Request git repository on demand.
 - Support template rollback.
+
+### Structured Query Search
+- The subsequent levels can use the contextual data from the previous ones
+- The query results of the parent level limit the query scope of the child level
 
 ### Virtual file system
 - All modified content will only be written into the file system after it is fully executed successfully.

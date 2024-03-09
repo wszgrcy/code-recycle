@@ -70,7 +70,7 @@ replace:(context) => {}
 
 
 ##### Read context
-- [FileQueryLayer](/api-docs/types/FileQueryList.html ':ignore') and [NodeQueryItem](/api-docs/types/NodeQueryItem.html ':ignore') both can be specified with a name `name:'xx'` for context reading.
+- [FileQueryLayer](/api-docs/interfaces/FileQueryLayer.html ':ignore') and [NodeQueryItem](/api-docs/types/NodeQueryItem.html ':ignore') both can be specified with a name `name:'xx'` for context reading.
 - Through `context.getContext`, you can read the context of any node, and it takes a path as an argument.
 
 > `root.xx`It represents the context of the `name:'xx'` query layer in the entire context.

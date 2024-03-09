@@ -63,6 +63,8 @@
 | verilogparent/verilog        | verilogparent/systemverilog | vhdl                  | vmf                         | wavefront                   | webidl                      |
 | wkt-crs-v1                   | wln                         | wren                  | xml                         | xpathparent/xpath           | xpathparent/XPath20         |
 
+?> Automatically download during use
+
 | tree-sitter       |            |        |                   |                 |               |
 | ----------------- | ---------- | ------ | ----------------- | --------------- | ------------- |
 | haskell           | javascript | php    | java              | c_sharp         | css           |
@@ -82,9 +84,9 @@
 | ssh_client_config | svelte     | thrift | query             | turtle          | twig          |
 | vue               | wat        | wast   | wgsl              | yaml            | yang          |
 
-- `tree-sitter` needs to clone the `https://github.com/wszgrcy/tree-sitter-wasm-bundle` repository or customize according to the format. Then, the local path is written into the configuration `code-recycle.parser.tree-sitter.repository`.
 
-?> Set `treeSitterParserDir` in the CLI.
+
+?> Automatically download during use
 
 ## Debugging AST (VSCode)
 ![ast-view.png](./image/ast-view.png)
