@@ -1,32 +1,132 @@
-## Installation
+# Quick Start
 
-- [Plugin Marketplace](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)
-- Visual Studio Code marketplace
+## CLI
+- Need to install the [node environment](https://nodejs.org/en/download)
+
+
+
+#### Install
+- Global `npm i @code-recycle/cli -g`
+- Within the project`npm i @code-recycle/cli -D`
+
+#### Call
+- `code-recycle ./hello.js`
+- `code-recycle ./hello.ts`
+- `code-recycle ./hello.yaml`
+
+> Need to add `npx` or define in the `script` section of the `package.json` file in the project.
+
+
+
+---
+
+## VSCode Extension
+- [Plugin marketplace website](https://marketplace.visualstudio.com/items?itemName=LDXCODE.code-recycle)
+- VS Code Marketplace
 
 ![Install](../zh-Hans/image/安装.png)
 
-## Login
-Need to log in first to use all the features of this extension
-> Open the command palette (right-click)  
-> Register Command `code-recycle:register`  
-> Login Command `code-recycle:login`
 
-![Commands](../zh-Hans/image/命令.jpg)
+### Create a new script folder
+- Select a location to create the folder
 
-?> Because some of the extension's features are quite complex, you may need other resources designed by others during use. Therefore, you need to log in.
+> or `git clone https://github.com/wszgrcy/code-recycle-plugin-script.git`
 
-?> The extension's `Abstract Syntax Tree Debugging` does not require login.
 
-## Design
+- Modify editor settings`settings.json`
 
-- [Template](./design/template), [Snippet](./design/snippet), [Custom Rule](./design/custom-rule) implementation all belong to the design part
-- If you use other users' public resources, you can skip this step
+```json
+"code-recycle.script": {
+    "dir": "/path/to/code-recycle-plugin-script"
+}
+```
 
-## Call
-Through the following ways:
-- [Snippet](./call-snippet) directly use
-> Static Code Snippets: exactly the same as VSCode  
-> Dynamic Code Snippets: need to input different parameters according to the defined snippets for execution
-- [Select a file or folder and right-click to execute.](./call-action?id=call-in-filedirectory)
-> The specific position depends on the executed `action`
-- [VisualAction](./call-action?id=visual-action)
+
+?> Can refer to the [demo repository](https://github.com/wszgrcy/code-recycle-plugin-script)
+
+- Create the folder hierarchy as follows:
+
+```tree
+.
+├── action
+│   ├── hello2.js
+│   └── hello.js
+├── snippet
+│   ├── hello2.js
+│   └── manifest.json
+└── view
+    ├── hello2.js
+    └── hello.js
+```
+
+### Call 
+- Right-click on a file
+
+![1](../zh-Hans/image/quick-start/vscode-run1.png)
+
+- Select the script to run
+?> The relative path in the script should be based on the folder or the file folder of the file.
+
+![1](../zh-Hans/image/quick-start/vscode-run2.png)
+
+---
+
+
+
+
+## Script implementation
+### typescript
+
+```ts
+// cli中使用
+import type { ScriptFunction } from '@code-recycle/cli';
+// vscode中使用
+// import type { ScriptFunction } from '../script.define';
+let fn: ScriptFunction = async (util, rule, host, injector) => {
+  let list = await util.changeList([
+    {
+      path: './test/test.ts',
+      list: [{ query: 'let a=[[$var]]', mode: 'like', replace: { var: '7' } }],
+    },
+  ]);
+  await util.updateChangeList(list);
+};
+export default fn;
+
+```
+
+### js
+
+```js
+// cli中使用
+/** @type {import('@code-recycle/cli').ScriptFunction} */
+
+// vscode中使用
+/** @type {import('../script.define').ScriptFunction} */
+module.exports = async (util, rule, host, injector) => {
+  let list = await util.changeList([
+    {
+      path: './test/test.ts',
+      list: [{ query: 'let a=[[$var]]', mode: 'like', replace: { var: '7' } }],
+    },
+  ]);
+  await util.updateChangeList(list);
+}
+```
+
+### yaml
+- The YAML configuration is exactly the same as the js/ts, but some APIs cannot be used, limiting the freedom.
+
+```yaml
+changeList:
+- path: ./test/test.ts
+  list:
+    - query: let a=[[$var]]
+      mode: like
+      replace: 
+        var: '7'
+```
+
+## More
+- [Config](./config.md)
+- [Script Development](./script-development.md)

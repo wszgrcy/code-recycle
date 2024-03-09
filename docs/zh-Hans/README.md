@@ -53,26 +53,16 @@ let a    =     1;let b=`let a=1`
 |VSCode|CLI|
 |-|-|
 
-## 支持操作系统
+
 | Windows  | Linux | OSX |
 | ------- | ------- | ---- |
 
-## 使用方式
-- [快速开始](./快速开始.md)
+## [快速开始](./快速开始.md)
 
 ?> VSCode/CLI调用的脚本格式相同;VSCode额外支持代码片段脚本和视图脚本运行在特定环境;
 
-## 快速体验
 
-### VSCode脚本
-- `git clone https://github.com/wszgrcy/code-recycle-plugin-script.git`
-- 修改编辑器设置`settings.json`
 
-```json
-"code-recycle.script": {
-    "dir": "/path/to/code-recycle-plugin-script"
-}
-```
 
 
 

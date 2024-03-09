@@ -1,14 +1,13 @@
 - Getting started
     - [Home](/en-US/README)
-    - [Quick start-Script](/en-US/quickstart-script)
-    - [Quick start-CLI](/en-US/quickstart-cli)
-- Script
-    - [Util](/en-US/script-util)
+    - [Quick Start](/en-US/quickstart)
+- Use
+    - [Script Development](/en-US/script-development.md)
+    - [Config](/en-US/config.md)
     - <a href="./api-docs/index.html" target="blank">API</a>
-    - [Rule](/en-US/script-rule)
-- Design
-    - [Like Query](/en-US/design/like-query)
-    - [CSS Syntax Query](/en-US/design/css-syntax-query)
+- Mode
+    - [Like Query](/en-US/mode/like)
+    - [CSS Syntax Query](/en-US/mode/selector)
 - [Other](/en-US/other)
 - [I18n](/en-US/i18n)
 - [Plan](/en-US/plan)
