@@ -40,3 +40,14 @@ class A{
 ### 返回内容
 - 使用`rule.query.like`或配置`NodeQueryOption`返回`ComposedNode`类型节点;该节点为匹配到的内容组合成的虚拟节点,`children`属性内保存所有匹配到的节点;`ComposedNode`也可以在`selector`模式中直接使用
 - 匹配到的变量(列表)会保存到`infer`属性中
+
+### 匹配层级
+- [文档](api-docs/interfaces/NodeQueryOption.html#modeOptions ':ignore')
+- 使用`[[$xxx]]`,`[[?]]`等方法会获取下一个节点,但是存在当前节点的下一个节点可能有多个(因为子节点的原因),所以需要指定匹配层级
+- `all` 匹配所有可能结果
+- `top` 匹配最上级
+- `bottom` 匹配最下级(叶子节点)
+
+![matchLevel](../image/like/match-level.png)
+
+?> 匹配层级使用`top`/`bottom`时只是尽可能匹配节点,如果无法匹配到会会退到更接近`top`/`bottom`的节点进行尝试

@@ -42,3 +42,13 @@ class A{
 
 - The matched variables (list) will be saved in the `infer` attribute
 
+### MatchLevel
+- [document](api-docs/interfaces/NodeQueryOption.html#modeOptions ':ignore')
+- Using methods such as `[[$xxx]]`, `[[?]]`, etc. will retrieve the next node, but there may be multiple nodes next to the current node (due to child nodes), so it is necessary to specify the matching level
+- `all` Match all possible results
+- `top` Match Top Level
+- `bottom` Match the lowest level (leaf node)
+
+![matchLevel](../image/like/match-level.png)
+
+?> When using `top`/`bottom` for matching hierarchy, it only tries to match nodes as much as possible. If it cannot be matched, it will retreat to nodes closer to the `top`/`bottom` for attempting
