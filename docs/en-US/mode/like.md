@@ -10,6 +10,7 @@
 > `[[$xxx]]===[[$xxx]]`It represents a match for a left-equal-to-right check.
 - `[[$+xxx]]` It represents saving the node to the `xxx` array, and the node will be appended to the `xxx` array multiple times.
 - `[[?]]` Match any node (can be empty)
+- The matching node for `[?:=a]` needs to be equal to the `a` character
 - `[[?:*=a]]`,`[[$xxx:*=a]]` The matched node needs to contain the character `a`.
 
 > `^=a` Match starts with`a` `$=a` Match ends with`a` 
@@ -25,6 +26,9 @@
 - `[[{]]`and`[[}]]` Fuzzy matching within a region.
 
 > Fuzzy search within two identical nodes.
+
+- `[[{^]]` The starting point within the area must be adjacent to the previous one
+- `[[$}]]` The endpoint within the area must be adjacent to the next one
 
 ?> For example
 ```ts
@@ -52,3 +56,6 @@ class A{
 ![matchLevel](../image/like/match-level.png)
 
 ?> When using `top`/`bottom` for matching hierarchy, it only tries to match nodes as much as possible. If it cannot be matched, it will retreat to nodes closer to the `top`/`bottom` for attempting
+
+### Escape
+- If you want to match the characters `[[` in the code, please change to`\\[[`
