@@ -5,6 +5,7 @@
     - [Script Development](/en-US/script-development.md)
     - [Config](/en-US/config.md)
     - <a href="api-docs/index.html" target="blank">API</a>
+- [Parser](/en-US/parser)
 - Mode
     - [Like Query](/en-US/mode/like)
     - [CSS Syntax Query](/en-US/mode/selector)
@@ -13,3 +14,4 @@
 - [Plan](/en-US/plan)
 - Article
     - [code-recycle](/en-US/design/code-recycle)
+    - [How to accurately locate search codes](/en-US/article/use-instance)

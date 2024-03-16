@@ -17,3 +17,4 @@
 
 - 文章
     - [可能是目前支持语言最多的语法查询](/zh-Hans/article/code-recycle)
+    - [应用](/zh-Hans/article/使用实例.md)
