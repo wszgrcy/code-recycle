@@ -26,6 +26,8 @@ let a    =     1;let b=`let a=1`
    },
 ```
 
+![switch](https://cdn.jsdelivr.net/gh/wszgrcy/code-recycle@1.2.0/docs/zh-Hans/image/like/switch-example.png)
+
 - The above demonstration involves exchanging the first and last parameters. If you have already determined the number of parameters, the writing method can be simpler
 
 ## Rewrite the parameter transfer structure?
@@ -51,7 +53,7 @@ let a    =     1;let b=`let a=1`
 - `{key:[[$value]]}`Query the value of the key
 
 ## More?
-- The tool currently supports the execution of `CLI` and `VSCode Extension`
+- The tool currently supports the execution of `CLI` and `VSCode Extension`. Script Support `yaml`/`js`/`ts`
 - The above example is an introduction to the basic usage of `code cycle` using the script language `typescript` as an example. The tool currently supports [over 400 languages/syntax parsing](https://wszgrcy.github.io/code-recycle/#/en-US/parser),You can view [document](https://wszgrcy.github.io/code-recycle/#/en-US/README) learn more
 - If you want to see more instances, you can [visit the repository](https://github.com/wszgrcy/code-recycle-plugin-script) view and Run
 - If you are already interested, you can [start quickly](https://wszgrcy.github.io/code-recycle/#/en-US/quickstart)
