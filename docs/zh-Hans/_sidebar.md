@@ -10,7 +10,9 @@
 - 模式
     - [Like查询](/zh-Hans/模式/like)
     - [CSS语法查询](/zh-Hans/模式/selector)
-
+- 编辑器功能
+    - [代码补全时](/zh-Hans/editor/snippet)
+    - [自定义视图](/zh-Hans/editor/view)
 - [其他](/zh-Hans/其他)
 - [国际化](/zh-Hans/国际化)
 - [计划](/zh-Hans/计划)

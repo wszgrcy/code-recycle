@@ -1,4 +1,4 @@
-## How to accurately locate codes? - `Code Recycle`
+## Code search and refactoring tools - `Code Recycle`
 - Programmers often rely on text search when querying code during the development process, although this is useful in most cases, it may not fully meet our needs
 
 ```ts

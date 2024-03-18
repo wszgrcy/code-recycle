@@ -9,6 +9,9 @@
 - Mode
     - [Like Query](/en-US/mode/like)
     - [CSS Syntax Query](/en-US/mode/selector)
+- Editor Function 
+    - [Code completion](/en-US/editor/snippet)
+    - [Custom View](/en-US/editor/view)
 - [Other](/en-US/other)
 - [I18n](/en-US/i18n)
 - [Plan](/en-US/plan)
