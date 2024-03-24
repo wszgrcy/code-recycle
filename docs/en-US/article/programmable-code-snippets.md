@@ -1,11 +1,11 @@
-## VSCode中实现可编程的代码片段 - `Code Recycle`
-- 如何在编辑器中自定义代码片段?提供补全前缀,提供补全内容,然后就可以直接使用了.
-- 但是只能在当前文件,当前输入位置插入特定内容,有时候不能满足需求
-- 如果我们想引入一个服务,当服务不存在时那么自动创建,只能靠我们自己,因为代码片段是`静态的`不能做到`可编程`
-- 如果您有这种需求,并想实现,那么不妨试一试`Code Recycle`
+## Implementing programmable code snippets in VSCode - `Code Recycle`
+- How to customize code snippets in the editor? Provide the completion prefix, provide the completion content, and then you can use it directly
+- But specific content can only be inserted in the current file and input location, sometimes it may not meet the requirements
+- If we want to introduce a service that automatically creates when it does not exist, we can only rely on ourselves because the code snippet is `static` and cannot be `programmed`
+- If you have such a need and want to implement it, why not give it a try with `Code Recycle`
 
-## 导入一个服务
-- 创建代码片段配置
+## Import a service
+- Create code snippet configuration
 
 ```json
 {
@@ -22,7 +22,7 @@
     "script": "./import-class.ts"
 }
 ```
-- 实现调用函数
+- Implement call function
 
 ```ts
 let fn: ScriptFunction = async (util, rule, host, injector) => {
@@ -32,7 +32,7 @@ let fn: ScriptFunction = async (util, rule, host, injector) => {
   let rootCtx = util.initContext();
   await util.changeList(
     [
-    // 查询类是否存在
+    // Check if the class exists
       {
         path: `*.ts`,
         name: 'classPath',
@@ -54,7 +54,7 @@ let fn: ScriptFunction = async (util, rule, host, injector) => {
   );
   let filePath = rootCtx.getContext('root.classPath').data;
   if (!filePath) {
-    // 从模板中创建
+    // Create from template
     await util.changeList([
       {
         type: 'copy',
@@ -69,7 +69,7 @@ let fn: ScriptFunction = async (util, rule, host, injector) => {
     filePath = util.path.normalize((changedRecord[0] as any).path);
   }
   let pathRelative = require('../shared/path-relative');
-  // 插入引用
+  // insert reference
   let changed = await util.changeList([
     {
       path: util.filePathGroup.currentPath,
@@ -89,10 +89,11 @@ let fn: ScriptFunction = async (util, rule, host, injector) => {
   await util.updateChangeList(changed);
 };
 ```
-- 在编辑器中的`ts`文件里输入`import.hello`,完成补全时,会自动引入`Hello`类,并实现初始化
+- When entering `import.hello` in the `ts` file in the editor, and completing the completion, the `Hello` class will be automatically introduced and initialized
 
-## 更多?
-- [实例](https://github.com/wszgrcy/code-recycle-plugin-script/tree/master/snippet)
-- 工具目前支持`CLI`与`VSCode Extension`进行执行,脚本支持`yaml`/`js`/`ts`
-- 您可以查看[文档](https://wszgrcy.github.io/code-recycle/#/zh-Hans/editor/snippet)了解更多
-- 如果您已经感兴趣,那么可以[快速开始](https://wszgrcy.github.io/code-recycle/#/zh-Hans/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
+## More?
+- [examples](https://github.com/wszgrcy/code-recycle-plugin-script/tree/master/snippet)
+- The tool currently supports the execution of `CLI` and `VSCode Extension`. Script Support `yaml`/`js`/`ts`
+- You can view [document](https://wszgrcy.github.io/code-recycle/#/en-US/README) learn more
+- If you want to see more instances, you can [visit the repository](https://github.com/wszgrcy/code-recycle-plugin-script) view and Run
+- If you are already interested, you can [start quickly](https://wszgrcy.github.io/code-recycle/#/en-US/quickstart)

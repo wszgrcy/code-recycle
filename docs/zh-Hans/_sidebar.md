@@ -20,3 +20,5 @@
 - 文章
     - [可能是目前支持语言最多的语法查询](/zh-Hans/article/code-recycle)
     - [应用](/zh-Hans/article/使用实例.md)
+    - [使用任意 git 仓库初始化项目](/zh-Hans/article/模板.md)
+    - [VSCode中实现可编程的代码片段](/zh-Hans/article/可编程的代码片段.md)
