@@ -63,6 +63,10 @@ let a    =     1;let b=`let a=1`
 | Windows  | Linux | OSX |
 | ------- | ------- | ---- |
 
+| github-action  | 
+| ------- |
+|[wszgrcy/code-recycle-action@main](https://github.com/wszgrcy/code-recycle-action)|
+
 ## [快速开始](./快速开始.md)
 
 ?> VSCode/CLI调用的脚本格式相同;VSCode额外支持代码片段脚本和视图脚本运行在特定环境;
