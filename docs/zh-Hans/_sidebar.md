@@ -23,3 +23,4 @@
     - [使用任意 git 仓库初始化项目](/zh-Hans/article/模板.md)
     - [VSCode中实现可编程的代码片段](/zh-Hans/article/可编程的代码片段.md)
     - [static-injector](/zh-Hans/article/static-injector.md)
+    - [cyia-localize](/zh-Hans/article/cyia-localize.md)

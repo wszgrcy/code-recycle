@@ -21,3 +21,4 @@
     - [Initializing a Project with Any Git Repository - `Code Recycle`](/en-US/article/template.md)
     - [Implementing programmable code snippets in VSCode - `Code Recycle`](/en-US/article/programmable-code-snippets.md)
     - [static-injector](/en-US/article/static-injector.md)
+    - [cyia-localize](/en-US/article/cyia-localize.md)
